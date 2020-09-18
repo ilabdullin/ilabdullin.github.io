@@ -500,6 +500,11 @@ p {
     color: #fff;
 }
 
+.slick-item:focus {
+    outline: 0;
+}
+
+
 .slick-dots {
     display: flex;
     justify-content: center;
