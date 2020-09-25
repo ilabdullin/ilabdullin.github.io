@@ -53,6 +53,39 @@ p {
   align-items: center;
   padding: 1rem 0;
 }
+.nav__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  align-items: center;
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #767676;
+  transition: opacity 0.1s linear;
+}
+.nav__link:last-child {
+  margin-right: 0;
+}
+.nav__link:hover {
+  opacity: 0.5;
+}
+.nav__link--contact {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.nav__registration {
+  align-items: center;
+}
+.contact__info {
+  align-items: center;
+}
+.contact__info-icon {
+  margin-top: -0.5rem;
+  margin-right: 0.7rem;
+}
+.contact__info-item {
+  text-transform: uppercase;
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -112,26 +145,6 @@ p {
 }
 .btn .btn--long {
   min-width: 280px;
-}
-.nav__link {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  align-items: center;
-  margin-right: 2rem;
-  text-decoration: none;
-  color: #767676;
-  transition: opacity 0.1s linear;
-}
-.nav__link:last-child {
-  margin-right: 0;
-}
-.nav__link:hover {
-  opacity: 0.5;
-}
-.nav__link--contact {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  margin-right: 1rem;
 }
 .burger {
   width: 30px;
