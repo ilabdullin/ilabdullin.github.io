@@ -1098,6 +1098,11 @@ p {
 .modal-work__header {
   margin-bottom: 2.2rem;
 }
+@media (max-width: 767px) {
+  .modal-work__header {
+    margin-bottom: 1.5rem;
+  }
+}
 .modal-work__title {
   margin-bottom: 0.2rem;
   font-size: 2.12rem;
@@ -1107,7 +1112,7 @@ p {
 }
 @media (max-width: 991px) {
   .modal-work__title {
-    font-size: 1.6rem;
+    font-size: 1.05rem;
   }
 }
 @media (max-width: 767px) {
@@ -1135,7 +1140,7 @@ p {
 }
 @media (max-width: 767px) {
   .modal-work__info-divider {
-    margin: 0 0.5rem;
+    margin: 0 0.3rem;
   }
 }
 .modal-work__client {
@@ -1164,7 +1169,7 @@ p {
 }
 @media (max-width: 767px) {
   .modal-work__client-company {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 }
 .modal-work__text {
@@ -1177,7 +1182,7 @@ p {
 @media (max-width: 767px) {
   .modal-work__text {
     margin-bottom: 0;
-    line-height: 1.5;
+    line-height: 1.3;
     font-size: 0.75rem;
   }
 }
