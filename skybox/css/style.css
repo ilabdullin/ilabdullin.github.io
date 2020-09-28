@@ -51,20 +51,21 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   padding: 1rem 0;
 }
 .header__img {
   cursor: pointer;
 }
 .search__form {
-  display: flex;
-  justify-content: center;
-  background-color: #fff;
+  position: absolute;
+  margin-top: 6rem;
+  background: #F6F6F6 no-repeat;
+  width: 1349px;
+  height: 4rem;
 }
 .search {
-  position: absolute;
-  margin-top: 3rem;
-  left: 2rem;
+  margin-top: 1rem;
   width: 100%;
   min-width: 815px;
   max-width: 815px;
@@ -72,30 +73,40 @@ p {
 .search__input {
   display: flex;
   justify-content: center;
+  margin-left: 8rem;
   width: 100%;
   height: 2.1rem;
   padding: 0.7rem;
   background: #fff;
-  border: 1px solid #e7e7e7;
+  border: 2px solid #e7e7e7;
   font-size: 15px;
   line-height: 1.1;
   color: #333;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
+  transition: border-color 0.1s linear;
 }
 .search__input::placeholder {
   color: #ccc;
 }
 .search__input:focus {
   outline: 0;
-  border-color: rgba(128, 128, 128, 0.3);
+  border-color: rgba(98, 91, 91, 0.3);
+}
+.fas {
+  border: 0;
+  cursor: pointer;
+  color: #D2D2D2;
+}
+.fas:focus {
+  outline: 0;
 }
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 750px;
-  background: url("../img/intro-bg.jpg") center no-repeat;
+  background: #e3dada url("../img/intro-bg.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -216,6 +227,48 @@ p {
   float: left;
   width: 40px;
   height: 40px;
+}
+.social {
+  display: flex;
+}
+.social--footer {
+  justify-content: center;
+}
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 4px;
+  background-color: #fff;
+  border: 1px solid #e8ecee;
+  transition: background 0.2s linear;
+}
+.social__item:hover {
+  background-color: #e8ecee;
+}
+.social__item:hover .social__icon {
+  fill: #000;
+}
+.social--footer .social__item {
+  background-color: transparent;
+  background: none;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 2px;
+}
+.social--footer .social__item:hover {
+  background-color: #fff;
+}
+.social__icon {
+  height: 18px;
+  display: block;
+  fill: #c6cacc;
+  transition: fill 0.2s linear;
+}
+.social--footer .social__icon {
+  fill: #fff;
 }
 .burger {
   width: 30px;
