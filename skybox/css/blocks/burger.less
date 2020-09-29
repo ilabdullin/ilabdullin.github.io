@@ -17,13 +17,33 @@
     right: 24px;
     z-index: 1000;
 
+    &--search {
+        position: absolute;
+        display: block;
+        width: 30px;
+        padding: 10px 0;
+        display: none;
+
+        font-size: 0;
+        color: transparent;
+
+        border: 0;
+        background: none;
+        cursor: pointer;
+
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        z-index: 1000;
+    }
+
     @media @tablet {
         display: block;
     }
-}
 
-.burger:focus {
-    outline: 0;
+    &:focus {
+        outline: 0;
+    }
 }
 
 .burger__item {
