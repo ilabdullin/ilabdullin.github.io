@@ -1,0 +1,55 @@
+// main: ../style.less
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+}
+
+.categories__title {
+    color: #353C56;
+}
+
+.categories__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+
+    text-align: center;
+    color: @white;
+
+
+    top: 90px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.categories__item {
+    position: relative;
+    width: 33.33333%;
+    padding: 1rem;
+
+    text-align: center;
+}
+
+
+.categories__img {
+    display: block;
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+
+    box-shadow: 0 0 7px rgba(#000, 0.25);
+
+    transition: box-shadow 0.2s linear;
+
+    &:hover {
+        box-shadow: 0 0 30px rgba(#000, 0.25);
+    }
+}
