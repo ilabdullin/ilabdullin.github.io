@@ -61,6 +61,9 @@ p {
   display: flex;
   position: absolute;
   justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
   margin: 5.5rem auto;
   background: #F6F6F6 no-repeat;
   width: 1349px;
@@ -229,7 +232,7 @@ p {
   width: 33.33333%;
   padding: 0 20px;
   margin: 20px 0;
-  text-align: center;
+  text-align: left;
 }
 .features__title {
   font-size: 1.1rem;
@@ -250,7 +253,7 @@ p {
   display: flex;
   position: absolute;
   align-items: center;
-  margin-top: 47rem;
+  margin-top: 15rem;
   margin-left: 55rem;
 }
 .social__text {
