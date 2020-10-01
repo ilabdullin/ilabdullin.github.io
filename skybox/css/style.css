@@ -72,7 +72,6 @@ p {
   background: #F6F6F6 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 1349px;
   height: 4rem;
 }
 .search__form-text {
@@ -88,7 +87,7 @@ p {
 .search {
   display: flex;
   width: 100%;
-  margin: -0.4rem auto;
+  margin: -0.3rem auto;
   min-width: 815px;
   max-width: 815px;
 }
@@ -249,6 +248,17 @@ p {
   margin-top: 1.5rem;
   background-color: #ff5050;
 }
+.btn--red-cat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  padding: 10px 25px;
+  background-color: #ff5050;
+}
+.btn--red-cat:hover {
+  background-color: #dd3434;
+}
 .btn--red:hover {
   background-color: #dd3434;
 }
@@ -276,6 +286,10 @@ p {
 }
 .search__btn:focus {
   outline: 0;
+}
+.btn-more {
+  align-items: center;
+  margin-left: 0.3rem;
 }
 .nav.active {
   display: flex;
@@ -320,7 +334,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  max-width: 45rem;
+  max-width: 50rem;
   max-height: 6rem;
   left: 0;
   right: 0;
@@ -358,7 +372,7 @@ p {
   display: flex;
   position: absolute;
   align-items: center;
-  margin-top: 15rem;
+  margin-top: 18rem;
   margin-left: 55rem;
 }
 .social__text {
@@ -422,6 +436,8 @@ p {
 }
 .categories__title {
   color: #353C56;
+  margin-top: 6rem;
+  margin-bottom: -5rem;
 }
 .categories__text {
   display: flex;
@@ -445,6 +461,7 @@ p {
 }
 .categories__img {
   display: block;
+  overflow: hidden;
   cursor: pointer;
   max-width: 100%;
   height: auto;
@@ -452,5 +469,34 @@ p {
   transition: box-shadow 0.2s linear;
 }
 .categories__img:hover {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+}
+.description {
+  display: flex;
+  justify-content: center;
+  background: #F6F6F6 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* Heplers */
+.center {
+  display: flex;
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.hide {
+  display: none;
 }
