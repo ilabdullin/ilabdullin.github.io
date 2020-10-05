@@ -735,6 +735,7 @@ hr {
     padding: 0 110px;
 }
 
+
 .reviews__item {
     min-height: 210px;
     padding-left: 255px;
@@ -779,9 +780,7 @@ hr {
     background-color: #f38181;
 }
 
-.slick-slide {
-    outline: 0;
-}
+
 
 .slick-arrow {
     display: block;
@@ -1272,15 +1271,7 @@ hr {
 .blogs__img {
     width: 120px;
     height: 80px;
-
-    cursor: pointer;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 0.2s linear;
 }
-
-.blogs__img:hover {
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-    }
 
 
 .blogs__content {
