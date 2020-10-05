@@ -239,7 +239,7 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  transition: background 0.2s linear;
+  transition: background, box-shadow 0.2s linear;
 }
 .btn--red {
   font-family: 'Montserrat', sans-serif;
@@ -247,8 +247,7 @@ p {
   font-size: 1.1rem;
   margin-top: 1.5rem;
   background-color: #ff5050;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
-  transition: box-shadow 0.2s linear;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 .btn--red-cat {
   font-family: 'Montserrat', sans-serif;
@@ -259,10 +258,8 @@ p {
   background-color: #ff5050;
 }
 .btn--red-cat:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   background-color: #dd3434;
-}
-.btn--red:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 .btn--red-description {
   max-width: 14.5rem;
@@ -271,16 +268,14 @@ p {
   font-size: 0.8rem;
   margin-top: 1.5rem;
   background-color: #ff5050;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
-  transition: box-shadow 0.2s linear;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 .btn--red-description:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-}
-.btn--red-description:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   background-color: #dd3434;
 }
 .btn--red:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   background-color: #dd3434;
 }
 .btn .btn--long {
