@@ -45,6 +45,10 @@
             background-color: #dd3434;
         }
 
+        &-cat:focus {
+            outline: 0;
+        }
+
 
         &-description {
             max-width: 14.5rem;
@@ -63,6 +67,29 @@
             background-color: #dd3434;
         }
 
+        &-description:focus {
+            outline: 0;
+        }
+
+        &-discount {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 0.7rem;
+            margin-top: 1rem;
+            padding: 2px 20px;
+            background-color: rgba(255,80,80,1);
+        }
+
+        &-discount:hover {
+            box-shadow: 0 0 15px rgba(#000, 0.25);
+
+            background-color: #dd3434;
+        }
+
+        &-discount:focus {
+            outline: 0;
+        }
+
     }
 
     &--red:hover {
@@ -70,6 +97,10 @@
 
         background-color: #dd3434;
     }
+
+        &--red:focus {
+            outline: 0;
+        }
 
     .btn--long {
         min-width: 280px;
@@ -100,6 +131,11 @@
 
     &:focus {
         outline: 0;
+    }
+
+    &--subscribe {
+         border-radius: 5px 5px 5px 5px;
+        width: 16%;
     }
 }
 
