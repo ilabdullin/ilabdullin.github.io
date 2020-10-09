@@ -44,6 +44,9 @@ ul {
 }
 .page {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .header {
   width: 100%;
@@ -148,7 +151,7 @@ ul {
   background: none;
   cursor: pointer;
   position: relative;
-  top: 24px;
+  top: 23px;
   right: 0;
   left: 6rem;
   z-index: 1000;
@@ -967,6 +970,7 @@ ul {
   color: #fff;
 }
 .footer {
+  margin-top: auto;
   background: #F6F6F6 center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
