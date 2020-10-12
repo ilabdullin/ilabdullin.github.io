@@ -17,17 +17,38 @@
     height: 4rem;
 
     &-text {
-        display: inline-block;
-        color: #353C56;
+        display: flex;
+        color: @light-black;
 
-        &--right {
-            float: left;
+        &--left {
+            position: absolute;
+            left: 9rem;
         }
 
         &--right {
-            float: right;
+            position: absolute;
+            right: 0;
         }
     }
+}
+
+.search__form-item {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: @light-black;
+    cursor: pointer;
+
+    transition: opacity 0.1s linear;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.search__form-icon {
+    padding-right: 0.5rem;
 }
 
 

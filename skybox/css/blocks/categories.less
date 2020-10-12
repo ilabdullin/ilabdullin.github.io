@@ -17,6 +17,8 @@
     align-items: center;
     justify-content: center;
     position: absolute;
+    overflow: hidden;
+    border-radius: 7px 7px 7px 7px;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -26,17 +28,26 @@
     color: @white;
 
 
-    top: 90px;
-    left: 115px;;
+    top: 0;
+    left: 0;
     right: 0;
+    bottom: 0;
     z-index: 1;
-    width: 40%;
+    width: 100%;
+
+    box-shadow: 0 0 7px rgba(#000, 0.25);
+
+    transition: box-shadow 0.2s linear;
+
+    &:hover {
+        box-shadow: 0 0 35px rgba(#000, 0.60);
+    }
 }
 
 .categories__item {
     position: relative;
-    width: 33.33333%;
-    padding: 1rem;
+    width: 32.33333%;
+    margin: 0.35rem;
 }
 
 
@@ -46,12 +57,4 @@
     cursor: pointer;
     width: 100%;
     height: auto;
-
-    box-shadow: 0 0 7px rgba(#000, 0.25);
-
-    transition: box-shadow 0.2s linear;
-
-    &:hover {
-        box-shadow: 0 0 35px rgba(#000, 0.60);
-    }
 }
