@@ -129,13 +129,14 @@ ul {
   color: #333;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
+  transition: focus 0.2s linear;
 }
 .search__input::placeholder {
   color: #ccc;
 }
 .search__input:focus {
   outline: 0;
-  border-color: 2px solid #bcabab;
+  border-color: #8f918b 2px solid;
 }
 .search__input--subscribe {
   margin-left: 4rem;
@@ -172,6 +173,10 @@ ul {
   right: 0;
   left: 6rem;
   z-index: 1000;
+  transition: opacity 0.1s linear;
+}
+.burger--search:hover {
+  opacity: 0.5;
 }
 @media (max-width: 991px) {
   .burger {
@@ -580,42 +585,32 @@ ul {
   height: auto;
 }
 .description {
-  overflow: hidden;
+  position: relative;
+}
+.section-description {
   background: #F6F6F6 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
-.description__slider {
-  height: 500px;
-  overflow: hidden;
-}
-.description__slider.slick-initialized {
-  height: auto;
+.description .slick-slider {
+  padding: 0 110px;
 }
 .description__item {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
-.description__photo {
-  width: 46%;
-  height: 500px;
   position: relative;
+  width: 105%;
 }
 .description__img {
-  width: 70%;
+  display: block;
   position: absolute;
-  top: 50%;
-  right: 0;
+  top: 0;
+  left: 41rem;
   z-index: 1;
-  transform: translateY(-50%);
 }
 .description__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 54%;
-  padding-left: 80px;
 }
 .description__title {
   font-family: 'Montserrat', sans-serif;
@@ -663,12 +658,11 @@ ul {
   line-height: 1.2;
   color: #353C56;
 }
-.slick-item:focus {
-  outline: 0;
+.slick-initialized {
+  height: auto;
 }
 .slick-arrow {
-  display: flex;
-  justify-content: center;
+  display: block;
   font-size: 0;
   color: transparent;
   border: 0;
@@ -684,11 +678,11 @@ ul {
 }
 .slick-arrow:after {
   content: "";
-  display: flex;
+  display: block;
   width: 16px;
   height: 16px;
-  border-top: 2px solid #2EF27C;
-  border-left: 2px solid #2EF27C;
+  border-top: 2px solid #ccc;
+  border-left: 2px solid #ccc;
 }
 .slick-prev {
   left: 0;

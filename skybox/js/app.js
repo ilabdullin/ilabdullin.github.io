@@ -74,6 +74,7 @@ $(function() {
     $("[data-slider]").slick ({
         infinite: true,
         fade: true,
+        autoplay: false,
         slidesToShow: 1,
         slidesToScroll: 1
     });
