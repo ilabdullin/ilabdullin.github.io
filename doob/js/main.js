@@ -52,9 +52,9 @@ $('#blog-btn').click(function() {
   $('.hiden-blog').toggleClass('hide-blog');
   $('.hiden-blog').toggleClass('open-blog');
   if ( $('.hiden-blog').is( ".open-blog" ) ) {
-    $("#blog-btn").text("Show Less Stories.");
+    $("#blog-btn").text("Показать меньше");
   }else {
-    $("#blog-btn").text("Show More Stories.");
+    $("#blog-btn").text("Показать больше");
   }
 });
 
