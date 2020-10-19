@@ -437,7 +437,7 @@ ul {
   align-items: center;
 }
 @media (max-width: 991px) {
-  .nav {
+  .nav--header {
     display: none;
   }
 }
@@ -481,21 +481,31 @@ ul {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 991px) {
+  .nav__footer {
+    flex-direction: row;
+  }
+}
 .nav__footer-link {
   text-decoration: none;
+}
+@media (max-width: 991px) {
+  .nav__footer-link {
+    padding-right: 0.9rem;
+  }
 }
 .contact__info {
   display: flex;
   flex-wrap: wrap;
 }
-@media (max-width: 991px) {
-  .contact__info {
-    display: none;
-  }
-}
 .contact__info--footer {
   position: absolute;
   flex-direction: column;
+}
+@media (max-width: 991px) {
+  .contact__info--header {
+    display: none;
+  }
 }
 .contact__info-item {
   margin-right: 1rem;
@@ -1187,6 +1197,12 @@ ul {
   text-align: left;
   border-right: rgba(118, 118, 118, 0.4) 2px solid;
 }
+@media (max-width: 991px) {
+  .footer__block {
+    border-top: rgba(118, 118, 118, 0.4) 2px solid;
+    border-right: 0;
+  }
+}
 .footer__block:last-child {
   border-right: 0;
   padding-right: 0;
@@ -1194,14 +1210,43 @@ ul {
 .footer__block--first {
   width: 19.33333%;
 }
+@media (max-width: 991px) {
+  .footer__block--first {
+    width: 100%;
+  }
+}
 .footer__block--second {
   width: 34.33333%;
+}
+@media (max-width: 991px) {
+  .footer__block--second {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 12rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 .footer__block--third {
   width: 26.33333%;
 }
+@media (max-width: 991px) {
+  .footer__block--third {
+    padding-top: 1rem;
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+  }
+}
 .footer__logo {
   display: flex;
+}
+@media (max-width: 991px) {
+  .footer__logo {
+    margin-left: 19rem;
+    margin-bottom: 1rem;
+  }
 }
 .footer__text {
   font-size: 1.07rem;
@@ -1209,6 +1254,18 @@ ul {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #353C56;
+}
+@media (max-width: 991px) {
+  .footer__text {
+    display: flex;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .footer__copyright {
+    display: flex;
+    text-align: center;
+  }
 }
 .footer__privacy {
   font-size: 1.07rem;
@@ -1218,6 +1275,12 @@ ul {
   color: #353C56;
   text-decoration: none;
   transition: text-decoration 0.1s linear;
+}
+@media (max-width: 991px) {
+  .footer__privacy {
+    display: flex;
+    text-align: center;
+  }
 }
 .footer__privacy:hover {
   text-decoration: underline;
