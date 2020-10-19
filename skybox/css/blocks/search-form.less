@@ -68,6 +68,7 @@
 
 .search {
     display: flex;
+    justify-content: center;
     width: 100%;
 
     margin: -0.3rem auto;
@@ -78,8 +79,6 @@
 
 
 .search__input {
-    margin-left: 3rem;
-
     width: 80%;
     height: 35px;
     padding: 12px;
@@ -96,6 +95,10 @@
     font-family: 'Montserrat', sans-serif;
 
     transition: focus 0.2s linear;
+
+    @media @mobile {
+        width: 38%;
+    }
 
 
 

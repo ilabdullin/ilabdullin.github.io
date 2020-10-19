@@ -16,6 +16,11 @@
         margin-left: 11rem;
     }
 
+    @media @mobile {
+        margin-top: 15rem;
+        margin-left: 0;
+    }
+
     &--footer {
         display: flex;
         position: absolute;
@@ -29,6 +34,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 
+    @media @mobile {
+        font-size: 15px;
+    }
+
     &:after {
         content: "";
         display: inline-block;
@@ -38,6 +47,11 @@
         background-color: #353C56;
         margin-left: 2rem;
         margin-right: 2rem;
+
+        @media @mobile {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
     }
 }
 

@@ -21,6 +21,11 @@
         max-width: 52rem;
         border-radius: 0;
     }
+
+    @media @mobile {
+        margin-top: 3rem;
+        max-height: 10rem;
+    }
 }
 
 .features__item {
@@ -29,6 +34,10 @@
     margin: 20px 0;
 
     text-align: left;
+
+    @media @mobile {
+        text-align: center;
+    }
 }
 
 .features__title {
@@ -36,6 +45,10 @@
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     color: #353C56;
+
+    @media @mobile {
+        font-size: 1rem;
+    }
 }
 
 .features__text {
@@ -51,6 +64,11 @@
     float: left;
     width: 40px;
     height: 40px;
+
+    @media @mobile {
+        margin-right: 0;
+        float: none;
+    }
 }
 
 
