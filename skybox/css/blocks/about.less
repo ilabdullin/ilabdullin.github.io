@@ -12,6 +12,10 @@
 .about__slider {
     height: 500px;
     overflow: hidden;
+
+    @media @tablet {
+        height: auto;
+    }
 }
 
 
@@ -26,6 +30,12 @@
     width: 46%;
     height: 500px;
     position: relative;
+
+    @media @tablet {
+        width: 100%;
+        height: auto;
+        position: inherit;
+    }
 }
 
 
@@ -37,6 +47,13 @@
     z-index: 1;
 
     transform: translateY(-50%);
+
+    @media @tablet {
+        position: inherit;
+        top: 0;
+
+        transform: none;
+    }
 }
 
 
@@ -49,6 +66,7 @@
 
     @media @tablet {
         padding-right: 0;
+        width: 100%;
     }
 }
 
