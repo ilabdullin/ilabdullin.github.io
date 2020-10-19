@@ -16,6 +16,10 @@
     background-size: cover;
     height: 4rem;
 
+    @media @tablet {
+        margin: 6.5rem auto;
+    }
+
     &-text {
         display: flex;
         color: @light-black;
@@ -44,6 +48,10 @@
 
     &:hover {
         opacity: 0.5;
+    }
+
+    @media @tablet {
+        display: none;
     }
 }
 

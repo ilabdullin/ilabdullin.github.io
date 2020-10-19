@@ -32,6 +32,12 @@
     left: 41rem;
     z-index: 1;
     width: 60%;
+
+    @media @tablet {
+        top: 36px;
+        left: 21rem;
+        width: 72%;
+    }
 }
 
 .description__content {
@@ -49,6 +55,10 @@
     color: #353C56;
 
     margin-bottom: 20px;
+
+    @media @tablet {
+        font-size: 1.5rem;
+    }
 }
 
 .description__subtitle {
@@ -59,6 +69,10 @@
     color: #FF5050;
 
     margin-bottom: 10px;
+
+    @media @tablet {
+        font-size: 1.5rem;
+    }
 }
 
 .description__text {
@@ -69,6 +83,10 @@
     font-size: 1.4rem;
     line-height: 1.2;
     color: #353C56;
+
+    @media @tablet {
+        font-size: 1.1rem;
+    }
 }
 
 .description__genre {
@@ -77,6 +95,10 @@
     font-size: 1.4rem;
     line-height: 1.4;
     color: #353C56;
+
+    @media @tablet {
+        font-size: 1.1rem;
+    }
 }
 
 .description__time {
@@ -87,6 +109,10 @@
     color: #353C56;
 
     margin-bottom: 1rem;
+
+    @media @tablet {
+        font-size: 1.1rem;
+    }
 }
 
 
@@ -96,6 +122,10 @@
     font-size: 2rem;
     line-height: 1.2;
     color: #353C56;
+
+    @media @tablet {
+        font-size: 1.1rem;
+    }
 }
 
 .slick-arrow {
@@ -135,11 +165,13 @@
 
 .slick-prev {
     left: 0;
+    transform: rotate(-45deg);
 }
 
 
 .slick-next {
     right: 0;
+    transform: rotate(135deg);
 }
 
 
