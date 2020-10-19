@@ -175,6 +175,12 @@ ul {
   width: 62%;
   border-radius: 5px 5px 5px 5px;
 }
+@media (max-width: 991px) {
+  .search__input--subscribe {
+    margin-left: 3rem;
+    margin-right: 1.4rem;
+  }
+}
 .search-from__burger {
   width: 40px;
   height: 20px;
@@ -686,7 +692,12 @@ ul {
   padding-bottom: 50px;
 }
 .description .slick-slider {
-  padding: 0 110px;
+  padding: 0 130px;
+}
+@media (max-width: 991px) {
+  .description .slick-slider {
+    padding: 0 110px;
+  }
 }
 .description__item {
   position: relative;
@@ -929,8 +940,18 @@ ul {
   overflow: hidden;
   width: 56.5%;
 }
+@media (max-width: 991px) {
+  .discount__slider {
+    width: 100%;
+  }
+}
 .discount .slick-slider {
-  padding: 25px 20px;
+  padding: 25px 22px;
+}
+@media (max-width: 991px) {
+  .discount .slick-slider {
+    padding: 0 50px;
+  }
 }
 .discount__item {
   display: flex;
@@ -964,6 +985,18 @@ ul {
   padding-right: 6rem;
   padding-left: 2rem;
 }
+@media (max-width: 991px) {
+  .discount__content {
+    margin-top: 4rem;
+    margin-left: 0;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    border-top: rgba(118, 118, 118, 0.08) 1px solid;
+    border-bottom: rgba(118, 118, 118, 0.08) 1px solid;
+    width: 100%;
+    text-align: center;
+  }
+}
 .discount__title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -988,6 +1021,11 @@ ul {
   line-height: 1.2;
   color: #353C56;
 }
+@media (max-width: 991px) {
+  .discount__text {
+    margin-bottom: 1rem;
+  }
+}
 .discount__text-vertical {
   position: absolute;
   font-family: 'Montserrat', sans-serif;
@@ -999,8 +1037,21 @@ ul {
   left: 44.3%;
   right: 294rem;
 }
+@media (max-width: 991px) {
+  .discount__text-vertical {
+    top: 214rem;
+    bottom: 0;
+    left: 21rem;
+    right: 0;
+  }
+}
 .rotate {
   transform: translateX(-50%) translateY(193%) rotate(-90deg);
+}
+@media (max-width: 991px) {
+  .rotate {
+    transform: none;
+  }
 }
 .discount-slider__item {
   margin-left: 3rem;
@@ -1078,9 +1129,11 @@ ul {
 }
 .slick-prev {
   left: 0;
+  transform: rotate(-45deg);
 }
 .slick-next {
   right: 0;
+  transform: rotate(135deg);
 }
 .subscribe {
   text-align: center;
@@ -1098,6 +1151,12 @@ ul {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .subscribe__title {
+    font-size: 2.7rem;
+    line-height: 2.8rem;
+  }
+}
 .subscribe__subtitle {
   padding: 1rem 0;
   font-size: 1.67rem;
@@ -1105,6 +1164,11 @@ ul {
   line-height: 2rem;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .subscribe__subtitle {
+    font-size: 1.4rem;
+  }
 }
 .footer {
   margin-top: auto;

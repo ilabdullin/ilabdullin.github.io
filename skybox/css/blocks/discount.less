@@ -17,10 +17,18 @@
     height: 325px;
     overflow: hidden;
     width: 56.5%;
+
+    @media @tablet {
+        width: 100%;
+    }
 }
 
 .discount .slick-slider {
-    padding: 25px 20px;
+    padding: 25px 22px;
+
+    @media @tablet {
+        padding: 0 50px;
+    }
 }
 
 .discount__item {
@@ -66,6 +74,19 @@
 
     padding-right: 6rem;
     padding-left: 2rem;
+
+    @media @tablet {
+        margin-top: 4rem;
+        margin-left: 0;
+        padding-top: 1rem;
+        padding-right: 2rem;
+
+        border-top: rgba(118, 118, 118, 0.08) 1px solid;
+        border-bottom: rgba(118, 118, 118, 0.08) 1px solid;
+
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .discount__title {
@@ -96,6 +117,10 @@
     font-size: 1.1rem;
     line-height: 1.2;
     color: #353C56;
+
+    @media @tablet {
+        margin-bottom: 1rem;
+    }
 }
 
 .discount__text-vertical {
@@ -110,10 +135,21 @@
     bottom: -59rem;
     left: 44.3%;
     right: 294rem;
+
+    @media @tablet {
+        top: 214rem;
+        bottom: 0;
+        left: 21rem;
+        right: 0;
+    }
 }
 
 .rotate {
     transform: translateX(-50%) translateY(193%) rotate(-90deg);
+
+    @media @tablet {
+        transform: none;
+    }
 }
 
 .discount-slider__item {
@@ -217,11 +253,13 @@
 
 .slick-prev {
     left: 0;
+    transform: rotate(-45deg);
 }
 
 
 .slick-next {
     right: 0;
+    transform: rotate(135deg);
 }
 
 
