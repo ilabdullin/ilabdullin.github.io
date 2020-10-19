@@ -683,8 +683,8 @@ ul {
   background: url("../img/description/next.svg");
   content: "";
   display: flex;
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   transform: rotate(-135deg);
 }
 .slick-prev {
@@ -806,7 +806,7 @@ ul {
 .discount__slider {
   height: 325px;
   overflow: hidden;
-  width: 55.5%;
+  width: 56.5%;
 }
 .discount .slick-slider {
   padding: 25px 20px;
@@ -879,10 +879,10 @@ ul {
   right: 294rem;
 }
 .rotate {
-  transform: translateX(-50%) translateY(192%) rotate(-90deg);
+  transform: translateX(-50%) translateY(187%) rotate(-90deg);
 }
 .discount-slider__item {
-  margin-left: 2rem;
+  margin-left: 2.5rem;
   margin-top: 2rem;
 }
 .discount-slider__title {

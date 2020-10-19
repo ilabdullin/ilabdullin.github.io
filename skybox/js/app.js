@@ -73,7 +73,7 @@ $(function() {
     /* Slider */
     $("[data-slider]").slick ({
         fade: true,
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1
     });
