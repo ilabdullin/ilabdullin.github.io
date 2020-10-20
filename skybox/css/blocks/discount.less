@@ -21,6 +21,10 @@
     @media @tablet {
         width: 100%;
     }
+
+    @media @mobile {
+        height: 40rem;
+    }
 }
 
 .discount .slick-slider {
@@ -43,6 +47,12 @@
     position: absolute;
 
     margin-left: 7rem;
+
+    @media @mobile {
+        width: 100%;
+        position: inherit;
+        margin-left: 0;
+    }
 }
 
 
@@ -56,6 +66,13 @@
     z-index: 1;
 
     transform: translateY(-140%);
+
+    @media @mobile {
+        position: inherit;
+        left: 2.5rem;
+        top: 21.4rem;
+        width: 72%;
+    }
 }
 
 
@@ -97,6 +114,10 @@
     color: #FF5050;
 
     margin-bottom: 20px;
+
+    @media @mobile {
+        font-size: 1.7rem;
+    }
 }
 
 .discount__subtitle {
@@ -120,6 +141,8 @@
 
     @media @tablet {
         margin-bottom: 1rem;
+
+        font-size: 1rem;
     }
 }
 
@@ -142,6 +165,12 @@
         left: 21rem;
         right: 0;
     }
+
+    @media @mobile {
+        top: 217.5rem;
+        left: 9.5rem;
+        font-size: 1.5rem;
+    }
 }
 
 .rotate {
@@ -155,6 +184,10 @@
 .discount-slider__item {
     margin-left: 3rem;
     margin-top: 2rem;
+
+    @media @mobile {
+        margin-left: 4rem;
+    }
 }
 
 .discount-slider__title {
@@ -163,6 +196,11 @@
     line-height: 1.9rem;
     font-family: 'Montserrat', sans-serif;
     color: @light-black;
+
+    @media @mobile {
+        font-size: 1.3rem;
+        line-height: 1.5rem
+    }
 }
 
 .discount-slider__subtitle {
@@ -171,6 +209,11 @@
     line-height: 2rem;
     font-family: 'Montserrat', sans-serif;
     color: @light-black;
+
+    @media @mobile {
+        font-size: 1rem;
+        line-height: 1.3rem
+    }
 }
 
 .discount-slider__rating {
@@ -210,6 +253,10 @@
     font-size: 2.1rem;
     line-height: 1.2;
     color: #353C56;
+
+    @media @mobile {
+        font-size: 1.5rem;
+    }
 }
 
 .text__black {

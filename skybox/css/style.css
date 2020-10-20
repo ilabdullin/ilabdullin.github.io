@@ -1124,6 +1124,11 @@ ul {
     width: 100%;
   }
 }
+@media (max-width: 767px) {
+  .discount__slider {
+    height: 40rem;
+  }
+}
 .discount .slick-slider {
   padding: 25px 22px;
 }
@@ -1142,6 +1147,13 @@ ul {
   position: absolute;
   margin-left: 7rem;
 }
+@media (max-width: 767px) {
+  .discount__photo {
+    width: 100%;
+    position: inherit;
+    margin-left: 0;
+  }
+}
 .discount__img {
   display: flex;
   position: absolute;
@@ -1151,6 +1163,14 @@ ul {
   left: 21rem;
   z-index: 1;
   transform: translateY(-140%);
+}
+@media (max-width: 767px) {
+  .discount__img {
+    position: inherit;
+    left: 2.5rem;
+    top: 21.4rem;
+    width: 72%;
+  }
 }
 .discount__content {
   display: flex;
@@ -1184,6 +1204,11 @@ ul {
   color: #FF5050;
   margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+  .discount__title {
+    font-size: 1.7rem;
+  }
+}
 .discount__subtitle {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -1203,6 +1228,7 @@ ul {
 @media (max-width: 991px) {
   .discount__text {
     margin-bottom: 1rem;
+    font-size: 1rem;
   }
 }
 .discount__text-vertical {
@@ -1224,6 +1250,13 @@ ul {
     right: 0;
   }
 }
+@media (max-width: 767px) {
+  .discount__text-vertical {
+    top: 217.5rem;
+    left: 9.5rem;
+    font-size: 1.5rem;
+  }
+}
 .rotate {
   transform: translateX(-50%) translateY(187%) rotate(-90deg);
 }
@@ -1236,6 +1269,11 @@ ul {
   margin-left: 3rem;
   margin-top: 2rem;
 }
+@media (max-width: 767px) {
+  .discount-slider__item {
+    margin-left: 4rem;
+  }
+}
 .discount-slider__title {
   font-size: 1.6rem;
   font-weight: 600;
@@ -1243,12 +1281,24 @@ ul {
   font-family: 'Montserrat', sans-serif;
   color: #353C56;
 }
+@media (max-width: 767px) {
+  .discount-slider__title {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+}
 .discount-slider__subtitle {
   font-size: 1.07rem;
   font-weight: 400;
   line-height: 2rem;
   font-family: 'Montserrat', sans-serif;
   color: #353C56;
+}
+@media (max-width: 767px) {
+  .discount-slider__subtitle {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
 }
 .discount-slider__rating {
   line-height: 2rem;
@@ -1279,6 +1329,11 @@ ul {
   font-size: 2.1rem;
   line-height: 1.2;
   color: #353C56;
+}
+@media (max-width: 767px) {
+  .discount-slider__price {
+    font-size: 1.5rem;
+  }
 }
 .text__black {
   color: #353C56;
@@ -1575,6 +1630,13 @@ googleplay__logo {
   font-size: 1.67rem;
   color: #767676;
   padding-left: 1.67rem;
+}
+@media (max-width: 767px) {
+  .strike {
+    font-size: 1.2rem;
+    padding-left: 0;
+    padding-top: 0.5rem;
+  }
 }
 .section {
   padding: 80px 0;
