@@ -895,7 +895,7 @@ footer h6 {
   }
 
   .social li {
-    display: block;
+    display: inline-block;
   }
 }
 
