@@ -766,7 +766,7 @@ ul {
 }
 @media (max-width: 767px) {
   .categories__item {
-    width: 46.96%;
+    width: 46%;
   }
 }
 .categories__img {
