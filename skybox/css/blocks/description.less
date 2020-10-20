@@ -13,6 +13,10 @@
 .section--description {
     padding-top: 50px;
     padding-bottom: 50px;
+
+    @media @mobile {
+        padding-bottom: 25px;
+    }
 }
 
 .description .slick-slider {
@@ -21,11 +25,20 @@
     @media @tablet {
         padding: 0 110px;
     }
+
+    @media @mobile {
+        padding: 0 10px
+    }
 }
 
 .description__item {
     position: relative;
     width: 105%;
+
+    @media @mobile {
+        position: none;
+        margin-left: 5rem;
+    }
 }
 
 
@@ -41,6 +54,13 @@
         top: 36px;
         left: 21rem;
         width: 72%;
+    }
+
+    @media @mobile {
+        position: inherit;
+        left: auto;
+        top: 1rem;
+        width: 100%;
     }
 }
 
@@ -145,6 +165,10 @@
     top: 50%;
     z-index: 1;
     transform: translateX(-5px);
+
+    @media @mobile {
+        top: 80%;
+    }
 }
 
 
