@@ -79,6 +79,10 @@
 
     min-width: 815px;
     max-width: 815px;
+
+    @media @mobile {
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -125,6 +129,12 @@
         @media @tablet {
             margin-left: 3rem;
             margin-right: 1.4rem;
+        }
+
+        @media @mobile {
+            margin-left: 0;
+            margin-right: 30.5rem;
+            width: 38%;
         }
     }
 }

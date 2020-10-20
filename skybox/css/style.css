@@ -152,6 +152,11 @@ ul {
   min-width: 815px;
   max-width: 815px;
 }
+@media (max-width: 767px) {
+  .search {
+    flex-wrap: wrap;
+  }
+}
 .search__input {
   width: 80%;
   height: 35px;
@@ -189,6 +194,13 @@ ul {
   .search__input--subscribe {
     margin-left: 3rem;
     margin-right: 1.4rem;
+  }
+}
+@media (max-width: 767px) {
+  .search__input--subscribe {
+    margin-left: 0;
+    margin-right: 30.5rem;
+    width: 38%;
   }
 }
 .search-from__burger {
@@ -464,6 +476,12 @@ ul {
 .search__btn--subscribe {
   border-radius: 5px 5px 5px 5px;
   width: 18%;
+}
+@media (max-width: 767px) {
+  .search__btn--subscribe {
+    margin-right: 30rem;
+    margin-top: 1rem;
+  }
 }
 .btn-more {
   align-items: center;
@@ -1252,10 +1270,15 @@ ul {
   text-align: center;
 }
 .section--subscribe {
-  padding: 40px 0;
+  padding: 80px 0;
   background: url("../img/subscribe/subscribe-bg.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+}
+@media (max-width: 767px) {
+  .section--subscribe {
+    padding: 30px 0;
+  }
 }
 .subscribe__title {
   font-size: 3rem;
@@ -1270,6 +1293,11 @@ ul {
     line-height: 2.8rem;
   }
 }
+@media (max-width: 767px) {
+  .subscribe__title {
+    font-size: 1.3rem;
+  }
+}
 .subscribe__subtitle {
   padding: 1rem 0;
   font-size: 1.67rem;
@@ -1281,6 +1309,13 @@ ul {
 @media (max-width: 991px) {
   .subscribe__subtitle {
     font-size: 1.4rem;
+  }
+}
+@media (max-width: 767px) {
+  .subscribe__subtitle {
+    padding-top: 0;
+    font-size: 1.1rem;
+    line-height: 1rem;
   }
 }
 .footer {
