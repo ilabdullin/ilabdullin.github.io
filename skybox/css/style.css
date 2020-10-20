@@ -557,6 +557,11 @@ ul {
   position: absolute;
   flex-direction: column;
 }
+@media (max-width: 767px) {
+  .contact__info--footer {
+    position: inherit;
+  }
+}
 @media (max-width: 991px) {
   .contact__info--header {
     display: none;
@@ -1341,6 +1346,11 @@ ul {
     border-right: 0;
   }
 }
+@media (max-width: 767px) {
+  .footer__block:first-child {
+    border: 0;
+  }
+}
 .footer__block:last-child {
   border-right: 0;
   padding-right: 0;
@@ -1351,6 +1361,11 @@ ul {
 @media (max-width: 991px) {
   .footer__block--first {
     width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .footer__block--first {
+    display: none;
   }
 }
 .footer__block--second {
@@ -1366,6 +1381,11 @@ ul {
     width: 100%;
   }
 }
+@media (max-width: 767px) {
+  .footer__block--second {
+    justify-content: center;
+  }
+}
 .footer__block--third {
   width: 26.33333%;
 }
@@ -1377,6 +1397,11 @@ ul {
     width: 100%;
   }
 }
+@media (max-width: 767px) {
+  .footer__block--third {
+    flex-wrap: wrap;
+  }
+}
 .footer__logo {
   display: flex;
 }
@@ -1384,6 +1409,11 @@ ul {
   .footer__logo {
     margin-left: 19rem;
     margin-bottom: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .footer__logo {
+    display: none;
   }
 }
 .footer__text {
@@ -1399,10 +1429,20 @@ ul {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  .footer__text {
+    text-align: left;
+  }
+}
 @media (max-width: 991px) {
   .footer__copyright {
     display: flex;
     text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .footer__copyright {
+    text-align: left;
   }
 }
 .footer__privacy {
@@ -1411,7 +1451,7 @@ ul {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #353C56;
-  text-decoration: none;
+  text-decoration: underline;
   transition: text-decoration 0.1s linear;
 }
 @media (max-width: 991px) {
@@ -1420,8 +1460,13 @@ ul {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  .footer__privacy {
+    text-align: left;
+  }
+}
 .footer__privacy:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #353C56;
 }
 .footer__download {
@@ -1438,6 +1483,11 @@ ul {
   text-decoration: none;
   border: #a6a6a6 1px solid;
   border-radius: 5px 5px 5px 5px;
+}
+@media (max-width: 767px) {
+  .footer__download-logo {
+    display: none;
+  }
 }
 .footer__download-logo:last-child {
   margin-bottom: 0;
