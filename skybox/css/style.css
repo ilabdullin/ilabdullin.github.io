@@ -1346,6 +1346,7 @@ ul {
 @media (max-width: 767px) {
   .footer__inner {
     padding-bottom: 20px;
+    padding-top: 30px;
   }
 }
 .footer__block {
@@ -1358,11 +1359,6 @@ ul {
   .footer__block {
     border-top: rgba(118, 118, 118, 0.4) 2px solid;
     border-right: 0;
-  }
-}
-@media (max-width: 767px) {
-  .footer__block:first-child {
-    border: 0;
   }
 }
 .footer__block:last-child {
@@ -1397,6 +1393,7 @@ ul {
 }
 @media (max-width: 767px) {
   .footer__block--second {
+    border-top: none;
     padding-left: 1rem;
     justify-content: center;
   }
