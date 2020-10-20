@@ -1168,8 +1168,13 @@ ul {
   .discount__img {
     position: inherit;
     left: 2.5rem;
-    top: 21.4rem;
+    top: 24.4rem;
     width: 72%;
+  }
+}
+@media (max-width: 412px) {
+  .discount__img {
+    top: 21.4rem;
   }
 }
 .discount__content {
