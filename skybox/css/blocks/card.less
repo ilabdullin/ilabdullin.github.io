@@ -1,0 +1,217 @@
+// main: ../style.less
+
+.show__card {
+    padding-top: 1.7rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 1.7rem;
+
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    @media @tablet {
+        width: 50%;
+    }
+
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    color: @light-black;
+}
+
+.card__title {
+    padding-bottom: 0.7rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+
+    @media @mobile {
+        font-size: 1.9rem;
+    }
+}
+
+.card__subtitle {
+    padding-bottom: 2.7rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.card__img {
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.card__people {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.card__time {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.card__age {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.age {
+    margin-right: 1rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.card__rating {
+    display: flex;
+    align-items: center;
+}
+
+.card__star {
+    margin-right: 0.3rem;
+}
+
+.card__rating-count {
+    color: #9F9F9F;
+    margin-left: 0.5rem;
+}
+
+.card__features-icon {
+    margin-right: 1.7rem;
+
+    width: 36px;
+    height: 36px;
+
+    @media @tablet {
+        margin-right: 1.3rem;
+    }
+}
+
+.card__reviews {
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+    padding-left: 3rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.reviews__img {
+    margin-right: 1rem;
+
+    width: 17px;
+    height: 15px;
+}
+
+.card__features {
+    display: flex;
+    align-items: center;
+}
+
+.card__features-item {
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+        margin-left: 3.4rem;
+    }
+}
+
+.card__features-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+
+    @media @tablet {
+        font-size: 0.7rem;
+    }
+}
+
+.card__price-count {
+    display: flex;
+    align-items: center;
+
+    padding-top: 1.7rem;
+
+    @media @tablet {
+        justify-content: space-between;
+    }
+}
+
+.card__price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+
+    padding-right: 2.2rem;
+
+    @media @tablet {
+        padding-right: 1.2rem;
+        font-size: 1.3rem;
+    }
+
+    @media @mobile {
+        font-size: 1.1rem;
+    }
+}
+
+.card__count {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: @light-black;
+
+    border: 1px solid rgb(198, 186, 186, 0.2);
+    border-radius: 10px 10px 10px 10px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.red {
+    padding-right: 2rem;
+    padding-left: 1rem;
+
+    color: #FF5050;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+.green {
+    padding-right: 1rem;
+    padding-left: 2rem;
+
+    color: #00E15A;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+
+
+
+
+

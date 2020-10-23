@@ -1,0 +1,148 @@
+// main: ../style.less
+
+.section--similar {
+    padding: 80px 0;
+
+    @media @mobile {
+        padding-bottom: 30px;
+    }
+}
+
+.similar__card {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 -1rem 2.8rem;
+}
+
+.similar__card-item {
+    width: 24.33333%;
+    padding: 1rem;
+
+    @media @tablet {
+        width: 50%;
+    }
+
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+.similar__card-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: @light-black;
+    cursor: pointer;
+
+    border: 1px solid rgba(196, 189, 189, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    padding: 1rem;
+
+    transition: box-shadow 0.2s linear;
+
+    &:hover {
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.similar__title {
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 2.8rem;
+
+    @media @mobile {
+        font-size: 1.8rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.similar__card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.similar__card-title {
+    font-weight: 600;
+    font-size: 1.7rem;
+
+    @media @tablet {
+        text-align: center;
+    }
+}
+
+.similar__card-text {
+    font-weight: 300;
+    font-size: 1rem;
+
+    @media @tablet {
+        text-align: center;
+    }
+}
+
+.similar__rating {
+    display: flex;
+    align-items: center;
+
+    @media @tablet {
+        justify-content: center;
+    }
+}
+
+.similar__star {
+    margin-right: 0.3rem;
+}
+
+.similar__rating-count {
+    color: #9F9F9F;
+    margin-left: 0.5rem;
+}
+
+.similar__reviews {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+
+    display: flex;
+    font-weight: 400;
+    font-size: 1rem;;
+    align-items: center;
+
+    @media @tablet {
+        padding-left: 7rem;
+    }
+
+    @media @mobile {
+        padding-left: 6rem;
+    }
+}
+
+.similar__reviews-img {
+    margin-right: 0.5rem;
+
+    width: 17px;
+    height: 15px;
+}
+
+.similar__footer {
+    display: flex;
+    align-items: center;
+
+    @media @tablet {
+        justify-content: space-between;
+    }
+}
+
+.similar__price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+
+    padding-right: 1.8rem;
+
+    @media @tablet {
+        font-size: 1.6rem;
+    }
+}
+

@@ -13,9 +13,10 @@
     font-size: 13px;
     color: #fff;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: inherit;
     text-decoration: none;
     text-align: center;
+    text-transform: uppercase;
 
     transition: background, box-shadow 0.2s linear;
 
@@ -72,6 +73,7 @@
 
             box-shadow: 0 0 5px rgba(#000, 0.25);
 
+
             @media @tablet {
                 font-size: 0.7rem;
             }
@@ -107,6 +109,60 @@
         }
 
         &-discount:focus {
+            outline: 0;
+        }
+
+        &-card {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-top: 3.5rem;
+            padding: 12px 30px;
+            background-color: rgba(255,80,80,1);
+
+            text-transform: inherit;
+
+            @media @tablet {
+                margin-left: 2.5rem;
+                margin-top: 2rem;
+            }
+
+            @media @mobile {
+                padding: 10px 25px;
+            }
+        }
+
+        &-card:hover {
+            box-shadow: 0 0 15px rgba(#000, 0.25);
+
+            background-color: #dd3434;
+        }
+
+        &-similar:focus {
+            outline: 0;
+        }
+
+        &-similar {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 8px 8px;
+            background-color: rgba(255,80,80,1);
+
+            text-transform: inherit;
+
+            @media @tablet {
+                font-size: 1.2rem;
+            }
+        }
+
+        &-similar:hover {
+            box-shadow: 0 0 15px rgba(#000, 0.25);
+
+            background-color: #dd3434;
+        }
+
+        &-similar:focus {
             outline: 0;
         }
 
