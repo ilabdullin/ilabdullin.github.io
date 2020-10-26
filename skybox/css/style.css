@@ -558,6 +558,7 @@ ul {
 }
 @media (max-width: 991px) {
   .nav__link {
+    color: #353C56;
     margin-right: 0;
   }
 }
