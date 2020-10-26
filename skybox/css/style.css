@@ -526,13 +526,12 @@ ul {
 }
 @media (max-width: 991px) {
   .nav {
-    display: none;
     width: 100%;
     flex-direction: column;
     background-color: rgba(227, 218, 218, 0.9);
     text-align: right;
     position: absolute;
-    top: 100%;
+    top: 98%;
     right: 0;
   }
 }
