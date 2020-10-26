@@ -28,21 +28,6 @@ $(function() {
     }
 
 
-
-    /* Smooth Scroll */
-    $("[data-scroll]").on("click", function(event) {
-        event.preventDefault();
-
-        let elementId = $(this).data('scroll');
-        let elementOffset = $(elementId).offset().top;
-
-
-        $("html, body").animate({
-            scrollTop: elementOffset - 70
-        }, 500);
-    });
-
-
     /* Nav Toggle */
     navToggle.on("click", function(event) {
         event.preventDefault();
@@ -57,7 +42,7 @@ $(function() {
     $("[data-slider]").slick ({
         fade: true,
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 8000,
         slidesToShow: 1,
         slidesToScroll: 1
     });
