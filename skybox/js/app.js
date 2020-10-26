@@ -1,25 +1,26 @@
 $(function() {
 
-    let header = $("#header"),
-        introH = $("#intro").innerHeight(),
-        scrollOffset = $(window).scrollTop();
-
-
-
     /* Fixed Header */
-    checkScroll(scrollOffset);
+    let header = $("#header");
+    let intro = $("#intro");
+    let introH = intro.innerHeight();
+    let scrollPos = $(window).scrollTop();
+    let nav = $("#nav");
+    let navToggle = $("#navToggle");
 
-    $(window).on("scroll", function() {
-        scrollOffset = $(this).scrollTop();
+    checkScroll(scrollPos, introH);
 
-        checkScroll(scrollOffset);
 
+    $(window).on("scroll resize", function() {
+        introH = intro.innerHeight();
+        scrollPos = $(this).scrollTop();
+
+        checkScroll(scrollPos, introH);
     });
 
 
-
-    function checkScroll(scrollOffset) {
-        if( scrollOffset > introH ) {
+    function checkScroll(scrollPos, introH) {
+        if( scrollPos > introH ) {
             header.addClass("fixed");
         }    else {
             header.removeClass("fixed");
@@ -28,49 +29,31 @@ $(function() {
 
 
 
-    /* Smooth scroll */
+    /* Smooth Scroll */
     $("[data-scroll]").on("click", function(event) {
         event.preventDefault();
 
-        let $this = $(this),
-            blockId = $this.data('scroll'),
-            blockOffset = $(blockId).offset().top;
+        let elementId = $(this).data('scroll');
+        let elementOffset = $(elementId).offset().top;
 
-            $("#nav a").removeClass("active");
-            $this.addClass("active");
 
         $("html, body").animate({
-            scrollTop: blockOffset + 5
+            scrollTop: elementOffset - 70
         }, 500);
-
     });
 
 
-
-    /* Menu nav toggle */
-    $("#nav__toggle").on("click", function(event) {
+    /* Nav Toggle */
+    navToggle.on("click", function(event) {
         event.preventDefault();
 
         $(this).toggleClass("active");
-        $("#nav").toggleClass("active");
+        nav.toggleClass("active");
     });
 
 
 
-    /* Collapse */
-    $("[data-collapse]").on("click", function(event) {
-        event.preventDefault();
-
-        let $this = $(this),
-            blockId = $this.data('collapse');
-
-            $this.toggleClass("active");
-            $(blockId).slideToggle();
-    });
-
-
-
-    /* Slider */
+    /* Slider https://kenwheeler.github.io/slick/ */
     $("[data-slider]").slick ({
         fade: true,
         autoplay: true,

@@ -1,9 +1,25 @@
 // main: ../style.less
 
-.nav.active {
-    display: flex;
-    align-items: center;
+.nav {
+    &.active {
+        display: flex;
+        align-items: center;
+    }
+
+    @media @tablet {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+
+        background-color: rgba(227, 218, 218, 0.9);
+        text-align: right;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
 }
+
 
 .nav--header {
 
@@ -28,6 +44,10 @@
 
     &:hover {
         opacity: 0.5;
+    }
+
+    @media @tablet {
+        margin-right: 0;
     }
 
     &--footer {
