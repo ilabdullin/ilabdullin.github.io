@@ -1386,7 +1386,7 @@ ul {
 }
 @media (max-width: 767px) {
   .discount-slider__price {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .text__black {
@@ -2161,8 +2161,8 @@ googleplay__logo {
 }
 @media (max-width: 767px) {
   .strike {
-    font-size: 1.2rem;
-    padding-left: 0;
+    font-size: 0.8rem;
+    padding-left: 1rem;
     padding-top: 0.5rem;
   }
 }
