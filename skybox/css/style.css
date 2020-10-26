@@ -444,7 +444,8 @@ ul {
 }
 @media (max-width: 767px) {
   .btn--red-card {
-    padding: 10px 25px;
+    font-size: 1rem;
+    padding: 8px 20px;
   }
 }
 .btn--red-card:hover {
@@ -1867,7 +1868,7 @@ googleplay__logo {
 }
 @media (max-width: 767px) {
   .card__price {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
 .card__count {
@@ -1888,6 +1889,11 @@ googleplay__logo {
   font-size: 2rem;
   cursor: pointer;
 }
+@media (max-width: 767px) {
+  .red {
+    padding-right: 1rem;
+  }
+}
 .green {
   padding-right: 1rem;
   padding-left: 2rem;
@@ -1896,6 +1902,11 @@ googleplay__logo {
   font-weight: 600;
   font-size: 2rem;
   cursor: pointer;
+}
+@media (max-width: 767px) {
+  .green {
+    padding-left: 1rem;
+  }
 }
 .section--inform {
   padding: 80px 0;
