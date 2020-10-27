@@ -22,7 +22,7 @@ h6 {
   margin: 0;
 }
 p {
-  margin: 0 0 1rem;
+  margin: 0;
 }
 *,
 *:before,
@@ -103,9 +103,21 @@ p {
   color: #fff;
   opacity: 0.7;
 }
+.callback {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.1s linear;
+}
+.callback:hover {
+  opacity: 0.9;
+}
 .intro {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   position: relative;
   width: 100%;
@@ -121,6 +133,9 @@ p {
   }
 }
 .intro__inner {
+  display: flex;
+  padding-top: 15rem;
+  flex-wrap: wrap;
   width: 100%;
   max-width: 590px;
   margin: 0;
@@ -140,4 +155,29 @@ p {
   line-height: 1.7rem;
   color: #fff;
   opacity: 0.7;
+}
+.car {
+  display: flex;
+  position: absolute;
+  top: 15rem;
+  right: 3rem;
+  width: 50%;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 38px 10px;
+  border: 0;
+  border-radius: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background: #0065F5;
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.btn--intro {
+  margin-top: 2.6rem;
 }
