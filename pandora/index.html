@@ -7,11 +7,16 @@
     <!--  Stylesheets  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
     <!--  FAVICON ICON  -->
-    <link rel="shortcut icon" type="image/ico" href="img/header/pandora-logo.png" />
+    <link rel="shortcut icon" type="image/ico" href="img/header/logo.png" />
 
     <!--  Google Fonts  -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
+
+    <!--  Script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Pandora</title>
 </head>
@@ -66,15 +71,11 @@
             <div class="contact__info">
                 <div class="contact__info-item">
                     <img class="contact__info-icon" src="img/header/phone.svg" alt="">
-                    <span class="contact__info-number">+998 99 992 99 02</span>
-                    <br>
-                    <span class="contact__info-time">c 08:00 до 21:00</span>
+                    <div class="contact__info-number">+998 99 992 99 02</div>
+                    <div class="contact__info-time">c 08:00 до 21:00</div>
                 </div>
 
-
-                <div class="contact__info-item">
-                    <a class="callback" href="#">Заказать звонок</a>
-                </div>
+                <a class="callback" href="#">Заказать звонок</a>
             </div><!-- /.contact__info -->
         </div><!-- /.header__inner -->
     </div><!-- /.container -->
@@ -85,28 +86,71 @@
 <main class="main">
 
 
-    <section class="intro" id="intro">
-        <div class="container">
-            <div class="intro__inner">
+<section class="intro" id="intro">
+    <div class="container">
 
-                <h1 class="intro__title">Впервые Pandora в Узбекистане!</h1>
-                <h2 class="intro__subtitle">Умные технологии и инновации для надежной защиты</h2>
+        <div class="intro__slider" id="introSlider">
+            <div class="slick-item">
+                <div class="intro__item">
+                   <div class="intro__content">
+                        <h1 class="intro__title">Впервые Pandora в Узбекистане!</h1>
+                        <h2 class="intro__subtitle">Умные технологии и инновации для надежной защиты</h2>
+                        <a class="btn btn--intro" href="#">Посмотреть каталог</a>
+                    </div>
 
-                <a class="btn btn--intro" href="#">Посмотреть каталог</a>
-
-                <img class="car" src="img/intro/intro-bg.png" alt="">
-            </div>
-        </div>
-    </section>
-
+                    <div class="intro__photo">
+                        <img class="intro__img" src="img/intro/intro-bg.png" alt="">
+                    </div>
+                </div>
+            </div><!-- /.slick-item -->
 
 
-</main>
+            <div class="slick-item">
+                <div class="intro__item">
+                   <div class="intro__content">
+                        <h1 class="intro__title">Впервые Pandora в Узбекистане!</h1>
+                        <h2 class="intro__subtitle">Умные технологии и инновации для надежной защиты</h2>
+                        <a class="btn btn--intro" href="#">Посмотреть каталог</a>
+                    </div>
+
+                    <div class="intro__photo">
+                        <img class="intro__img" src="img/intro/intro-bg.png" alt="">
+                    </div>
+                </div>
+            </div><!-- /.slick-item -->
+
+
+            <div class="slick-item">
+                <div class="intro__item">
+                   <div class="intro__content">
+                        <h1 class="intro__title">Впервые Pandora <br> в Узбекистане</h1>
+                        <h2 class="intro__subtitle">Умные технологии и инновации для надежной защиты</h2>
+                        <a class="btn btn--intro" href="#">Посмотреть каталог</a>
+                    </div>
+
+                    <div class="intro__photo">
+                        <img class="intro__img" src="img/intro/intro-bg.png" alt="">
+                    </div>
+                </div>
+            </div><!-- /.slick-item -->
+
+        </div><!-- /.intro__slider -->
+    </div><!-- /.container -->
+</section><!-- /.intro -->
+
+
+
+</main><!-- /.main -->
 
 
 
 </div><!-- /.page -->
 
+
+<!-- Javascript -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="js/main.js"></script>
 
 </body>
 </html>

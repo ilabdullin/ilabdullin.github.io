@@ -81,7 +81,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-right: 2.7rem;
 }
 .contact__info-item:last-child {
   padding-right: 0;
@@ -98,10 +97,12 @@ p {
   font-size: 1.2rem;
 }
 .contact__info-time {
+  width: 88%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #fff;
   opacity: 0.7;
+  text-align: center;
 }
 .callback {
   font-family: 'Montserrat', sans-serif;
@@ -121,25 +122,29 @@ p {
   justify-content: center;
   position: relative;
   width: 100%;
-  height: 100vh;
   min-height: 820px;
   background: #000B1B center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
-@media (max-width: 991px) {
-  .intro {
-    height: 80vh;
-  }
+.intro__slider {
+  height: 500px;
+  overflow: hidden;
 }
-.intro__inner {
+.intro__slider.slick-initialized {
+  height: auto;
+  margin-top: 9.6rem;
+}
+.intro__item {
   display: flex;
-  padding-top: 15rem;
   flex-wrap: wrap;
-  width: 100%;
-  max-width: 590px;
-  margin: 0;
-  text-align: left;
+  overflow: hidden;
+}
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
 .intro__title {
   font-family: 'Raleway', sans-serif;
@@ -156,12 +161,64 @@ p {
   color: #fff;
   opacity: 0.7;
 }
-.car {
-  display: flex;
-  position: absolute;
-  top: 15rem;
-  right: 3rem;
+.intro__photo {
   width: 50%;
+  height: 41rem;
+  position: relative;
+}
+.intro__img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.car__ripple {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  animation: ripple 7s linear infinite;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0rem rgba(3, 9, 154, 0.47), 0 0 0 1rem rgba(3, 9, 154, 0.47), 0 0 0 2rem rgba(3, 9, 154, 0.47), 0 0 0 5rem rgba(3, 9, 154, 0.47);
+  }
+  100% {
+    box-shadow: 0 0 0 1rem rgba(3, 9, 154, 0.47), 0 0 0 2rem rgba(3, 9, 154, 0.47), 0 0 0 5rem rgba(3, 9, 154, 0.47), 0 0 0 8rem rgba(3, 9, 154, 0);
+  }
+}
+.slick-item:focus {
+  outline: 0;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 0 10px;
+  list-style: none;
+  width: 100%;
+  z-index: 2;
+}
+.slick-dots li {
+  margin: 0 5px;
+}
+.slick-dots button {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  background: #fff;
+  border-radius: 50%;
+  border: 0;
+  opacity: 0.5;
+  cursor: pointer;
+  font-size: 0;
+  color: transparent;
+}
+.slick-dots button:focus {
+  outline: 0;
+}
+.slick-dots .slick-active button {
+  background: #0065F5;
 }
 .btn {
   display: inline-block;
