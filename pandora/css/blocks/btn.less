@@ -26,10 +26,22 @@
 
     &--intro {
         margin-top: 2.6rem;
-        margin-left: 2rem;
+        margin-left: 5rem;
+        animation: radial-pulse 2s infinite;
+
+        @keyframes radial-pulse {
+
+            0% {
+                box-shadow: 0 0 0 0px rgba(0, 101, 245, 0.5);
+            }
+
+            100% {
+                box-shadow: 0 0 0 30px rgba(0, 101, 245, 0);
+            }
+        }
+
     }
 }
-
 
 
 
