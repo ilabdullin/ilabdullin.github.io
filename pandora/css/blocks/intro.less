@@ -58,6 +58,29 @@
     width: 50%;
     height: 41rem;
     position: relative;
+
+    &:before,
+    &:after,
+     {
+        border: 3px solid @blue;
+        position: absolute;
+        content: '';
+        height: 45rem;
+        width: 45rem;
+        left: -2%;
+        right: 0;
+        top: -6%;
+        z-index: 0;
+        margin: 0 auto;
+        border-radius: 50%;
+        box-shadow: 0 0 9px @blue;
+        animation: pulsate 6s ease-out infinite;
+    }
+
+    &:after {
+        animation-delay: 1.6s;
+        -webkit-animation-delay: 1.6s;
+    }
 }
 
 .intro__img {
@@ -67,9 +90,27 @@
     z-index: 1;
 
     transform: translateY(-50%);
+
+    & {
+        animation-delay: 1s;
+        -webkit-animation-delay: 1s;
+    }
 }
 
-.car__ripple {
+@-webkit-keyframes pulsate {
+     0% {
+       transform: scale(0, 0);
+       -webkit-transform: scale(0, 0);
+       opacity: 1;
+     }
+     100% {
+       transform: scale(1.2, 1.2);
+       -webkit-transform: scale(1.2, 1.2);
+       opacity: 0;
+     }
+}
+
+/*.car__ripple {
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
@@ -88,7 +129,7 @@
         0 0 0 5rem rgba(3, 9, 154, 0.47),
         0 0 0 8rem rgba(3, 9, 154, 0);
   }
-}
+}*/
 
 .slick-item:focus {
     outline: 0;
