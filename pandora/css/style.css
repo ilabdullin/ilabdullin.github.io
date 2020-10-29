@@ -341,8 +341,17 @@ h6 {
   color: #000B1B;
 }
 .accordion__text {
-  padding-top: 12rem;
   width: 50%;
+}
+.accordion__img {
+  display: flex;
+  z-index: 1000;
+  position: absolute;
+  right: 0;
+  padding-left: 12rem;
+}
+.accordion__img--bg {
+  z-index: 1;
 }
 .section--catalog {
   display: flex;
