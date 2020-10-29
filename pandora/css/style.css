@@ -323,11 +323,17 @@ h6 {
   color: #80858D;
   cursor: pointer;
 }
-.accordion__text {
+.accordion__content {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   color: #000B1B;
+}
+.accordion__text {
+  width: 50%;
 }
 .section--catalog {
   display: flex;
