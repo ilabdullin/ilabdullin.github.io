@@ -321,6 +321,7 @@ h6 {
   font-weight: 700;
   font-size: 1.6rem;
   color: #80858D;
+  cursor: pointer;
 }
 .accordion__text {
   font-family: 'Montserrat', sans-serif;
@@ -414,6 +415,107 @@ h6 {
 .slick-next {
   right: 0;
   transform: rotate(135deg);
+}
+.section--about {
+  margin-top: 4rem;
+  overflow: hidden;
+  background: #fff no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.about__inner {
+  height: 500px;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .about__inner {
+    height: auto;
+  }
+}
+.about__item {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.about__photo {
+  width: 41%;
+  height: 500px;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .about__photo {
+    width: 100%;
+    height: auto;
+    position: inherit;
+  }
+}
+.about__img {
+  position: absolute;
+  top: 50%;
+  width: 94%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+@media (max-width: 991px) {
+  .about__img {
+    position: inherit;
+    top: 0;
+    transform: none;
+  }
+}
+.about__img--card {
+  position: absolute;
+  top: 50%;
+  left: -1%;
+  width: 108%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+@media (max-width: 991px) {
+  .about__img--card {
+    position: inherit;
+    top: 0;
+    transform: none;
+  }
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  width: 59%;
+  padding-left: 5.4rem;
+}
+@media (max-width: 991px) {
+  .about__content {
+    padding-right: 0;
+    width: 100%;
+  }
+}
+.about__title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.7;
+  color: #000B1B;
+}
+@media (max-width: 991px) {
+  .about__title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .about__title {
+    text-align: center;
+  }
+}
+.about__text {
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #000;
 }
 /* Helpers */
 .center {

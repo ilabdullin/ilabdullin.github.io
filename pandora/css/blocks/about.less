@@ -1,0 +1,123 @@
+// main: ../style.less
+
+.section--about {
+    margin-top: 4rem;
+    overflow: hidden;
+    background: #fff no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+.about__inner{
+    height: 500px;
+    overflow: hidden;
+
+    @media @tablet {
+        height: auto;
+    }
+}
+
+
+.about__item {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+.about__photo {
+    width: 41%;
+    height: 500px;
+    position: relative;
+
+    @media @tablet {
+        width: 100%;
+        height: auto;
+        position: inherit;
+    }
+}
+
+
+.about__img {
+    position: absolute;
+    top: 50%;
+    width: 94%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+
+    @media @tablet {
+        position: inherit;
+        top: 0;
+
+        transform: none;
+    }
+}
+
+.about__img--card {
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    width: 108%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+
+    @media @tablet {
+        position: inherit;
+        top: 0;
+
+        transform: none;
+    }
+}
+
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    width: 59%;
+
+    padding-left: 5.4rem;
+
+    @media @tablet {
+        padding-right: 0;
+        width: 100%;
+    }
+}
+
+.about__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 3.7;
+    color: @about-title;
+
+
+    @media @tablet {
+        font-size: 2rem;
+    }
+
+    @media @mobile {
+        text-align: center;
+    }
+}
+
+.about__text {
+    margin-bottom: 25px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: @dark-black;
+}
+
+
+
+
+
+
+
