@@ -517,6 +517,44 @@ h6 {
   line-height: 1.7;
   color: #000;
 }
+.footer {
+  padding: 1rem 0;
+  background-color: #000B1B;
+}
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__credits {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.footer__copyright {
+  padding-right: 0.8rem;
+  margin-right: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.94rem;
+}
+.footer__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer__getsmart {
+  color: #fff;
+  text-decoration: underline;
+  transition: text-decoration 0.2s linear;
+}
+.footer__getsmart:hover {
+  text-decoration: none;
+}
 /* Helpers */
 .center {
   display: flex;
