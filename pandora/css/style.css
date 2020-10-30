@@ -279,6 +279,7 @@ h6 {
   padding: 38px 10px;
   border: 0;
   border-radius: 50%;
+  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   background: #0065F5;
@@ -316,6 +317,7 @@ h6 {
   border-radius: 3rem;
   width: 165px;
   height: 20px;
+  cursor: pointer;
 }
 .features__title {
   padding-bottom: 4.7rem;
@@ -845,7 +847,7 @@ h6 {
 .form__input:focus,
 .form__textarea:focus {
   outline: none;
-  border-color: #36abc7;
+  border-color: #0065F5;
 }
 .form__input::placeholder,
 .form__textarea::placeholder {
