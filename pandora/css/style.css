@@ -746,6 +746,129 @@ h6 {
     font-size: 0.6rem;
   }
 }
+.contact {
+  display: flex;
+  background: url(https://placehold.it/477x700) right center no-repeat;
+}
+@media (max-width: 991px) {
+  .contact {
+    background: url(https://placehold.it/450x630) right center no-repeat;
+  }
+}
+@media (max-width: 767px) {
+  .contact {
+    background: url(https://placehold.it/190x450) right center no-repeat;
+  }
+}
+.contact__left {
+  padding: 2rem;
+  width: 47%;
+}
+@media (max-width: 991px) {
+  .contact__left {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .contact__left {
+    padding: 1rem;
+  }
+}
+.contact__info {
+  margin: 2rem 0 3rem;
+  padding: 0;
+  list-style: none;
+  font-size: 0.94rem;
+  color: #2b2a2c;
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  .contact__info {
+    margin: 1rem 0 2rem;
+  }
+}
+.contact__info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+.contact__info-item:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .contact__info-item {
+    font-size: 0.7rem;
+  }
+}
+.contact__info-icon {
+  margin-right: 0.75rem;
+}
+.form__group {
+  margin-bottom: 1.8rem;
+}
+@media (max-width: 767px) {
+  .form__group {
+    margin-bottom: 1rem;
+  }
+}
+.form__label {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  font-size: 0.8rem;
+  color: #2b2a2c;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .form__label {
+    font-size: 0.7rem;
+  }
+}
+.form__input,
+.form__textarea {
+  display: block;
+  width: 100%;
+  padding: 1.3rem 1.8rem;
+  border: 1px solid rgba(112, 112, 112, 0.3);
+  border-radius: 1.8rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #2b2a2c;
+  transition: border-color 0.2s linear;
+}
+.form__input:focus,
+.form__textarea:focus {
+  outline: none;
+  border-color: #36abc7;
+}
+.form__input::placeholder,
+.form__textarea::placeholder {
+  color: #2b2a2c;
+}
+@media (max-width: 991px) {
+  .form__input,
+  .form__textarea {
+    width: 74%;
+  }
+}
+@media (max-width: 767px) {
+  .form__input,
+  .form__textarea {
+    width: 88%;
+    padding: 0.7rem 0.7rem;
+    font-size: 0.6rem;
+  }
+}
+.form__textarea {
+  height: 200px;
+  resize: none;
+}
+@media (max-width: 767px) {
+  .form__textarea {
+    height: 115px;
+  }
+}
 /* Helpers */
 .center {
   display: flex;
