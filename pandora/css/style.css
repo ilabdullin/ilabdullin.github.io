@@ -780,7 +780,7 @@ h6 {
   }
 }
 .contact__info {
-  margin: 2rem 0 3rem;
+  margin: 1rem 0 1rem;
   padding: 0;
   list-style: none;
   font-size: 0.94rem;
@@ -809,7 +809,7 @@ h6 {
   margin-right: 0.75rem;
 }
 .form__group {
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.2rem;
 }
 @media (max-width: 767px) {
   .form__group {
