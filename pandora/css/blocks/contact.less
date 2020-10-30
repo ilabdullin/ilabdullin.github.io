@@ -1,12 +1,19 @@
 // main: ../style.less
 
-.contact__content {
-    border-radius: 2rem;
-    padding: 2.4rem;
+.contact__bg {
+    position: absolute;
+    top: 197.5rem;
+    right: 8.5rem;
 }
 
 .contact__content {
     background: #000B1B center no-repeat;
+    border-radius: 2rem;
+    padding: 2.4rem;
+    width: 39%;
+    position: absolute;
+    top: 202rem;
+    right: 5rem;
 }
 
 .contact__title {
@@ -58,8 +65,19 @@
     }
 }
 
+.contact__social {
+    display: flex;
+}
+
 .contact__social-link {
     padding-right: 1rem;
+    text-decoration: none;
+
+    transition: transform 0.2s linear;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
 
     &:last-child {
         padding-right: 0;
