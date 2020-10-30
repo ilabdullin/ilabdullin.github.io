@@ -678,7 +678,7 @@ h6 {
   height: 100%;
   padding: 0 1rem;
   overflow: auto;
-  background-color: rgba(43, 42, 44, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   top: 0;
   left: 0;
@@ -697,7 +697,8 @@ h6 {
   transition: transform 0.2s linear;
 }
 .modal__dialog--sm {
-  max-width: 900px;
+  max-width: 30rem;
+  border-radius: 7%;
 }
 .modal__close {
   width: 34px;
@@ -727,6 +728,7 @@ h6 {
   text-transform: uppercase;
   color: #2b2a2c;
   font-weight: 700;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .modal__title {
@@ -758,21 +760,10 @@ h6 {
 }
 .contact--modal {
   display: flex;
-  background: url(https://placehold.it/477x700) right center no-repeat;
-}
-@media (max-width: 991px) {
-  .contact--modal {
-    background: url(https://placehold.it/450x630) right center no-repeat;
-  }
-}
-@media (max-width: 767px) {
-  .contact--modal {
-    background: url(https://placehold.it/190x450) right center no-repeat;
-  }
 }
 .contact__left {
   padding: 2rem;
-  width: 47%;
+  width: 100%;
 }
 @media (max-width: 991px) {
   .contact__left {
