@@ -347,10 +347,19 @@ h6 {
   display: flex;
   z-index: 1000;
   position: absolute;
+  top: 12rem;
   right: 0;
   padding-left: 12rem;
 }
+.accordion__img--phone {
+  display: flex;
+  top: 56.5rem;
+  right: 7.5rem;
+}
 .accordion__img--bg {
+  display: flex;
+  top: 60.5rem;
+  right: 1rem;
   z-index: 1;
 }
 .section--catalog {
