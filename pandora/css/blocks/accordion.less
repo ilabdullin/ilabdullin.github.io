@@ -40,6 +40,11 @@
 
 .accordion__text {
     width: 50%;
+
+    @media @mobile {
+        width: 100%;
+        text-align: justify;
+    }
 }
 
 .accordion__img {
@@ -62,6 +67,12 @@
         right: 6.5rem;
         width: 48%;
     }
+
+    @media @mobile {
+        top: 82.5rem;
+        right: 5.5rem;
+        width: 100%;
+    }
 }
 
 .accordion__img--bg {
@@ -74,6 +85,12 @@
         top: 57.7rem;
         right: 2rem;
         width: 65%;
+    }
+
+    @media @mobile {
+        top: 84.7rem;
+        right: 1rem;
+        width: 135%;
     }
 }
 
