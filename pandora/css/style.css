@@ -774,6 +774,11 @@ h6 {
     margin-left: 7.5rem;
   }
 }
+@media (max-width: 767px) {
+  .about__img--bg {
+    margin-left: 3.5rem;
+  }
+}
 .about__img--card {
   position: absolute;
   top: 50%;
@@ -788,6 +793,13 @@ h6 {
     width: 80%;
     top: 184.5rem;
     left: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  .about__img--card {
+    width: 75%;
+    top: 249.5rem;
+    left: 3rem;
   }
 }
 .about__content {
