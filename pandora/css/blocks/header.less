@@ -13,8 +13,23 @@
 
 .header__inner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    @media @tablet {
+        justify-content: space-between;
+    }
+    @media @mobile {
+        justify-content: center;
+    }
+}
+
+.header__logo {
+
+    @media @mobile {
+        padding-bottom: 1.5rem;
+    }
 }
 
 .contact__info--header {
@@ -26,6 +41,14 @@
     flex-wrap: wrap;
     align-items: center;
 
+    @media @tablet {
+        width: 62%;
+    }
+
+    @media @mobile {
+        width: 62%;
+    }
+
     &:last-child {
         padding-right: 0;
     }
@@ -35,6 +58,12 @@
     margin-right: 0.9rem;
     width: 18px;
     height: 18px;
+
+    @media @mobile {
+        width: 16px;
+        height: 16px;
+        margin-right: 0.5rem;
+    }
 }
 
 .contact__info-number--header {
@@ -42,6 +71,10 @@
     font-weight: 700;
     color: @white;
     font-size: 1.2rem;
+
+    @media @mobile {
+        font-size: 0.9rem;
+    }
 }
 
 .contact__info-time--header {
@@ -52,6 +85,11 @@
     color: @white;
     opacity: 0.7;
     text-align: center;
+
+    @media @mobile {
+        width: 100%;
+        font-size: 0.9rem;
+    }
 }
 
 .callback {
@@ -64,6 +102,10 @@
     cursor: pointer;
 
     transition: opacity 0.1s linear;
+
+    @media @mobile {
+        font-size: 0.9rem;
+    }
 
     &:after {
         content: "";
@@ -81,6 +123,7 @@
 
     &:hover {
         opacity: 0.9;
+
         &:after {
             width: 100%;
         }

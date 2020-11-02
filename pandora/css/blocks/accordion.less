@@ -10,6 +10,10 @@
 
     transition: color 0.1s linear;
 
+    @media @tablet {
+        font-size: 1.3rem;
+    }
+
     &:focus {
         color: @accordion-text;
         outline: 0;
@@ -28,6 +32,10 @@
     font-weight: 400;
     font-size: 1.2rem;
     color: @accordion-text;
+
+    @media @tablet {
+        font-size: 1rem;
+    }
 }
 
 .accordion__text {
@@ -48,6 +56,12 @@
     display: flex;
     top: 56.5rem;
     right: 7.5rem;
+
+    @media @tablet {
+        top: 55.5rem;
+        right: 6.5rem;
+        width: 48%;
+    }
 }
 
 .accordion__img--bg {
@@ -55,6 +69,12 @@
     top: 60.5rem;
     right: 1rem;
     z-index: 1;
+
+    @media @tablet {
+        top: 57.7rem;
+        right: 2rem;
+        width: 65%;
+    }
 }
 
 

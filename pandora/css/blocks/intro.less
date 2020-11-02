@@ -11,6 +11,10 @@
     background: #000B1B center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+
+    @media @tablet {
+        min-height: 730px;
+    }
 }
 
 .intro__slider {
@@ -27,6 +31,10 @@
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+
+    @media @tablet {
+        height: 35rem;
+    }
 }
 
 .intro__content {
@@ -34,6 +42,13 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
+
+    @media @tablet {
+        width: 47%;
+        height: 88%;
+
+        margin-left: 1rem;
+    }
 }
 
 .intro__title {
@@ -43,6 +58,12 @@
     font-size: 3.2rem;
     line-height: 3.7rem;
     width: 71%;
+
+    @media @tablet {
+        font-size: 2rem;
+        line-height: 2.3rem;
+        width: 80%;
+    }
 }
 
 .intro__subtitle {
@@ -52,12 +73,21 @@
     line-height: 1.7rem;
     color: @white;
     opacity: 0.7;
+
+    @media @tablet {
+        font-size: 1.1rem;
+    }
 }
 
 .intro__photo {
     width: 50%;
     height: 41rem;
     position: relative;
+
+    @media @tablet {
+        width: 43%;
+        height: 88%;
+    }
 
     &:before,
     &:after,
@@ -75,6 +105,13 @@
         border-radius: 50%;
         box-shadow: 0 0 9px @blue;
         animation: pulsate 6s ease-out infinite;
+
+         @media @tablet {
+             height: 25rem;
+             width: 25rem;
+             left: -6%;
+             top: 8%;
+         }
     }
 
     &:after {
@@ -90,6 +127,11 @@
     z-index: 1;
 
     transform: translateY(-50%);
+
+    @media @tablet {
+        width: 100%;
+        right: 1%;
+    }
 
     & {
         animation-delay: 1s;

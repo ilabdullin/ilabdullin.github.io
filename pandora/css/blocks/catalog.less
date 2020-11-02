@@ -25,6 +25,10 @@
     padding-left: 2rem;
     padding-bottom: 2rem;
 
+    @media @tablet {
+        padding-left: 5.5rem;
+    }
+
     &:last-child {
         padding-right: 0;
     }
@@ -37,6 +41,10 @@
     color: @white;
     padding-bottom: 4.7rem;
 
+    @media @tablet {
+        font-size: 3rem;
+        padding-bottom: 3.7rem;
+    }
 }
 
 .catalog__name {
@@ -47,6 +55,10 @@
     font-weight: 700;
     font-size: 1.2rem;
     color: @white;
+
+    @media @tablet {
+        padding-left: 3rem;
+    }
 }
 
 .catalog__price {
@@ -56,6 +68,10 @@
     font-weight: 400;
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.7);
+
+    @media @tablet {
+        padding-left: 6rem;
+    }
 }
 
 .catalog__slider .slick-slider {
@@ -81,7 +97,9 @@
     z-index: 1;
     transform: translateX(-5px);
 
-
+    @media @tablet {
+        top: -11.5%;
+    }
 }
 
 
@@ -108,12 +126,21 @@
     top: -7.76rem;
     left: 71rem;
     transform: rotate(-45deg);
+
+    @media @tablet {
+        top: -7rem;
+        left: 35rem;
+    }
 }
 
 
 .slick-next {
     right: 0;
     transform: rotate(135deg);
+
+    @media @tablet {
+        right: 6rem;
+    }
 }
 
 
