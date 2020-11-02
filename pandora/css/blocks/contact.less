@@ -1,9 +1,21 @@
 // main: ../style.less
 
+.contact {
+    @media @tablet {
+        background: #000B1B center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
 .contact__bg {
     position: absolute;
     top: 200.5rem;
     right: 8.5rem;
+
+    @media @tablet {
+        display: none;
+    }
 }
 
 .contact__content {
@@ -14,6 +26,12 @@
     position: absolute;
     top: 205rem;
     right: 5rem;
+
+    @media @tablet {
+        background: none;
+        position: inherit;
+        width: 100%;
+    }
 }
 
 .contact__title {

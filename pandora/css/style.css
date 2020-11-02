@@ -780,6 +780,7 @@ h6 {
   }
 }
 .footer {
+  margin-top: auto;
   padding: 1rem 0;
   background-color: #000B1B;
 }
@@ -817,10 +818,22 @@ h6 {
 .footer__getsmart:hover {
   text-decoration: none;
 }
+@media (max-width: 991px) {
+  .contact {
+    background: #000B1B center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
 .contact__bg {
   position: absolute;
   top: 200.5rem;
   right: 8.5rem;
+}
+@media (max-width: 991px) {
+  .contact__bg {
+    display: none;
+  }
 }
 .contact__content {
   background: #000B1B center no-repeat;
@@ -830,6 +843,13 @@ h6 {
   position: absolute;
   top: 205rem;
   right: 5rem;
+}
+@media (max-width: 991px) {
+  .contact__content {
+    background: none;
+    position: inherit;
+    width: 100%;
+  }
 }
 .contact__title {
   font-family: 'Raleway', sans-serif;
