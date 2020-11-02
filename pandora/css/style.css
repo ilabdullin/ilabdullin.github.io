@@ -471,6 +471,11 @@ h6 {
 }
 @media (max-width: 767px) {
   .btn--intro {
+    margin-left: 9.5rem;
+  }
+}
+@media (max-width: 412px) {
+  .btn--intro {
     margin-left: 8rem;
   }
 }
