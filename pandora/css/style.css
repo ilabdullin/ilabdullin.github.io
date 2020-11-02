@@ -211,6 +211,11 @@ h6 {
     height: 730px;
   }
 }
+@media (max-width: 767px) {
+  .intro__slider {
+    height: 820px;
+  }
+}
 .intro__slider.slick-initialized {
   height: auto;
   margin-top: 9.6rem;
