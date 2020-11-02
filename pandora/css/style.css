@@ -827,7 +827,7 @@ h6 {
 }
 .contact__bg {
   position: absolute;
-  top: 200.5rem;
+  top: 197.5rem;
   right: 8.5rem;
 }
 @media (max-width: 991px) {
@@ -841,7 +841,7 @@ h6 {
   padding: 2.4rem;
   width: 39%;
   position: absolute;
-  top: 205rem;
+  top: 202rem;
   right: 5rem;
 }
 @media (max-width: 991px) {
