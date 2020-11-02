@@ -28,6 +28,7 @@
     right: 5rem;
 
     @media @tablet {
+        text-align: center;
         background: none;
         position: inherit;
         width: 100%;
@@ -46,6 +47,10 @@
     display: flex;
     align-items: center;
     padding-bottom: 1.2rem;
+
+    @media @tablet {
+        justify-content: center;
+    }
 
     &:last-child {
         padding-bottom: 1.6rem;
@@ -85,6 +90,10 @@
 
 .contact__social {
     display: flex;
+
+    @media @tablet {
+        justify-content: center;
+    }
 }
 
 .contact__social-link {
