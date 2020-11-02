@@ -491,6 +491,11 @@ h6 {
     margin-left: 3.9rem;
   }
 }
+@media (max-width: 767px) {
+  .btn--catalog {
+    margin-left: 1.3rem;
+  }
+}
 .btn--modal {
   padding: 35px;
   padding-top: 20px;
@@ -623,6 +628,14 @@ h6 {
   }
 }
 .section--catalog {
+  padding: 80px 0;
+}
+@media (max-width: 767px) {
+  .section--catalog {
+    padding: 50px 0;
+  }
+}
+.section--catalog {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -649,6 +662,13 @@ h6 {
     padding-left: 5.5rem;
   }
 }
+@media (max-width: 767px) {
+  .catalog__item {
+    width: 49%;
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+}
 .catalog__item:last-child {
   padding-right: 0;
 }
@@ -665,6 +685,18 @@ h6 {
     padding-bottom: 3.7rem;
   }
 }
+@media (max-width: 767px) {
+  .catalog__title {
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .catalog__img {
+    margin-left: 2rem;
+    width: 60%;
+  }
+}
 .catalog__name {
   padding-top: 1.2rem;
   padding-bottom: 0.7rem;
@@ -678,6 +710,11 @@ h6 {
     padding-left: 3rem;
   }
 }
+@media (max-width: 767px) {
+  .catalog__name {
+    padding-left: 0;
+  }
+}
 .catalog__price {
   padding-bottom: 1.4rem;
   font-family: 'Montserrat', sans-serif;
@@ -688,6 +725,11 @@ h6 {
 @media (max-width: 991px) {
   .catalog__price {
     padding-left: 6rem;
+  }
+}
+@media (max-width: 767px) {
+  .catalog__price {
+    padding-left: 3.5rem;
   }
 }
 .catalog__slider .slick-slider {
@@ -711,6 +753,11 @@ h6 {
 @media (max-width: 991px) {
   .slick-arrow {
     top: -11.5%;
+  }
+}
+@media (max-width: 767px) {
+  .slick-arrow {
+    top: -12%;
   }
 }
 .slick-arrow:focus {
@@ -737,6 +784,12 @@ h6 {
     left: 35rem;
   }
 }
+@media (max-width: 767px) {
+  .slick-prev {
+    top: -5.1rem;
+    left: 15.7rem;
+  }
+}
 .slick-next {
   right: 0;
   transform: rotate(135deg);
@@ -744,6 +797,11 @@ h6 {
 @media (max-width: 991px) {
   .slick-next {
     right: 6rem;
+  }
+}
+@media (max-width: 767px) {
+  .slick-next {
+    right: 0;
   }
 }
 .section--about {
@@ -831,7 +889,7 @@ h6 {
 @media (max-width: 767px) {
   .about__img--card {
     width: 75%;
-    top: 249.5rem;
+    top: 179.2rem;
     left: 3rem;
   }
 }
@@ -937,7 +995,7 @@ h6 {
 }
 .contact__bg {
   position: absolute;
-  top: 197.5rem;
+  top: 200.5rem;
   right: 8.5rem;
 }
 @media (max-width: 991px) {
@@ -951,7 +1009,7 @@ h6 {
   padding: 2.4rem;
   width: 39%;
   position: absolute;
-  top: 202rem;
+  top: 205rem;
   right: 5rem;
 }
 @media (max-width: 991px) {

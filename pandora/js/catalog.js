@@ -4,7 +4,7 @@ $(function() {
     let slider = $("#catalogSlider");
 
     slider.slick({
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1,
