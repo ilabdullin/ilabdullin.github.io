@@ -28,10 +28,20 @@
     right: 5rem;
 
     @media @tablet {
+        border-radius: 0;
         text-align: center;
         background: none;
         position: inherit;
         width: 100%;
+    }
+
+    @media @mobile {
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        border-radius: 0;
     }
 }
 
@@ -41,6 +51,11 @@
     font-size: 3.2rem;
     color: @white;
     padding-bottom: 1.6rem;
+
+    @media @mobile {
+        font-size: 1.5rem;
+        padding-bottom: 0.6rem;
+    }
 }
 
 .contact__content-item {
@@ -66,6 +81,10 @@
     font-weight: 400;
     font-size: 1.2rem;
     color: @white;
+
+    @media @mobile {
+        font-size: 1rem;
+    }
 }
 
 .contact__phone {
@@ -75,6 +94,12 @@
     color: @white;
 
     padding-right: 2rem;
+
+    @media @mobile {
+        padding-right: 1rem;
+
+        font-size: 1rem;
+    }
 }
 
 .callback--contact {
@@ -82,6 +107,10 @@
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
+
+    @media @mobile {
+        font-size: 1rem;
+    }
 
     &:after {
         top: 2.5rem;
