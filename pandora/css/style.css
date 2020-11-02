@@ -197,6 +197,11 @@ h6 {
     min-height: 730px;
   }
 }
+@media (max-width: 767px) {
+  .intro {
+    min-height: 820px;
+  }
+}
 .intro__slider {
   height: 500px;
   overflow: hidden;
@@ -215,6 +220,11 @@ h6 {
     height: 35rem;
   }
 }
+@media (max-width: 767px) {
+  .intro__item {
+    height: 42rem;
+  }
+}
 .intro__content {
   display: flex;
   flex-direction: column;
@@ -231,6 +241,8 @@ h6 {
 @media (max-width: 767px) {
   .intro__content {
     width: 100%;
+    height: 70%;
+    margin-left: 0;
   }
 }
 .intro__title {
@@ -250,6 +262,8 @@ h6 {
 }
 @media (max-width: 991px) and (max-width: 767px) {
   .intro__title {
+    text-align: center;
+    padding-bottom: 1rem;
     width: 100%;
   }
 }
@@ -266,6 +280,11 @@ h6 {
     font-size: 1.1rem;
   }
 }
+@media (max-width: 767px) {
+  .intro__subtitle {
+    text-align: center;
+  }
+}
 .intro__photo {
   width: 50%;
   height: 41rem;
@@ -275,6 +294,12 @@ h6 {
   .intro__photo {
     width: 43%;
     height: 88%;
+  }
+}
+@media (max-width: 767px) {
+  .intro__photo {
+    width: 75%;
+    height: 20%;
   }
 }
 .intro__photo:before,
@@ -302,6 +327,15 @@ h6 {
     top: 8%;
   }
 }
+@media (max-width: 767px) {
+  .intro__photo:before,
+  .intro__photo:after {
+    height: 17rem;
+    width: 17rem;
+    left: 18%;
+    top: -70%;
+  }
+}
 .intro__photo:after {
   animation-delay: 1.6s;
   -webkit-animation-delay: 1.6s;
@@ -319,6 +353,12 @@ h6 {
   .intro__img {
     width: 100%;
     right: 1%;
+  }
+}
+@media (max-width: 767px) {
+  .intro__img {
+    top: 35%;
+    right: -15%;
   }
 }
 @-webkit-keyframes pulsate {
@@ -425,8 +465,13 @@ h6 {
 }
 @media (max-width: 991px) {
   .btn--intro {
-    margin-top: 1.6rem;
+    margin-top: 1.3rem;
     margin-left: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .btn--intro {
+    margin-left: 8rem;
   }
 }
 @keyframes radial-pulse {
