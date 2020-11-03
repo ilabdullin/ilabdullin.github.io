@@ -106,7 +106,12 @@ h6 {
 }
 @media (max-width: 767px) {
   .contact__info-item--header {
-    width: 62%;
+    width: 57%;
+  }
+}
+@media (max-width: 412px) {
+  .contact__info-item--header {
+    width: 88%;
   }
 }
 .contact__info-item--header:last-child {
@@ -145,8 +150,13 @@ h6 {
 }
 @media (max-width: 767px) {
   .contact__info-time--header {
-    width: 100%;
+    width: 99%;
     font-size: 0.9rem;
+  }
+}
+@media (max-width: 412px) {
+  .contact__info-time--header {
+    width: 100%;
   }
 }
 .callback {
@@ -161,7 +171,14 @@ h6 {
 }
 @media (max-width: 767px) {
   .callback {
+    padding-left: 2rem;
     font-size: 0.9rem;
+  }
+}
+@media (max-width: 412px) {
+  .callback {
+    padding-left: 0;
+    width: 53%;
   }
 }
 .callback:after {
@@ -340,10 +357,10 @@ h6 {
 @media (max-width: 767px) {
   .intro__photo:before,
   .intro__photo:after {
-    height: 18rem;
-    width: 18rem;
-    left: 15%;
-    top: -72%;
+    height: 19rem;
+    width: 19rem;
+    left: 17%;
+    top: -73%;
   }
 }
 .intro__photo:after {
@@ -508,7 +525,15 @@ h6 {
 }
 @media (max-width: 767px) {
   .btn--catalog {
-    margin-left: 1.3rem;
+    margin-left: 1.6rem;
+    padding: 39px 10px;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 412px) {
+  .btn--catalog {
+    padding: 40px 10px;
   }
 }
 .btn--modal {
@@ -537,6 +562,11 @@ h6 {
 @media (max-width: 767px) {
   .section--features {
     padding-top: 50px;
+    padding-bottom: 35rem;
+  }
+}
+@media (max-width: 412px) {
+  .section--features {
     padding-bottom: 30rem;
   }
 }
@@ -624,9 +654,15 @@ h6 {
 }
 @media (max-width: 767px) {
   .accordion__img--phone {
-    top: 82.5rem;
-    right: 5.5rem;
+    top: 81.5rem;
+    right: 6.5rem;
     width: 100%;
+  }
+}
+@media (max-width: 412px) {
+  .accordion__img--phone {
+    top: 82rem;
+    right: 5.8rem;
   }
 }
 .accordion__img--bg {
@@ -686,7 +722,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .catalog__item {
-    width: 49%;
+    width: 47%;
     padding-left: 1rem;
     padding-right: 0;
   }
@@ -710,7 +746,7 @@ h6 {
 @media (max-width: 767px) {
   .catalog__title {
     font-size: 2rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.5rem;
   }
 }
 @media (max-width: 767px) {
@@ -779,7 +815,12 @@ h6 {
 }
 @media (max-width: 767px) {
   .slick-arrow {
-    top: -12%;
+    top: -14.65%;
+  }
+}
+@media (max-width: 412px) {
+  .slick-arrow {
+    top: -15.15%;
   }
 }
 .slick-arrow:focus {
@@ -808,7 +849,12 @@ h6 {
 }
 @media (max-width: 767px) {
   .slick-prev {
-    top: -5.1rem;
+    top: -6.22rem;
+    left: 18.7rem;
+  }
+}
+@media (max-width: 412px) {
+  .slick-prev {
     left: 15.7rem;
   }
 }
@@ -911,8 +957,13 @@ h6 {
 @media (max-width: 767px) {
   .about__img--card {
     width: 75%;
-    top: 179.2rem;
+    top: 184.2rem;
     left: 3rem;
+  }
+}
+@media (max-width: 412px) {
+  .about__img--card {
+    top: 178.3rem;
   }
 }
 .about__content {
@@ -943,6 +994,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .about__title {
+    font-size: 1.7rem;
     text-align: center;
   }
 }
@@ -957,6 +1009,11 @@ h6 {
 @media (max-width: 991px) {
   .about__text {
     text-align: justify;
+  }
+}
+@media (max-width: 767px) {
+  .about__text {
+    font-size: 1rem;
   }
 }
 .footer {
@@ -1061,7 +1118,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .contact__title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-bottom: 0.6rem;
   }
 }
@@ -1078,9 +1135,6 @@ h6 {
 .contact__content-item:last-child {
   padding-bottom: 1.6rem;
 }
-.contact__icon {
-  margin-right: 0.9rem;
-}
 .contact__address {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -1089,7 +1143,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .contact__address {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .contact__phone {
@@ -1102,7 +1156,7 @@ h6 {
 @media (max-width: 767px) {
   .contact__phone {
     padding-right: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .callback--contact {
@@ -1113,7 +1167,12 @@ h6 {
 }
 @media (max-width: 767px) {
   .callback--contact {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 412px) {
+  .callback--contact {
+    width: 40%;
   }
 }
 .callback--contact:after {
@@ -1141,6 +1200,20 @@ h6 {
 .contact__icon {
   width: 16px;
   height: 18px;
+  margin-right: 0.9rem;
+}
+@media (max-width: 767px) {
+  .contact__icon {
+    width: 12px;
+    height: 14px;
+    margin-right: 0.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .social__img {
+    width: 40px;
+    height: 40px;
+  }
 }
 .modal {
   display: none;

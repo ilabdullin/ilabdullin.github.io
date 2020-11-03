@@ -46,7 +46,11 @@
     }
 
     @media @mobile {
-        width: 62%;
+        width: 57%;
+    }
+
+    @media @mobile-sm {
+        width: 88%;
     }
 
     &:last-child {
@@ -87,8 +91,12 @@
     text-align: center;
 
     @media @mobile {
-        width: 100%;
+        width: 99%;
         font-size: 0.9rem;
+    }
+
+    @media @mobile-sm {
+        width: 100%;
     }
 }
 
@@ -104,7 +112,14 @@
     transition: opacity 0.1s linear;
 
     @media @mobile {
+        padding-left: 2rem;
+
         font-size: 0.9rem;
+    }
+
+    @media @mobile-sm {
+        padding-left: 0;
+        width: 53%;
     }
 
     &:after {
