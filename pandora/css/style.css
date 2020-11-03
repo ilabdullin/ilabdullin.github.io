@@ -179,10 +179,13 @@ h6 {
 .callback {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  padding: 14px 20px;
+  border-radius: 7px 7px 7px 7px;
+  border: 0;
+  background: #0065F5;
+  font-weight: 600;
   text-decoration: none;
   color: #fff;
-  opacity: 0.7;
   cursor: pointer;
   transition: opacity 0.1s linear;
 }
@@ -203,22 +206,8 @@ h6 {
     font-size: 0.7rem;
   }
 }
-.callback:after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background-color: #0065F5;
-  position: absolute;
-  bottom: 1rem;
-  left: 0;
-  z-index: 1000;
-  transition: width 0.2s linear;
-}
 .callback:hover {
-  opacity: 0.9;
-}
-.callback:hover:after {
-  width: 100%;
+  opacity: 0.7;
 }
 .intro {
   display: flex;
@@ -602,6 +591,13 @@ h6 {
     padding: 29px;
     padding-top: 16px;
     width: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .btn--modal {
+    padding: 25px;
+    padding-top: 10px;
+    width: 130px;
   }
 }
 .section--features {
@@ -1284,7 +1280,7 @@ h6 {
 }
 .callback--contact {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.2rem;
   line-height: 1.4;
 }
