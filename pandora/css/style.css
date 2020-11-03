@@ -211,8 +211,9 @@ h6 {
 }
 @media (max-width: 320px) {
   .callback {
-    width: 58%;
-    font-size: 0.6rem;
+    width: 50%;
+    font-size: 0.5rem;
+    line-height: 0.7;
     padding: 14px 5px;
     padding-left: 0.6rem;
   }
