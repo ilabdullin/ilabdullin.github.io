@@ -178,6 +178,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .contact__info-time--header {
+    width: 87%;
     font-size: 0.7rem;
   }
 }
@@ -210,8 +211,8 @@ h6 {
 }
 @media (max-width: 320px) {
   .callback {
-    width: 78%;
-    font-size: 0.7rem;
+    width: 58%;
+    font-size: 0.6rem;
     padding: 14px 5px;
     padding-left: 0.6rem;
   }
@@ -1336,7 +1337,7 @@ h6 {
   .callback--contact {
     padding: 14px 10px;
     padding-left: 0.8rem;
-    width: 48%;
+    width: 45%;
     font-size: 0.7rem;
   }
 }
