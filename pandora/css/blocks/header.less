@@ -34,6 +34,10 @@
 
 .contact__info--header {
     display: flex;
+
+    @media @mobile {
+        justify-content: space-between;
+    }
 }
 
 .contact__info-item--header {
@@ -54,7 +58,7 @@
     }
 
     @media @mobile-very-sm {
-        width: 100%;
+        width: 97%;
     }
 
     &:last-child {
@@ -143,13 +147,13 @@
     }
 
     @media @mobile-sm {
-        padding: 14px 20px;
-        padding-left: 1.4rem;
+        padding: 14px 10px;
+        padding-left: 1rem;
     }
 
     @media @mobile-very-sm {
-        width: 50%;
-        font-size: 0.5rem;
+        width: 58%;
+        font-size: 0.6rem;
         line-height: 0.7;
 
         padding: 14px 5px;

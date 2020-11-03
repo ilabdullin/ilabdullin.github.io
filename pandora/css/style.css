@@ -94,6 +94,11 @@ h6 {
 .contact__info--header {
   display: flex;
 }
+@media (max-width: 767px) {
+  .contact__info--header {
+    justify-content: space-between;
+  }
+}
 .contact__info-item--header {
   display: flex;
   flex-wrap: wrap;
@@ -116,7 +121,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .contact__info-item--header {
-    width: 100%;
+    width: 97%;
   }
 }
 .contact__info-item--header:last-child {
@@ -205,14 +210,14 @@ h6 {
 }
 @media (max-width: 412px) {
   .callback {
-    padding: 14px 20px;
-    padding-left: 1.4rem;
+    padding: 14px 10px;
+    padding-left: 1rem;
   }
 }
 @media (max-width: 320px) {
   .callback {
-    width: 50%;
-    font-size: 0.5rem;
+    width: 58%;
+    font-size: 0.6rem;
     line-height: 0.7;
     padding: 14px 5px;
     padding-left: 0.6rem;
