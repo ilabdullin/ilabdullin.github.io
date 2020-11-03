@@ -10,7 +10,7 @@
 
 .contact__bg {
     position: absolute;
-    top: 200.5rem;
+    top: 198.5rem;
     right: 8.5rem;
 
     @media @tablet {
@@ -24,7 +24,7 @@
     padding: 2.4rem;
     width: 39%;
     position: absolute;
-    top: 205rem;
+    top: 202rem;
     right: 5rem;
 
     @media @tablet {
@@ -56,6 +56,10 @@
         font-size: 1.3rem;
         padding-bottom: 0.6rem;
     }
+
+    @media @mobile-very-sm {
+        font-size: 1.2rem;
+    }
 }
 
 .contact__content-item {
@@ -81,6 +85,10 @@
     @media @mobile {
         font-size: 0.8rem;
     }
+
+    @media @mobile-very-sm {
+        font-size: 0.7rem;
+    }
 }
 
 .contact__phone {
@@ -96,6 +104,10 @@
 
         font-size: 0.8rem;
     }
+
+    @media @mobile-very-sm {
+        font-size: 0.7rem;
+    }
 }
 
 .callback--contact {
@@ -105,11 +117,21 @@
     line-height: 1.4;
 
     @media @mobile {
+        padding: 14px 20px;
+        padding-left: 1.3rem;
         font-size: 0.8rem;
+        line-height: 1;
     }
 
     @media @mobile-sm {
-        width: 40%;
+        width: 48%;
+    }
+
+    @media @mobile-very-sm {
+        padding: 14px 10px;
+        padding-left: 0.8rem;
+        width: 48%;
+        font-size: 0.7rem;
     }
 
     &:after {
@@ -151,6 +173,10 @@
         height: 14px;
 
         margin-right: 0.5rem;
+    }
+
+    @media @mobile-very-sm {
+        margin-right: 0.3rem;
     }
 }
 
