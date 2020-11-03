@@ -51,6 +51,10 @@
     @media @mobile {
         height: 120rem;
     }
+
+    @media @mobile-very-sm {
+        height: 118rem;
+    }
 }
 
 .intro__content {
@@ -86,12 +90,16 @@
         font-size: 2rem;
         line-height: 2.3rem;
         width: 80%;
+    }
 
-        @media @mobile {
-            text-align: center;
-            padding-bottom: 1rem;
-            width: 100%;
-        }
+    @media @mobile {
+        text-align: center;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+    @media @mobile-very-sm {
+        padding-bottom: 0.5rem;
     }
 }
 
@@ -156,6 +164,13 @@
              width: 19rem;
              left: 17%;
              top: -73%;
+         }
+
+         @media @mobile-very-sm {
+             height: 17rem;
+             width: 17rem;
+             left: 9%;
+             top: 72%;
          }
     }
 
