@@ -1,0 +1,275 @@
+// main: ../style.less
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 820px;
+
+    background: #000B1B center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    @media @tablet {
+        min-height: 730px;
+    }
+
+    @media @mobile {
+        min-height: 820px;
+    }
+}
+
+.intro__slider {
+    height: 820px;
+    overflow: hidden;
+
+    @media @tablet {
+        height: 730px;
+    }
+
+    @media @mobile {
+        height: 820px;
+    }
+}
+
+.intro__slider.slick-initialized {
+    height: auto;
+    margin-top: 9.6rem;
+}
+
+.intro__item {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    @media @tablet {
+        height: 60rem;
+    }
+
+    @media @mobile {
+        height: 120rem;
+    }
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+    @media @tablet {
+        width: 47%;
+        height: 88%;
+
+        margin-left: 3rem;
+    }
+
+    @media @mobile {
+        width: 100%;
+        height: 70%;
+
+        margin-left: 0;
+    }
+}
+
+.intro__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: @white;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    width: 71%;
+
+    @media @tablet {
+        font-size: 2rem;
+        line-height: 2.3rem;
+        width: 80%;
+
+        @media @mobile {
+            text-align: center;
+            padding-bottom: 1rem;
+            width: 100%;
+        }
+    }
+}
+
+.intro__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: @white;
+    opacity: 0.7;
+
+    @media @tablet {
+        font-size: 1.1rem;
+    }
+
+    @media @mobile {
+        text-align: center;
+    }
+}
+
+.intro__photo {
+    width: 50%;
+    height: 51rem;
+    position: relative;
+
+    @media @tablet {
+        width: 43%;
+        height: 88%;
+    }
+
+    @media @mobile {
+        width: 75%;
+        height: 100rem;
+    }
+
+    &:before,
+    &:after,
+     {
+        border: 3px solid @blue;
+        position: absolute;
+        content: '';
+        height: 45rem;
+        width: 45rem;
+        left: -2%;
+        right: 0;
+        top: 10%;
+        z-index: 0;
+        margin: 0 auto;
+        border-radius: 50%;
+        box-shadow: 0 0 9px @blue;
+        animation: pulsate 6s ease-out infinite;
+
+         @media @tablet {
+             height: 25rem;
+             width: 25rem;
+             left: -6%;
+             top: 25%;
+         }
+
+         @media @mobile {
+             height: 19rem;
+             width: 19rem;
+             left: 17%;
+             top: -73%;
+         }
+    }
+
+    &:after {
+        animation-delay: 1.6s;
+        -webkit-animation-delay: 1.6s;
+    }
+}
+
+.intro__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+
+    @media @tablet {
+        width: 100%;
+        right: 1%;
+    }
+
+    @media @mobile {
+        top: -63%;
+        right: -15%;
+    }
+
+    & {
+        animation-delay: 1s;
+        -webkit-animation-delay: 1s;
+    }
+}
+
+@-webkit-keyframes pulsate {
+     0% {
+       transform: scale(0, 0);
+       -webkit-transform: scale(0, 0);
+       opacity: 1;
+     }
+     100% {
+       transform: scale(1.2, 1.2);
+       -webkit-transform: scale(1.2, 1.2);
+       opacity: 0;
+     }
+}
+
+/*.car__ripple {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    animation: ripple 7s linear infinite;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0rem rgba(3, 9, 154, 0.47),
+        0 0 0 1rem rgba(3, 9, 154, 0.47),
+        0 0 0 2rem rgba(3, 9, 154, 0.47),
+        0 0 0 5rem rgba(3, 9, 154, 0.47);
+  }
+  100% {
+    box-shadow: 0 0 0 1rem rgba(3, 9, 154, 0.47),
+        0 0 0 2rem rgba(3, 9, 154, 0.47),
+        0 0 0 5rem rgba(3, 9, 154, 0.47),
+        0 0 0 8rem rgba(3, 9, 154, 0);
+  }
+}*/
+
+.slick-item:focus {
+    outline: 0;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 0 10px;
+
+    list-style: none;
+
+    width: 100%;
+    z-index: 2;
+}
+
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+
+.slick-dots button {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+
+    background: #fff;
+    border-radius: 50%;
+    border: 0;
+    opacity: 0.5;
+    cursor: pointer;
+
+
+    font-size: 0;
+    color: transparent;
+}
+
+
+.slick-dots button:focus {
+    outline: 0;
+}
+
+
+.slick-dots .slick-active button {
+    background: #0065F5;
+}
+
+
+
