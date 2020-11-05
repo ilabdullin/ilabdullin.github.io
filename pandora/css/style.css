@@ -941,7 +941,7 @@ h6 {
 }
 @media (max-width: 412px) {
   .slick-arrow {
-    top: -15.32%;
+    top: -15.55%;
   }
 }
 @media (max-width: 320px) {
@@ -986,6 +986,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .slick-prev {
+    top: -6.22rem;
     left: 12.7rem;
   }
 }
@@ -1088,18 +1089,18 @@ h6 {
 @media (max-width: 767px) {
   .about__img--card {
     width: 75%;
-    top: 184.2rem;
+    top: 185.6rem;
     left: 3rem;
   }
 }
 @media (max-width: 412px) {
   .about__img--card {
-    top: 175.5rem;
+    top: 177.2rem;
   }
 }
 @media (max-width: 320px) {
   .about__img--card {
-    top: 162.1rem;
+    top: 165rem;
   }
 }
 .about__content {
@@ -1332,19 +1333,20 @@ h6 {
     padding-left: 1.3rem;
     font-size: 0.8rem;
     line-height: 1;
+    width: 42%;
   }
 }
 @media (max-width: 412px) {
   .callback--contact {
-    width: 48%;
+    width: 47%;
   }
 }
 @media (max-width: 320px) {
   .callback--contact {
     padding: 14px 10px;
     padding-left: 0.8rem;
-    width: 45%;
-    font-size: 0.7rem;
+    width: 40%;
+    font-size: 0.6rem;
   }
 }
 .callback--contact:after {
