@@ -986,7 +986,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .slick-prev {
-    top: -6.2rem;
+    top: -6.1rem;
     left: 12.7rem;
   }
 }
@@ -1100,7 +1100,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .about__img--card {
-    top: 165rem;
+    top: 162.2rem;
   }
 }
 .about__content {
@@ -1318,6 +1318,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .contact__phone {
+    padding-right: 0.7rem;
     font-size: 0.7rem;
   }
 }
@@ -1347,9 +1348,10 @@ h6 {
 }
 @media (max-width: 320px) {
   .callback--contact {
-    padding: 14px 10px;
-    padding-left: 0.6rem;
-    width: 39%;
+    padding: 10px 10px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    width: 37%;
     font-size: 0.6rem;
   }
 }
