@@ -578,7 +578,7 @@ h6 {
 @media (max-width: 767px) {
   .btn--catalog {
     margin-left: 1.6rem;
-    padding: 40px 10px;
+    padding: 43px 10px;
     font-size: 0.7rem;
     width: 100px;
     height: 100px;
@@ -592,7 +592,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .btn--catalog {
-    padding: 38px 10px;
+    padding: 37px 5px;
     width: 90px;
     height: 90px;
   }
@@ -1353,7 +1353,7 @@ h6 {
     padding: 10px 10px;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
-    width: 37%;
+    width: 35%;
     font-size: 0.6rem;
   }
 }
