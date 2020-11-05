@@ -1788,3 +1788,26 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+
+
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@media (max-width: 320px) {
+
+    #hero .btn-menu, #hero .btn-book {
+        margin-bottom: 1rem;
+    }
+
+    #hero .btn-book {
+        margin-left: 2px;
+    }
+}
+
+
+
+
+
