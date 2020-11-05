@@ -1033,12 +1033,13 @@ h6 {
 }
 @media (max-width: 412px) {
   .slick-prev {
+    top: -6.2rem;
     left: 15.7rem;
   }
 }
 @media (max-width: 320px) {
   .slick-prev {
-    top: -6.1rem;
+    top: -6.22rem;
     left: 12.7rem;
   }
 }
@@ -1388,19 +1389,19 @@ h6 {
 @media (max-width: 767px) {
   .callback--contact {
     padding: 14px 20px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
     font-size: 0.6rem;
     line-height: 1;
-    width: 32%;
+    width: 26%;
   }
 }
 @media (max-width: 412px) {
   .callback--contact {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
     font-size: 0.6rem;
-    width: 35%;
+    width: 29%;
   }
 }
 @media (max-width: 320px) {
