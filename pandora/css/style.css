@@ -1335,17 +1335,17 @@ h6 {
     padding: 14px 20px;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     line-height: 1;
-    width: 35%;
+    width: 32%;
   }
 }
 @media (max-width: 412px) {
   .callback--contact {
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 0.7rem;
-    width: 40%;
+    font-size: 0.6rem;
+    width: 35%;
   }
 }
 @media (max-width: 320px) {
