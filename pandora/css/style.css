@@ -734,6 +734,31 @@ h6 {
   top: 56.5rem;
   right: 7.5rem;
 }
+@media (max-width: 1950px) {
+  .accordion__img--phone {
+    right: 33.5rem;
+  }
+}
+@media (max-width: 1890px) {
+  .accordion__img--phone {
+    right: 25.5rem;
+  }
+}
+@media (max-width: 1750px) {
+  .accordion__img--phone {
+    right: 20.5rem;
+  }
+}
+@media (max-width: 1510px) {
+  .accordion__img--phone {
+    right: 19.5rem;
+  }
+}
+@media (max-width: 1390px) {
+  .accordion__img--phone {
+    right: 14.5rem;
+  }
+}
 @media (max-width: 991px) {
   .accordion__img--phone {
     top: 55.5rem;
@@ -765,6 +790,31 @@ h6 {
   top: 60.5rem;
   right: 1rem;
   z-index: 1;
+}
+@media (max-width: 1950px) {
+  .accordion__img--bg {
+    right: 27rem;
+  }
+}
+@media (max-width: 1890px) {
+  .accordion__img--bg {
+    right: 19rem;
+  }
+}
+@media (max-width: 1750px) {
+  .accordion__img--bg {
+    right: 14rem;
+  }
+}
+@media (max-width: 1510px) {
+  .accordion__img--bg {
+    right: 13rem;
+  }
+}
+@media (max-width: 1390px) {
+  .accordion__img--bg {
+    right: 8rem;
+  }
 }
 @media (max-width: 991px) {
   .accordion__img--bg {
@@ -1239,6 +1289,11 @@ h6 {
   position: absolute;
   top: 202rem;
   right: 5rem;
+}
+@media (max-width: 1199px) {
+  .contact__content {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   .contact__content {
