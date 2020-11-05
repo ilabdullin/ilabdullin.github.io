@@ -578,7 +578,8 @@ h6 {
 @media (max-width: 767px) {
   .btn--catalog {
     margin-left: 1.6rem;
-    padding: 39px 10px;
+    padding: 40px 10px;
+    font-size: 0.7rem;
     width: 100px;
     height: 100px;
   }
@@ -586,11 +587,12 @@ h6 {
 @media (max-width: 412px) {
   .btn--catalog {
     padding: 40px 10px;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 320px) {
   .btn--catalog {
-    padding: 32px 10px;
+    padding: 38px 10px;
     width: 90px;
     height: 90px;
   }
@@ -1089,13 +1091,13 @@ h6 {
 @media (max-width: 767px) {
   .about__img--card {
     width: 75%;
-    top: 185.6rem;
+    top: 184rem;
     left: 3rem;
   }
 }
 @media (max-width: 412px) {
   .about__img--card {
-    top: 177.2rem;
+    top: 175.5rem;
   }
 }
 @media (max-width: 320px) {
@@ -1476,6 +1478,8 @@ h6 {
   }
 }
 .modal__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
   color: #2b2a2c;
@@ -1507,6 +1511,33 @@ h6 {
 @media (max-width: 767px) {
   .contact__left {
     padding: 2rem;
+  }
+}
+@media (max-width: 320px) {
+  .contact__left {
+    padding: 1rem;
+  }
+}
+.contact__left-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5.5rem;
+}
+@media (max-width: 767px) {
+  .contact__left-img {
+    padding-left: 3.3rem;
+  }
+}
+@media (max-width: 412px) {
+  .contact__left-img {
+    padding-left: 1.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .contact__left-img {
+    padding-left: 1rem;
   }
 }
 .contact__info {
