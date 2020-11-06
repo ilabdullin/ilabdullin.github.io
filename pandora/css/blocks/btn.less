@@ -101,23 +101,34 @@
     }
 
     &--modal {
-        padding: 35px;
-        padding-top: 20px;
+        padding: 25px;
+        padding-top: 14px;
+        padding-bottom: 28px;
         border-radius: 3rem;
-        width: 165px;
+        width: 170px;
         height: 20px;
         cursor: pointer;
 
         @media @mobile {
-            padding: 29px;
-            padding-top: 16px;
+            padding: 19px;
+            padding-top: 15px;
+            padding-bottom: 30px;
             width: 150px;
+            font-size: 0.8rem;
+        }
+
+        @media @mobile-sm {
+            padding: 15px;
+            padding-bottom: 24px;
+            width: 140px;
+            font-size: 0.7rem;
         }
 
         @media @mobile-very-sm {
-            padding: 25px;
-            padding-top: 10px;
+            padding: 23px;
+            padding-top: 12px;
             width: 130px;
+            font-size: 0.6rem;
         }
     }
 }
