@@ -1567,7 +1567,7 @@ h6 {
 .modal__description {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 @media (max-width: 767px) {
