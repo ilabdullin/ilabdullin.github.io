@@ -1,12 +1,14 @@
 $(function() {
 
-    /* Fixed Header */
     let header = $("#header");
     let intro = $("#intro");
     let introH = intro.innerHeight();
     let scrollPos = $(window).scrollTop();
-    let nav = $("#nav");
     let navToggle = $("#navToggle");
+    let nav = $("#nav");
+
+
+
 
     checkScroll(scrollPos, introH);
 
@@ -28,29 +30,35 @@ $(function() {
     }
 
 
-    /* Nav Toggle */
-    navToggle.on("click", function(event) {
+
+
+    /* Smooth Scroll
+    ====================*/
+    $("[data-scroll]").on("click", function(event) {
         event.preventDefault();
 
-        $(this).toggleClass("active");
-        nav.toggleClass("active");
+        let elementId = $(this).data('scroll');
+        let elementOffset = $(elementId).offset().top;
+
+
+        $("html, body").animate({
+            scrollTop: elementOffset + 40
+        }, 500);
     });
-
-
 
     /* Reviews: https://kenwheeler.github.io/slick/ */
-    let slider = $("#introSlider");
-
-    slider.slick({
-        autoplay: true,
-        autoplaySpeed: 5000,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        arrows: false,
-        dots: true
-    });
+//    let slider = $("#introSlider");
+//
+//    slider.slick({
+//        autoplay: true,
+//        autoplaySpeed: 5000,
+//        infinite: true,
+//        slidesToShow: 1,
+//        slidesToScroll: 1,
+//        fade: true,
+//        arrows: false,
+//        dots: true
+//    });
 
 
 
