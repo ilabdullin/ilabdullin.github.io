@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'ilnurabdullin578@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -17,7 +17,7 @@
 
   $book_a_table = new PHP_Email_Form;
   $book_a_table->ajax = true;
-  
+
   $book_a_table->to = $receiving_email_address;
   $book_a_table->from_name = $_POST['name'];
   $book_a_table->from_email = $_POST['email'];
