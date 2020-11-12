@@ -1,0 +1,143 @@
+// main: ../style.less
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 38px 10px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background: @blue;
+    width: 120px;
+    height: 120px;
+    color: @white;
+    text-align: center;
+
+    text-decoration: none;
+    transition: transform 0.3s linear;
+
+    @media @tablet {
+        width: 110px;
+        height: 110px;
+        padding: 35px 8px;
+    }
+
+    &:hover {
+        transform:scale(1.1,1.1);
+        -webkit-transform:scale(1.1,1.1);
+        -moz-transform:scale(1.1,1.1);
+    }
+
+    &:focus {
+        outline: 0;
+    }
+
+    &--intro {
+        margin-top: 2.6rem;
+        margin-left: 5rem;
+        animation: radial-pulse 3s infinite;
+
+        @media @tablet {
+            margin-top: 1.3rem;
+            margin-left: 2rem;
+        }
+
+        @media @mobile {
+            margin-left: 9.5rem;
+        }
+
+        @media @mobile-sm {
+            margin-left: 8rem;
+        }
+
+        @media @mobile-very-sm {
+            margin-left: 6.2rem;
+        }
+
+        @keyframes radial-pulse {
+
+            0% {
+                box-shadow: 0 0 0 0px rgba(0, 101, 245, 0.5);
+            }
+
+            100% {
+                box-shadow: 0 0 0 30px rgba(0, 101, 245, 0);
+            }
+        }
+    }
+
+
+    &--catalog {
+        padding: 48px 10px;
+
+        @media @tablet {
+            padding: 44px 10px;
+            margin-left: 3.9rem;
+        }
+
+        @media @mobile {
+            margin-left: 1.6rem;
+            padding: 43px 10px;
+
+            font-size: 0.7rem;
+            width: 100px;
+            height: 100px;
+        }
+
+        @media @mobile-sm {
+            padding: 40px 10px;
+            font-size: 0.8rem;
+        }
+
+        @media @mobile-very-sm {
+            padding: 37px 5px;
+
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    &--modal {
+        padding: 25px;
+        padding-top: 14px;
+        padding-bottom: 28px;
+        border-radius: 3rem;
+        width: 170px;
+        height: 20px;
+        cursor: pointer;
+
+        @media @mobile {
+            padding: 19px;
+            padding-top: 15px;
+            padding-bottom: 30px;
+            width: 150px;
+            font-size: 0.8rem;
+        }
+
+        @media @mobile-sm {
+            padding: 15px;
+            padding-bottom: 24px;
+            width: 140px;
+            font-size: 0.7rem;
+        }
+
+        @media @mobile-very-sm {
+            padding: 23px;
+            padding-top: 12px;
+            width: 130px;
+            font-size: 0.6rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
