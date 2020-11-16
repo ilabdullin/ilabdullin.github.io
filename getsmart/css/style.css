@@ -110,10 +110,10 @@ h6 {
 .btn {
   display: inline-block;
   vertical-align: top;
-  padding: 1.05em 1.7em;
+  padding: 1.05rem 2.5rem;
   min-width: 170px;
   border: 2px solid #000;
-  border-radius: 1.8em;
+  border-radius: 0.7rem;
   background: none;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -307,9 +307,9 @@ h6 {
   width: 100%;
 }
 .nav__link--btn {
-  padding: 0.66rem 2rem;
+  padding: 0.5rem 2rem;
   border: 2px solid #000;
-  border-radius: 20px;
+  border-radius: 0.7rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   transition: background 0.2s linear, color 0.2s linear;
