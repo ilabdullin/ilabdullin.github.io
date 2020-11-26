@@ -15,10 +15,20 @@
 .about__item {
     width: 50%;
     padding: 0 15px;
+
+    @media @tablet {
+        width: 100%;
+    }
 }
 
 .about__item--photo {
     width: 41%;
+
+    @media @tablet {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
     @media @mobile {
         width: 100%;
@@ -27,6 +37,10 @@
 
 .about__item--content {
     width: 59%;
+
+    @media @tablet {
+        width: 100%;
+    }
 
     @media @mobile {
         width: 100%;
@@ -47,6 +61,10 @@
     font-weight: 400;
     font-size: 1.4rem;
     text-align: justify;
+
+    @media @tablet {
+        width: 100%;
+    }
 }
 
 .about__img {
