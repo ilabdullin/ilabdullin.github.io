@@ -3,7 +3,7 @@
 .btn {
     display: inline-block;
     vertical-align: top;
-    padding: 1.05rem 2.5rem;
+    padding: 0.8rem 2.5rem;
     min-width: 170px;
 
     border: 2px solid @black;
@@ -16,7 +16,6 @@
     font-size: 1.06rem;
     line-height: 1.1;
     color: @black;
-    text-transform: uppercase;
     text-decoration: none;
     text-align: center;
 
@@ -41,19 +40,13 @@
 
 
     /* Modificators */
-    &--sm {
-    padding: 0.7em 1.2em;
-    min-width: 0;
+    &--modal {
+        background-color: @yellow;
+        padding: 0.7rem 1.5rem;
 
-    font-size: 0.94rem;
-    font-weight: 700;
-    border-width: 2px;
-    }
-
-    &--thin {
-        min-width: 145px;
-
-        font-size: 0.8rem;
+        &:hover {
+            background-color: @white;
+        }
     }
 
 

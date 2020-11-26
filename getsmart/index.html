@@ -19,6 +19,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+    <!--  Script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>GetSmart - Контекстная реклама сайтов в Яндекс.Директ и Google ADS</title>
 </head>
 <body>
@@ -42,7 +45,7 @@
                     <a class="nav__link" href="#" data-scroll="#service">Услуги</a>
                     <a class="nav__link" href="#" data-scroll="#portfolio">Кейсы</a>
                     <a class="nav__link" href="#" data-scroll="#contact">Контакты</a>
-                    <a class="nav__link nav__link--btn" href="#" data-modal="#buy">Заказать</a>
+                    <a class="nav__link nav__link--btn" href="#" data-modal="#modal_callback">Заказать</a>
                 </nav>
 
             <button class="burger" type="button" id="navToggle">
@@ -68,7 +71,7 @@
                     </p>
                 </div>
 
-                <a class="btn" href="#" data-modal="#buy">Заказать</a>
+                <a class="btn" href="#" data-modal="#modal_callback">Заказать</a>
             </div>
 
             <img class="intro__photo" src="img/intro/intro.png" alt="GetSmart">
@@ -82,17 +85,17 @@
 <section class="section section--stage" id="stage">
     <div class="container">
         <div class="stage">
-            <div class="stage__item stage__item--border">
+            <div class="stage__item">
                 <img class="stage__icon" src="img/stage/1.png">
                 <h3 class="stage__title">Бриф</h3>
                 <div class="stage__text">С этого все начинается. Без понимаения задачи проекту вообще не быть</div>
             </div>
-            <div class="stage__item stage__item--border">
+            <div class="stage__item">
                 <img class="stage__icon" src="img/stage/2.png">
                 <h3 class="stage__title">Уточняем данные</h3>
                 <div class="stage__text">На основе данных состоявляем и утверждаем техническое задание (ТЗ). В ТЗ прописаны все этапы проекта и технологии, с помощью которых проект будет реализовываться</div>
             </div>
-            <div class="stage__item stage__item--border">
+            <div class="stage__item">
                 <img class="stage__icon" src="img/stage/3.png">
                 <h3 class="stage__title">Исследование и прототипирование</h3>
                 <div class="stage__text">Количество этапов зависит от проекта. Но вот основные этапы нашей работы. </div>
@@ -113,7 +116,7 @@
             </div>
             <div class="stage__item">
                 <img class="stage__icon" src="img/stage/6.png">
-                <h3 class="stage__title">Бриф</h3>
+                <h3 class="stage__title">Сдаем работу</h3>
                 <div class="stage__text">Запускаем проекты и передаем их клиенту. Если требуется, проводим обучение. Так же возможна поддержка</div>
             </div>
         </div><!-- /.stage -->
@@ -138,13 +141,120 @@
                     <p>Наша структура уникальна. Мы - единственная крупная дизайн-студия, где владельцы бизнеса являются создателями работы и служат основным контактным лицом для каждого клиента. Это отражает нашу убежденность в том, что отличный дизайн невозможен без энтузиазма, интеллекта и, прежде всего, личной приверженности, и демонстрируется портфолио, охватывающим пять десятилетий, во многих отраслях и клиентах любого размера.
                     </p>
                 </div>
-            </div><!-- /.wedo__item -->
+            </div><!-- /.about__item -->
         </div><!-- /.about -->
     </div><!-- /.container -->
 </section><!-- /.section--about -->
 
 
+<!-- Hire -->
+<section class="section section--hire">
+    <div class="container">
+        <div class="hire">
+
+            <div class="hire__item about__item--text">
+                <div class="modal modal--hire">
+                    <div class="modal__dialog  modal__dialog--sm">
+
+                        <button class="modal__close" type="button"  data-close>
+                            <img src="img/modal/modal-close.svg" alt="Close">
+                        </button>
+
+
+                        <div class="contact--modal">
+
+                            <div class="contact__left">
+                                <h3 class="modal__title mb-0">Заявка</h3>
+                                <h4 class="modal__subtitle">Мы проконсультироруем вас и начнем плодотворную работу</h4>
+
+
+                            <form class="form" action="/" method="post">
+                                <div class="form__group">
+                                    <label class="form__label" for="input-name">Имя</label>
+                                    <input class="form__input" name="input-name" type="text" id="input-name" placeholder="Ваше имя">
+                                </div>
+
+                                <div class="form__group">
+                                    <label class="form__label" for="input-phone">Номер</label>
+                                    <input class="form__input" name="input-phone" type="tel" id="input-phone" placeholder="+998 (__) ___ __ __">
+                                </div>
+
+
+                                <div class="form__group">
+                                    <label class="form__label" for="input-text">Комментарий</label>
+                                    <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Ваш комментарий..."></textarea>
+                                </div>
+
+                                <div class="text-center">
+                                    <button class="btn btn--modal" type="submit">Отправть заявку</button>
+                                </div>
+                            </form>
+                            </div><!-- /.contact__left -->
+                        </div><!-- /.contact -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            </div><!-- /.about__item--text -->
+
+
+
+            <div class="hire__item about__item--photo">
+                <img class="hire__img" src="img/hire/hire.png">
+            </div>
+        </div><!-- /.hire -->
+    </div><!-- /.container -->
+</section><!-- /.section--hire -->
+
+
 </div><!-- /.page -->
+
+
+<!-- Modal -->
+<div class="modal" id="modal_callback">
+    <div class="modal__dialog  modal__dialog--sm">
+
+        <button class="modal__close" type="button"  data-close>
+            <img src="img/modal/modal-close.svg" alt="Close">
+        </button>
+
+
+        <div class="contact--modal">
+
+            <div class="contact__left">
+                <h3 class="modal__title mb-0">Заявка</h3>
+                <h4 class="modal__subtitle">Мы проконсультироруем вас и начнем плодотворную работу</h4>
+
+
+                <form class="form" action="/" method="post">
+                    <div class="form__group">
+                        <label class="form__label" for="input-name">Имя</label>
+                        <input class="form__input" name="input-name" type="text" id="input-name" placeholder="Ваше имя">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="input-phone">Номер</label>
+                        <input class="form__input" name="input-phone" type="tel" id="input-phone" placeholder="+998 (__) ___ __ __">
+                    </div>
+
+
+                    <div class="form__group">
+                        <label class="form__label" for="input-text">Комментарий</label>
+                        <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Ваш комментарий..."></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn--modal" type="submit">Отправть заявку</button>
+                    </div>
+                </form>
+            </div><!-- /.contact__left -->
+        </div><!-- /.contact -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/modal.js"></script>
 
 </body>
 </html>
