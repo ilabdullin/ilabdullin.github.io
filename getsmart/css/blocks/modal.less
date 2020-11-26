@@ -17,12 +17,12 @@
     &.show {
         display: flex;
     }
-}
 
-.modal--hire {
-    display: flex;
-    position: inherit;
-    background-color: none;
+    &--hire {
+        display: flex;
+        position: inherit;
+        background: @white;
+    }
 }
 
 .modal__dialog {
@@ -35,6 +35,10 @@
 
     transform: scale(0);
     transition: transform 0.2s linear;
+
+    &--hire {
+        transform: none;
+    }
 
     &--sm {
         max-width: 30rem;
@@ -92,6 +96,10 @@
     @media @mobile {
         font-size: 1.2rem;
         margin-bottom: 1.6rem;
+    }
+
+    &--hire {
+        font-size: 2rem;
     }
 }
 

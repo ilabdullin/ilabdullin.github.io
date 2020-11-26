@@ -599,7 +599,7 @@ h6 {
 .modal--hire {
   display: flex;
   position: inherit;
-  background-color: none;
+  background: #fff;
 }
 .modal__dialog {
   width: 100%;
@@ -609,6 +609,9 @@ h6 {
   background-color: #EFEFEF;
   transform: scale(0);
   transition: transform 0.2s linear;
+}
+.modal__dialog--hire {
+  transform: none;
 }
 .modal__dialog--sm {
   max-width: 30rem;
@@ -660,6 +663,9 @@ h6 {
     font-size: 1.2rem;
     margin-bottom: 1.6rem;
   }
+}
+.modal__title--hire {
+  font-size: 2rem;
 }
 .modal__subtitle {
   font-family: 'Montserrat', sans-serif;
