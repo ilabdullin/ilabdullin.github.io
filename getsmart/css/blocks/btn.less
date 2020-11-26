@@ -32,24 +32,6 @@
         border-color: @black;
     }
 
-    + .btn {
-        margin-left: 1rem;
-    }
-
-
-
-
-    /* Modificators */
-    &--modal {
-        background-color: @yellow;
-        padding: 0.7rem 1.5rem;
-
-        &:hover {
-            background-color: @white;
-        }
-    }
-
-
     @media @tablet {
         font-size: 1rem;
         padding: 1.0em 1.5em;
@@ -57,18 +39,47 @@
     }
 
     @media @mobile {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         padding: 0.6rem 0.6rem;
         min-width: 130px;
     }
 
     @media @mobile-sm {
         display: block;
-        width: 100%;
+        width: 80%;
 
-        + .btn {
-            margin-left: 0;
-            margin-top: 1rem;
+        margin-left: 2.2rem;
+    }
+
+
+
+
+/* Modificators */
+        &--modal {
+            background-color: @yellow;
+            padding: 0.7rem 1.5rem;
+
+            &:hover {
+                background-color: @white;
+            }
+
+        @media @tablet {
+            font-size: 1rem;
+            padding: 1.0em 1.5em;
+            min-width: 140px;
+        }
+
+        @media @mobile {
+            font-size: 1.1rem;
+            padding: 0.6rem 0.6rem;
+            min-width: 130px;
+        }
+
+        @media @mobile-sm {
+            display: block;
+            width: 80%;
+
+            margin-left: 2rem;
         }
     }
 }

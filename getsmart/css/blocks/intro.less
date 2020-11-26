@@ -18,6 +18,7 @@
 
 .intro__inner {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 6.6rem;
     padding-bottom: 8rem;
     position: relative;
@@ -41,7 +42,7 @@
     padding: 0 1.5rem;
 
     @media @mobile {
-        width: 60%;
+        width: 100%;
     }
 
     @media @mobile-sm {
@@ -51,6 +52,10 @@
 
 .intro__item--photo {
     width: 50%;
+
+    @media @mobile {
+        width: 100%;
+    }
 }
 
 .aintro__item--content {

@@ -19,10 +19,18 @@
 
 .about__item--photo {
     width: 41%;
+
+    @media @mobile {
+        width: 100%;
+    }
 }
 
 .about__item--content {
     width: 59%;
+
+    @media @mobile {
+        width: 100%;
+    }
 }
 
 .about__title {
@@ -31,12 +39,14 @@
     font-size: 2.4rem;
     color: @black;
     line-height: 2.8rem;
+    text-align: center;
 }
 
 .about__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
+    text-align: justify;
 }
 
 .about__img {

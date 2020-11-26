@@ -46,6 +46,17 @@ $(function() {
         }, 500);
     });
 
+
+
+    /* Nav Toggle
+   ====================*/
+    navToggle.on("click", function(event) {
+        event.preventDefault();
+
+        $(this).toggleClass("active");
+        nav.toggleClass("active");
+    });
+
     /* Reviews: https://kenwheeler.github.io/slick/ */
 //    let slider = $("#introSlider");
 //

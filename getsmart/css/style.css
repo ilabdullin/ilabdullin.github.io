@@ -136,16 +136,6 @@ h6 {
   color: #0F0F0F;
   border-color: #0F0F0F;
 }
-.btn + .btn {
-  margin-left: 1rem;
-}
-.btn--modal {
-  background-color: #FFD954;
-  padding: 0.7rem 1.5rem;
-}
-.btn--modal:hover {
-  background-color: #fff;
-}
 @media (max-width: 991px) {
   .btn {
     font-size: 1rem;
@@ -155,7 +145,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .btn {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     padding: 0.6rem 0.6rem;
     min-width: 130px;
   }
@@ -163,11 +153,36 @@ h6 {
 @media (max-width: 412px) {
   .btn {
     display: block;
-    width: 100%;
+    width: 80%;
+    margin-left: 2.2rem;
   }
-  .btn + .btn {
-    margin-left: 0;
-    margin-top: 1rem;
+}
+.btn--modal {
+  background-color: #FFD954;
+  padding: 0.7rem 1.5rem;
+}
+.btn--modal:hover {
+  background-color: #fff;
+}
+@media (max-width: 991px) {
+  .btn--modal {
+    font-size: 1rem;
+    padding: 1em 1.5em;
+    min-width: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .btn--modal {
+    font-size: 1.1rem;
+    padding: 0.6rem 0.6rem;
+    min-width: 130px;
+  }
+}
+@media (max-width: 412px) {
+  .btn--modal {
+    display: block;
+    width: 80%;
+    margin-left: 2rem;
   }
 }
 .header {
@@ -347,6 +362,7 @@ h6 {
 }
 .intro__inner {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 6.6rem;
   padding-bottom: 8rem;
   position: relative;
@@ -370,7 +386,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .intro__item {
-    width: 60%;
+    width: 100%;
   }
 }
 @media (max-width: 412px) {
@@ -380,6 +396,11 @@ h6 {
 }
 .intro__item--photo {
   width: 50%;
+}
+@media (max-width: 767px) {
+  .intro__item--photo {
+    width: 100%;
+  }
 }
 .aintro__item--content {
   width: 50%;
@@ -450,7 +471,13 @@ h6 {
   width: 33.33333%;
   padding: 0 35px 40px 85px;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 2.7rem;
+}
+@media (max-width: 767px) {
+  .stage__item {
+    width: 100%;
+    margin-bottom: 0.7rem;
+  }
 }
 .stage__icon {
   position: absolute;
@@ -463,6 +490,11 @@ h6 {
   margin-bottom: 10px;
   font-size: 1.7rem;
   color: #0F0F0F;
+}
+@media (max-width: 767px) {
+  .stage__item--title {
+    font-size: 1.5rem;
+  }
 }
 .stage__text {
   font-size: 15px;
@@ -484,8 +516,18 @@ h6 {
 .about__item--photo {
   width: 41%;
 }
+@media (max-width: 767px) {
+  .about__item--photo {
+    width: 100%;
+  }
+}
 .about__item--content {
   width: 59%;
+}
+@media (max-width: 767px) {
+  .about__item--content {
+    width: 100%;
+  }
 }
 .about__title {
   font-family: 'Montserrat', sans-serif;
@@ -493,11 +535,13 @@ h6 {
   font-size: 2.4rem;
   color: #0F0F0F;
   line-height: 2.8rem;
+  text-align: center;
 }
 .about__text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
+  text-align: justify;
 }
 .about__img {
   display: block;

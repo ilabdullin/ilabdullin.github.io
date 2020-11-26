@@ -25,7 +25,12 @@
     width: 33.33333%;
     padding: 0 35px 40px 85px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 2.7rem;
+
+    @media @mobile {
+        width: 100%;
+        margin-bottom: 0.7rem;
+    }
 }
 
 .stage__icon {
@@ -41,6 +46,10 @@
     margin-bottom: 10px;
     font-size: 1.7rem;
     color: @black;
+
+    @media @mobile {
+        font-size: 1.5rem;
+    }
 }
 
 
