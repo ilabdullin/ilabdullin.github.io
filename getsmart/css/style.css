@@ -412,6 +412,13 @@ h6 {
     display: none;
   }
 }
+.stage__img {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 62rem;
+  width: 10%;
+}
 .stage {
   display: flex;
   flex-wrap: wrap;
@@ -752,7 +759,7 @@ h6 {
 .form__input:focus,
 .form__textarea:focus {
   outline: none;
-  border-color: #0065F5;
+  border-color: #FFD954;
 }
 .form__input::placeholder,
 .form__textarea::placeholder {
