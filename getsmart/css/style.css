@@ -416,6 +416,12 @@ h6 {
   display: flex;
   flex-wrap: wrap;
 }
+.stage__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
 .stage__item {
   width: 33.33333%;
   padding: 0 35px 40px 85px;
@@ -427,7 +433,7 @@ h6 {
   top: 0;
   left: 25px;
 }
-.stage__title {
+.stage__item--title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   margin-bottom: 10px;
@@ -786,6 +792,23 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.footer__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.footer__number {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #949494;
+}
+.footer__email {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #949494;
 }
 .footer__credits {
   display: flex;
