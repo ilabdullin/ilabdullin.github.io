@@ -42,7 +42,7 @@ $(function() {
 
 
         $("html, body").animate({
-            scrollTop: elementOffset + 40
+            scrollTop: elementOffset - 40
         }, 500);
     });
 
