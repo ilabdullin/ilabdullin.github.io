@@ -5,12 +5,28 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 0 -15px;
+
+    @media @mobile {
+        padding-top: 22rem;
+    }
+
+    @media @mobile-sm {
+        padding-top: 19rem;
+    }
+
+    @media @mobile-very-sm {
+        padding-top: 17rem;
+    }
 }
 
 
 .hire__item {
     width: 50%;
     padding: 0 15px;
+
+    @media @mobile {
+        width: 100%;
+    }
 }
 
 .hrie__item--photo {
@@ -39,4 +55,21 @@
     display: block;
     max-width: 100%;
     height: auto;
+
+    @media @mobile {
+        position: absolute;
+        max-width: 75%;
+        top: 227rem;
+        right: 2.7rem;
+    }
+
+    @media @mobile-sm {
+        width: 72%;
+        top: 241rem;
+        right: 2.8rem;
+    }
+
+    @media @mobile-very-sm {
+        top: 238rem;
+    }
 }

@@ -10,12 +10,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer__contact {
+    line-height: 2rem;
 }
 
 .footer__title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 2rem;
+
+    @media @tablet {
+        padding-bottom: 1rem;
+    }
 }
 
 .footer__number {
@@ -85,3 +94,5 @@
         text-decoration: none;
     }
 }
+
+

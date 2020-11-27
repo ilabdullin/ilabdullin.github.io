@@ -9,6 +9,10 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 0 -15px;
+
+    @media @mobile {
+        padding-top: 4rem;
+    }
 }
 
 
@@ -28,10 +32,12 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        padding-bottom: 3rem;
     }
 
     @media @mobile {
-        width: 100%;
+        width: 90%;
+        margin-left: 1.2rem;
     }
 }
 
@@ -54,6 +60,23 @@
     color: @black;
     line-height: 2.8rem;
     text-align: center;
+
+    @media @mobile {
+        display: flex;
+        position: absolute;
+        top: 143rem;
+        font-size: 2.3rem;
+    }
+
+    @media @mobile-sm {
+        font-size: 2.2rem;
+        top: 150rem;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 2rem;
+        top: 138rem;
+    }
 }
 
 .about__text {

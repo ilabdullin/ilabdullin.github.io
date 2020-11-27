@@ -33,22 +33,27 @@
     }
 
     @media @tablet {
-        font-size: 1rem;
-        padding: 1.0em 1.5em;
-        min-width: 140px;
+        font-size: 1.3rem;
+        padding: 1rem 1rem;
+        min-width: 190px;
     }
 
     @media @mobile {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding: 0.6rem 0.6rem;
-        min-width: 130px;
+        width: 60%;
+        margin-left: 4.7rem;
     }
 
     @media @mobile-sm {
         display: block;
-        width: 80%;
+        width: 60%;
 
-        margin-left: 2.2rem;
+        margin-left: 4.3rem;
+    }
+
+    @media @mobile-very-sm {
+        margin-left: 3rem;
     }
 
 
@@ -70,17 +75,24 @@
         }
 
         @media @mobile {
-            font-size: 1.1rem;
+            font-size: 1rem;
             padding: 0.6rem 0.6rem;
-            min-width: 130px;
+            min-width: 55%;
+            margin-left: 0;
         }
 
         @media @mobile-sm {
             display: block;
-            width: 80%;
+            width: 65%;
+            font-size: 1rem;
 
-            margin-left: 2rem;
+            margin-left: 3rem;
         }
+
+            @media @mobile-very-sm {
+                font-size: 0.8rem;
+                margin-left: 2.6rem;
+            }
     }
 }
 

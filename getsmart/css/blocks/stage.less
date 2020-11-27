@@ -1,5 +1,10 @@
 // main: ../style.less
 
+.stage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .stage__img {
     display: flex;
     position: absolute;
@@ -7,16 +12,15 @@
     top: 62rem;
     width: 10%;
 
+    @media @mobile {
+        display: none;
+    }
+
     @media @tablet {
-        right: 13rem;
-        top: 60rem;
+        right: 14rem;
+        top: 75rem;
         width: 40%;
     }
-}
-
-.stage {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .stage__title {
@@ -24,6 +28,14 @@
     font-weight: 700;
     font-size: 2.4rem;
     padding-bottom: 2rem;
+
+    @media @mobile {
+        font-size: 1.8rem;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 1.5rem;
+    }
 }
 
 .stage__item {
@@ -40,12 +52,21 @@
         width: 100%;
         margin-bottom: 0.7rem;
     }
+
+    @media @mobile-very-sm {
+        padding: 0 35px 40px 50px;
+    }
 }
 
 .stage__icon {
     position: absolute;
     top: 0;
     left: 25px;
+
+    @media @mobile-very-sm {
+        left: 10px;
+        width: 11%;
+    }
 }
 
 
@@ -58,11 +79,21 @@
 
     @media @mobile {
         font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
     }
 }
 
 
 .stage__text {
-    font-size: 15px;
+    font-size: 16px;
     color: @black;
+
+    @media @mobile-very-sm {
+        font-size: 14px;
+    }
 }
