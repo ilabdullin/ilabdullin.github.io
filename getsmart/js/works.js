@@ -9,7 +9,8 @@ $(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: false,
-        infinite: true
+        infinite: true,
+        dots:true
     });
 
 

@@ -163,6 +163,12 @@ h6 {
     margin-left: 3rem;
   }
 }
+.btn--works {
+  background-color: #FFD954;
+}
+.btn--works:hover {
+  background-color: #fff;
+}
 .btn--modal {
   background-color: #FFD954;
   padding: 0.7rem 1.5rem;
@@ -706,6 +712,7 @@ h6 {
   color: #0F0F0F;
   line-height: 2.8rem;
   text-align: center;
+  padding-bottom: 3rem;
 }
 @media (max-width: 767px) {
   .works__title {
@@ -855,7 +862,7 @@ h6 {
 }
 .slick-prev {
   top: 41%;
-  left: -3rem;
+  left: -5rem;
   transform: rotate(-45deg);
 }
 @media (max-width: 991px) {
@@ -895,6 +902,36 @@ h6 {
   .slick-next {
     right: 0;
   }
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 0 10px;
+  list-style: none;
+  width: 100%;
+  z-index: 2;
+}
+.slick-dots li {
+  margin: 0 5px;
+}
+.slick-dots button {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  background: #DFDFDF;
+  border-radius: 50%;
+  border: 0;
+  opacity: 0.5;
+  cursor: pointer;
+  font-size: 0;
+  color: transparent;
+}
+.slick-dots button:focus {
+  outline: 0;
+}
+.slick-dots .slick-active button {
+  background: #0F0F0F;
 }
 .stage {
   display: flex;
