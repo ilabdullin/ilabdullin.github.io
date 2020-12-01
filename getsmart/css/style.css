@@ -163,8 +163,16 @@ h6 {
     margin-left: 3rem;
   }
 }
+.btn--intro {
+  background-color: #FFD954;
+}
+.btn--intro:hover {
+  background-color: #fff;
+}
 .btn--works {
   background-color: #FFD954;
+  margin-top: 2rem;
+  margin-left: 33.5rem;
 }
 .btn--works:hover {
   background-color: #fff;
@@ -941,7 +949,7 @@ h6 {
   display: flex;
   position: absolute;
   right: 0;
-  top: 143rem;
+  top: 160rem;
   width: 10%;
 }
 @media (max-width: 767px) {
@@ -1533,6 +1541,7 @@ h6 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 1.3rem;
 }
 .footer__contact {
   line-height: 2rem;
@@ -1541,6 +1550,7 @@ h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2rem;
+  padding-bottom: 1rem;
 }
 @media (max-width: 991px) {
   .footer__title {
@@ -1551,18 +1561,18 @@ h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #949494;
+  color: #0F0F0F;
 }
 .footer__email {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #949494;
+  color: #0F0F0F;
 }
 .footer__credits {
   display: flex;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.3;
@@ -1570,8 +1580,11 @@ h6 {
 .footer__copyright {
   padding-right: 0.8rem;
   margin-right: 1rem;
-  color: #0F0F0F;
+  color: #949494;
   font-size: 0.94rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding-top: 1.3rem;
 }
 @media (max-width: 767px) {
   .footer__copyright {
@@ -1599,14 +1612,6 @@ h6 {
   .footer__link {
     font-size: 0.7rem;
   }
-}
-.footer__getsmart {
-  color: #0F0F0F;
-  text-decoration: underline;
-  transition: text-decoration 0.2s linear;
-}
-.footer__getsmart:hover {
-  text-decoration: none;
 }
 /* Helpers */
 .center {
