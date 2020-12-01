@@ -1194,7 +1194,7 @@ h6 {
 @media (max-width: 320px) {
   .about__title {
     font-size: 2rem;
-    top: 289rem;
+    top: 277rem;
   }
 }
 .about__text {
@@ -1282,7 +1282,7 @@ h6 {
 }
 @media (max-width: 320px) {
   .hire__img {
-    top: 389rem;
+    top: 376rem;
   }
 }
 .contact--modal {
