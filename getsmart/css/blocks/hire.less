@@ -24,16 +24,24 @@
 
 .hire__item {
     width: 50%;
-    padding: 0 2rem;
+    padding: 0 6rem;
+
+    @media @large-pc {
+        padding: 0 4rem;
+    }
 
     @media @tablet {
         padding: 0 1rem;
     }
 
     @media @mobile {
-        padding: 0 1rem;
+        padding: 0 2rem;
 
         width: 100%;
+    }
+
+    @media @mobile-very-sm {
+        padding: 0 1rem;
     }
 }
 
