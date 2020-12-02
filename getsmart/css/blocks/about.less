@@ -9,6 +9,7 @@
 .about {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     align-items: center;
     justify-content: center;
     margin: 0 -15px;
@@ -78,18 +79,18 @@
     @media @mobile {
         display: flex;
         position: absolute;
-        top: 265rem;
+        top: -1rem;
         font-size: 2.3rem;
     }
 
     @media @mobile-sm {
         font-size: 2.2rem;
-        top: 275rem;
+        top: -1rem;
     }
 
     @media @mobile-very-sm {
         font-size: 2rem;
-        top: 275rem;
+        top: 0;
     }
 }
 

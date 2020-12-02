@@ -3,6 +3,7 @@
 .hire {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-items: center;
     margin: 0 -15px;
@@ -36,8 +37,13 @@
     }
 }
 
-.hrie__item--photo {
-    width: 41%;
+.hire__item--photo {
+    width: 50%;
+
+    @media @mobile {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .hire__item--content {
@@ -66,17 +72,16 @@
     @media @mobile {
         position: absolute;
         max-width: 75%;
-        top: 332rem;
-        right: 2.7rem;
+        top: -2rem;
     }
 
     @media @mobile-sm {
-        width: 73%;
-        top: 342rem;
-        right: 2.8rem;
+        width: 74%;
+        top: -2rem;
     }
 
     @media @mobile-very-sm {
-        top: 347rem;
+        width: 74%;
+        top: -1rem;
     }
 }

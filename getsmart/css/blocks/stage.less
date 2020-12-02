@@ -1,5 +1,9 @@
 // main: ../style.less
 
+.section--stage {
+    position: relative;
+}
+
 .stage {
     display: flex;
     flex-wrap: wrap;
@@ -8,9 +12,15 @@
 .stage__img {
     display: flex;
     position: absolute;
-    right: 0;
-    top: 160rem;
-    width: 10%;
+    right: 3rem;
+    top: 19rem;
+    width: 12%;
+
+    @media @large-pc {
+        right: 0;
+        top: 27rem;
+        width: 12%;
+    }
 
     @media @mobile {
         display: none;

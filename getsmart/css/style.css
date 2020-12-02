@@ -1096,6 +1096,9 @@ body::-webkit-scrollbar-thumb:hover {
 .slick-dots .slick-active button {
   background: #0F0F0F;
 }
+.section--stage {
+  position: relative;
+}
 .stage {
   display: flex;
   flex-wrap: wrap;
@@ -1103,9 +1106,16 @@ body::-webkit-scrollbar-thumb:hover {
 .stage__img {
   display: flex;
   position: absolute;
-  right: 0;
-  top: 160rem;
-  width: 10%;
+  right: 3rem;
+  top: 19rem;
+  width: 12%;
+}
+@media (max-width: 1370px) {
+  .stage__img {
+    right: 0;
+    top: 27rem;
+    width: 12%;
+  }
 }
 @media (max-width: 767px) {
   .stage__img {
@@ -1218,6 +1228,7 @@ body::-webkit-scrollbar-thumb:hover {
 .about {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
   align-items: center;
   justify-content: center;
   margin: 0 -15px;
@@ -1292,20 +1303,20 @@ body::-webkit-scrollbar-thumb:hover {
   .about__title {
     display: flex;
     position: absolute;
-    top: 265rem;
+    top: -1rem;
     font-size: 2.3rem;
   }
 }
 @media (max-width: 412px) {
   .about__title {
     font-size: 2.2rem;
-    top: 275rem;
+    top: -1rem;
   }
 }
 @media (max-width: 320px) {
   .about__title {
     font-size: 2rem;
-    top: 275rem;
+    top: 0;
   }
 }
 .about__text {
@@ -1342,6 +1353,7 @@ body::-webkit-scrollbar-thumb:hover {
 .hire {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
   justify-content: center;
   align-items: center;
   margin: 0 -15px;
@@ -1376,8 +1388,14 @@ body::-webkit-scrollbar-thumb:hover {
     width: 100%;
   }
 }
-.hrie__item--photo {
-  width: 41%;
+.hire__item--photo {
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .hire__item--photo {
+    display: flex;
+    justify-content: center;
+  }
 }
 .hire__item--content {
   width: 59%;
@@ -1403,20 +1421,19 @@ body::-webkit-scrollbar-thumb:hover {
   .hire__img {
     position: absolute;
     max-width: 75%;
-    top: 332rem;
-    right: 2.7rem;
+    top: -2rem;
   }
 }
 @media (max-width: 412px) {
   .hire__img {
-    width: 73%;
-    top: 342rem;
-    right: 2.8rem;
+    width: 74%;
+    top: -2rem;
   }
 }
 @media (max-width: 320px) {
   .hire__img {
-    top: 347rem;
+    width: 74%;
+    top: -1rem;
   }
 }
 .contact--modal {
