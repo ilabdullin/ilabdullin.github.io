@@ -32,6 +32,21 @@ h6 {
   background-color: rgba(229, 229, 229, 0.1);
 }
 /* Blocks */
+body::-webkit-scrollbar {
+  width: 17px;
+}
+body::-webkit-scrollbar-track {
+  background: rgba(229, 229, 229, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+}
+body::-webkit-scrollbar-thumb {
+  background: #939393;
+  border-radius: 8px;
+  border: 3px solid #d4d4d4;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #7c7c7c;
+}
 .container {
   width: 100%;
   max-width: 1200px;
