@@ -18,7 +18,7 @@
 
     @media @tablet {
         right: 14rem;
-        top: 230rem;
+        top: 213rem;
         width: 40%;
     }
 }
@@ -51,10 +51,11 @@
     @media @mobile {
         width: 100%;
         margin-bottom: 0.7rem;
+        padding: 0 35px 30px 50px;
     }
 
     @media @mobile-very-sm {
-        padding: 0 35px 40px 50px;
+        padding: 0 35px 15px 50px;
     }
 }
 
@@ -62,6 +63,12 @@
     position: absolute;
     top: 0;
     left: 25px;
+
+    @media @mobile {
+        top: -3px;
+        left: -3px;
+        width: 12%;
+    }
 
     @media @mobile-very-sm {
         left: 10px;
@@ -83,17 +90,22 @@
     }
 
     @media @mobile-very-sm {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 1.7rem;
     }
 }
 
 
 .stage__text {
-    font-size: 16px;
+    font-size: 1.2rem;
     color: @black;
+    line-height: 1.5rem;
+
+    @media @large-pc {
+        font-size: 16px;
+    }
 
     @media @mobile-very-sm {
-        font-size: 14px;
+        font-size: 16px;
     }
 }

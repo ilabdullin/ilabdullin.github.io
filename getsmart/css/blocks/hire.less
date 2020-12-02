@@ -3,6 +3,7 @@
 .hire {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     margin: 0 -15px;
 
@@ -22,9 +23,15 @@
 
 .hire__item {
     width: 50%;
-    padding: 0 15px;
+    padding: 0 2rem;
+
+    @media @tablet {
+        padding: 0 1rem;
+    }
 
     @media @mobile {
+        padding: 0 1rem;
+
         width: 100%;
     }
 }
@@ -59,17 +66,17 @@
     @media @mobile {
         position: absolute;
         max-width: 75%;
-        top: 365rem;
+        top: 332rem;
         right: 2.7rem;
     }
 
     @media @mobile-sm {
-        width: 72%;
-        top: 380rem;
+        width: 73%;
+        top: 342rem;
         right: 2.8rem;
     }
 
     @media @mobile-very-sm {
-        top: 376rem;
+        top: 347rem;
     }
 }
