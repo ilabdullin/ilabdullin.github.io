@@ -562,7 +562,7 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 1.3rem;
   }
 }
-.intro__text {
+.intro__subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin-bottom: 25px;
@@ -572,7 +572,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 90%;
 }
 @media (max-width: 1370px) {
-  .intro__text {
+  .intro__subtitle {
     font-size: 1.2rem;
     width: 100%;
   }
@@ -663,6 +663,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .wedo__item--left {
   width: 50%;
+  padding-right: 5rem;
 }
 @media (max-width: 991px) {
   .wedo__item--left {
@@ -699,7 +700,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .accordion__icon {
   padding-right: 1rem;
-  width: 9%;
+  width: 10%;
 }
 @media (max-width: 1199px) {
   .accordion__icon {
