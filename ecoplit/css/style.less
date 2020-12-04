@@ -1,0 +1,108 @@
+@import "vars";
+
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('fonts/GothamPro/regular/GothamPro.eot');
+    src: url('fonts/GothamPro/regular/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamPro/regular/GothamPro.woff') format('woff'),
+    url('fonts/GothamPro/regular/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url('fonts/CeraPro/regular/CeraPro-Regular.eot');
+    src: url('fonts/CeraPro/regular/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/CeraPro/regular/CeraPro-Regular.woff') format('woff'),
+    url('fonts/CeraPro/regular/CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro Medium';
+    src: url('fonts/CeraPro/medium/CeraPro-Medium.eot');
+    src: url('fonts/CeraPro/medium/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/CeraPro/medium/CeraPro-Medium.woff') format('woff'),
+    url('fonts/CeraPro/medium/CeraPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro Bold';
+    src: url('fonts/Cera Pro/bold/CeraPro-Bold.eot');
+    src: url('fonts/CeraPro/bold/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/CeraPro/bold/CeraPro-Bold.woff') format('woff'),
+    url('fonts/CeraPro/bold/CeraPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+html {
+    font-size: 15px;
+}
+
+
+body {
+    margin: 0;
+
+    font-family: 'Gotham Pro Regular';
+    font-size: 1rem;
+    line-height: 1.6;
+    color: @black;
+    -webkit-font-smoothing: antialiased;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.header,
+.footer {
+    padding: 20px;
+}
+
+
+
+
+
+/* Blocks */
+@import "blocks/scrollbar";
+@import "blocks/container";
+@import "blocks/page";
+@import "blocks/burger";
+@import "blocks/btn";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/features";
+@import "blocks/contact-modal";
+@import "blocks/modal";
+@import "blocks/form";
+@import "blocks/footer";
+
+
+
+
+
+
+/* Helpers */
+@import "blocks/helpers";
