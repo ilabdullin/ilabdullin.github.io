@@ -947,6 +947,151 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 16px;
   }
 }
+.section--about {
+  background: #2F2F2F;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -15px;
+}
+@media (max-width: 767px) {
+  .about {
+    padding-top: 4rem;
+  }
+}
+.about__item {
+  width: 50%;
+  padding: 0 15px;
+}
+@media (max-width: 991px) {
+  .about__item {
+    width: 100%;
+  }
+}
+.about__item--photo {
+  width: 40%;
+  margin-right: 2.7rem;
+}
+@media (max-width: 1370px) {
+  .about__item--photo {
+    width: 36%;
+    margin-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .about__item--photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .about__item--photo {
+    width: 100%;
+    padding-bottom: 0;
+    margin-right: 0;
+  }
+}
+.about__item--content {
+  width: 54%;
+}
+@media (max-width: 1370px) {
+  .about__item--content {
+    width: 58%;
+  }
+}
+@media (max-width: 991px) {
+  .about__item--content {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .about__item--content {
+    width: 100%;
+  }
+}
+.about__title {
+  font-family: 'Cera Pro Medium';
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 2.8rem;
+}
+@media (max-width: 1370px) {
+  .about__title {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 991px) {
+  .about__title {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .about__title {
+    display: flex;
+    position: absolute;
+    top: -1rem;
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 412px) {
+  .about__title {
+    font-size: 2.2rem;
+    top: -1rem;
+  }
+}
+@media (max-width: 320px) {
+  .about__title {
+    font-size: 2rem;
+    top: 0;
+  }
+}
+.about__text {
+  font-family: 'Gotham Pro Regular';
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #fff;
+}
+@media (max-width: 1370px) {
+  .about__text {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 991px) {
+  .about__text {
+    width: 100%;
+  }
+}
+.about__img {
+  display: block;
+  width: 89%;
+  height: auto;
+}
+@media (max-width: 1370px) {
+  .about__img {
+    width: 90%;
+  }
+}
+@media (max-width: 991px) {
+  .about__img {
+    width: 65%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .about__img {
+    width: 80%;
+  }
+}
 .contact--modal {
   display: flex;
 }
