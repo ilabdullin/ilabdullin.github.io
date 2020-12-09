@@ -612,6 +612,143 @@ body::-webkit-scrollbar-thumb:hover {
     max-width: 85%;
   }
 }
+.section--features-material {
+  background: #2F2F2F center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.features-material {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1370px) {
+  .features-material__img {
+    width: 90%;
+  }
+}
+.features-material__title {
+  font-family: 'Cera Pro Medium';
+  font-weight: 500;
+  font-size: 2.6rem;
+  padding-bottom: 3.3rem;
+  padding-left: 1rem;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .features-material__title {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .features-material__title {
+    font-size: 1.5rem;
+  }
+}
+.features-material__left {
+  width: 50%;
+}
+.featuers-material__right {
+  width: 50%;
+  padding-left: 10rem;
+}
+@media (max-width: 1370px) {
+  .featuers-material__right {
+    padding-left: 6rem;
+  }
+}
+.features-material__item {
+  width: 90%;
+  padding: 0 35px 30px 80px;
+  position: relative;
+  margin-left: 4rem;
+}
+@media (max-width: 1370px) {
+  .features-material__item {
+    width: 84%;
+    padding: 0 35px 30px 55px;
+  }
+}
+@media (max-width: 991px) {
+  .features-material__item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .features-material__item {
+    width: 100%;
+    margin-bottom: 0.7rem;
+    padding: 0 35px 30px 50px;
+  }
+}
+@media (max-width: 320px) {
+  .features-material__item {
+    padding: 0 35px 15px 50px;
+  }
+}
+.features-material__icon {
+  position: absolute;
+  top: 0;
+  left: -3rem;
+}
+@media (max-width: 1370px) {
+  .features-material__icon {
+    width: 15%;
+  }
+}
+@media (max-width: 767px) {
+  .features-material__icon {
+    top: -3px;
+    left: -3px;
+    width: 12%;
+  }
+}
+@media (max-width: 320px) {
+  .features-material__icon {
+    left: 10px;
+    width: 11%;
+  }
+}
+.features-material__item--title {
+  font-family: 'Gotham Pro Regular';
+  font-weight: 400;
+  font-size: 2rem;
+  color: #B9D420;
+}
+@media (max-width: 1370px) {
+  .features-material__item--title {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 767px) {
+  .features-material__item--title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width: 320px) {
+  .features-material__item--title {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+}
+.features-material__text {
+  font-family: 'Gotham Pro Regular';
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2rem;
+}
+@media (max-width: 1370px) {
+  .features-material__text {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 320px) {
+  .features-material__text {
+    font-size: 16px;
+  }
+}
 .section--about {
   background: #2F2F2F;
   -webkit-background-size: cover;
@@ -665,11 +802,11 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 .about__item--content {
-  width: 54%;
+  width: 55%;
 }
 @media (max-width: 1370px) {
   .about__item--content {
-    width: 58%;
+    width: 51%;
   }
 }
 @media (max-width: 991px) {
@@ -685,7 +822,7 @@ body::-webkit-scrollbar-thumb:hover {
 .about__title {
   font-family: 'Cera Pro Medium';
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   color: #fff;
   line-height: 2.8rem;
 }
@@ -722,7 +859,7 @@ body::-webkit-scrollbar-thumb:hover {
 .about__text {
   font-family: 'Gotham Pro Regular';
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: #fff;
 }
 @media (max-width: 1370px) {
