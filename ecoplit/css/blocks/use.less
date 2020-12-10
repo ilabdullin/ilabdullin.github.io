@@ -1,0 +1,133 @@
+// main: ../style.less
+
+.section--use {
+    background: @background center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.use__title {
+    font-family: 'Cera Pro Medium';
+    font-weight: 500;
+    font-size: 2.6rem;
+    color: @white;
+    padding-bottom: 3.3rem;
+}
+
+.use__img {
+
+    @media @large-pc {
+        width: 95%;
+    }
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.gc {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: -.25em;
+    min-height: 1px;
+    padding-left: 40px;
+    vertical-align: top;
+}
+
+.gc--1-of-3 {
+    width: 50%;
+}
+
+.gc--2-of-3 {
+    width: 50%;
+}
+
+.use {
+    position: relative;
+    margin: 0 auto;
+}
+
+.use .menu div {
+    font-family: 'Cera Pro Medium';
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 15px 0 15px 40px;
+    margin-bottom: 10px;
+    color: @white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    -webkit-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    @media @large-pc {
+        font-size: 1.7rem;
+    }
+}
+
+.use .menu div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.use .menu div span.light {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    background-color: @green;
+    border-radius: 100%;
+    -webkit-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.use .menu div.active span.light {
+    background-color: @green;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    top: 0;
+    border-radius: 0;
+}
+
+.use .menu div.active {
+    color: @green;
+    padding: 15px 20px 15px 20px;
+}
+
+ul.nacc {
+    position: relative;
+    height: 567px;
+    list-style: none;
+    padding-left: 0;
+    -webkit-transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+ul.nacc li {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+    position: absolute;
+    list-style: none;
+    -webkit-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+ul.nacc li.active {
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+    z-index: 2;
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+ul.nacc li p {
+    margin: 0;
+}
