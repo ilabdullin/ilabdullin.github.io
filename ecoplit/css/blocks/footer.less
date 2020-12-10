@@ -26,7 +26,14 @@
 }
 
 .footer__contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 11%;
     line-height: 2rem;
+
+    @media @large-pc {
+        width: 12%;
+    }
 }
 
 .footer-contact__title {
@@ -51,6 +58,12 @@
     font-family: 'Gotham Pro Regular';
     font-weight: 400;
     color: @white;
+}
+
+.footer__adress {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
 }
 
 .footer__adress-title {
@@ -84,11 +97,13 @@
 }
 
 .footer__copyright {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Gotham Pro Regular';
     font-weight: 400;
     padding-right: 0.8rem;
     margin-right: 1rem;
-    color: @white;
+    color: rgba(255, 255, 255, 0.3);
 
     font-size: 0.94rem;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -103,6 +118,25 @@
 
     @media @mobile-very-sm {
         font-size: 0.7rem;
+    }
+}
+
+.footer__getsmart {
+    font-family: 'Gotham Pro Regular';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.getsmart {
+    font-family: 'Gotham Pro Regular';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: underline;
+
+    transition: text-decoration 0.2s linear;
+
+    &:hover {
+        text-decoration: none;
     }
 }
 

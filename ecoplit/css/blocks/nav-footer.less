@@ -1,12 +1,18 @@
 // main: ../style.less
 
 .nav-footer {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
+    width: 17%;
     font-family: 'Gotham Pro Regular';
     font-weight: 400;
+    padding-top: 1rem;
+
+    @media @large-pc {
+        width: 19%;
+    }
 
     @media @mobile {
         width: 100%;
@@ -64,6 +70,13 @@
     }
 }
 
+.nav-footer__title {
+    font-family: 'Gotham Pro Regular';
+    font-weight: 400;
+    color: @white;
+    font-size: 1.3rem;
+}
+
 .nav-footer.active {
         display: flex;
         background-color: @background;
@@ -74,7 +87,6 @@
 }
 
 .nav__link-footer {
-    margin-left: 2rem;
     position: relative;
 
     font-size: 1.2rem;
@@ -129,14 +141,6 @@
         justify-content: center;
     }
 
-}
-
-.nav__link--lang {
-    padding-left: 25rem;
-
-    @media @large-pc {
-        padding-left: 22rem;
-    }
 }
 
 .active {
