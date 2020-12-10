@@ -20,8 +20,17 @@
 
     &--hire {
         display: flex;
-        position: inherit;
-        background: @white;
+        position: absolute;
+        background: none;
+        width: auto;
+        height: auto;
+        top: 273rem;
+        left: 14rem;
+
+        @media @large-pc {
+            top: 242rem;
+            left: 5rem;
+        }
     }
 }
 
@@ -57,8 +66,12 @@
     transition: transform 0.2s linear;
 
     &--sm {
-        max-width: 30rem;
+        max-width: 35rem;
         border-radius: 3%;
+
+        @media @large-pc {
+            max-width: 30rem;
+        }
     }
 }
 

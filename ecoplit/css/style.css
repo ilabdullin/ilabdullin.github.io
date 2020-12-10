@@ -1190,8 +1190,108 @@ ul.nacc li p {
 }
 .map {
   width: 100%;
-  height: 670px;
+  height: 704px;
   border: 0;
+}
+@media (max-width: 1370px) {
+  .map {
+    height: 670px;
+  }
+}
+.hire {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -15px;
+}
+@media (max-width: 767px) {
+  .hire {
+    padding-top: 22rem;
+  }
+}
+@media (max-width: 412px) {
+  .hire {
+    padding-top: 19rem;
+  }
+}
+@media (max-width: 320px) {
+  .hire {
+    padding-top: 17rem;
+  }
+}
+.hire__item {
+  width: 50%;
+  padding: 0 6rem;
+}
+@media (max-width: 1370px) {
+  .hire__item {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .hire__item {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .hire__item {
+    padding: 0 2rem;
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .hire__item {
+    padding: 0 1rem;
+  }
+}
+.hire__item--photo {
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .hire__item--photo {
+    display: flex;
+    justify-content: center;
+  }
+}
+.hire__item--content {
+  width: 59%;
+}
+.hire__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #2F2F2F;
+  line-height: 2.8rem;
+}
+.hire__subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.hire__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .hire__img {
+    position: absolute;
+    max-width: 75%;
+    top: -2rem;
+  }
+}
+@media (max-width: 412px) {
+  .hire__img {
+    width: 74%;
+    top: -2rem;
+  }
+}
+@media (max-width: 320px) {
+  .hire__img {
+    width: 74%;
+    top: -1rem;
+  }
 }
 .nav-footer {
   display: grid;
@@ -1307,6 +1407,199 @@ ul.nacc li p {
 .active {
   color: #B9D420;
 }
+@media (max-width: 991px) {
+  .contact {
+    background: #000B1B center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+.contact__bg {
+  position: absolute;
+  top: 198.5rem;
+  right: 8.5rem;
+}
+@media (max-width: 991px) {
+  .contact__bg {
+    display: none;
+  }
+}
+.contact__content {
+  background: #000B1B center no-repeat;
+  border-radius: 2rem;
+  padding: 2.4rem;
+  width: 39%;
+  position: absolute;
+  top: 202rem;
+  right: 5rem;
+}
+@media (max-width: 1199px) {
+  .contact__content {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .contact__content {
+    border-radius: 0;
+    text-align: center;
+    background: none;
+    position: inherit;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .contact__content {
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0;
+  }
+}
+.contact__title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: #fff;
+  padding-bottom: 1.6rem;
+}
+@media (max-width: 767px) {
+  .contact__title {
+    font-size: 1.3rem;
+    padding-bottom: 0.6rem;
+  }
+}
+@media (max-width: 320px) {
+  .contact__title {
+    font-size: 1.2rem;
+  }
+}
+.contact__content-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+@media (max-width: 991px) {
+  .contact__content-item {
+    justify-content: center;
+  }
+}
+.contact__content-item:last-child {
+  padding-bottom: 1.6rem;
+}
+.contact__address {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .contact__address {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .contact__address {
+    font-size: 0.7rem;
+  }
+}
+.contact__phone {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+  padding-right: 2rem;
+}
+@media (max-width: 767px) {
+  .contact__phone {
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .contact__phone {
+    padding-right: 0.7rem;
+    font-size: 0.7rem;
+  }
+}
+.callback--contact {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+@media (max-width: 767px) {
+  .callback--contact {
+    padding: 14px 20px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 0.6rem;
+    line-height: 1;
+    width: 26%;
+  }
+}
+@media (max-width: 412px) {
+  .callback--contact {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 0.6rem;
+    width: 29%;
+  }
+}
+@media (max-width: 320px) {
+  .callback--contact {
+    padding: 10px 10px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    width: 35%;
+    font-size: 0.6rem;
+  }
+}
+.callback--contact:after {
+  top: 2.5rem;
+}
+.contact__social {
+  display: flex;
+}
+@media (max-width: 991px) {
+  .contact__social {
+    justify-content: center;
+  }
+}
+.contact__social-link {
+  padding-right: 1rem;
+  text-decoration: none;
+  transition: transform 0.2s linear;
+}
+.contact__social-link:hover {
+  transform: translateY(-5px);
+}
+.contact__social-link:last-child {
+  padding-right: 0;
+}
+.contact__icon {
+  width: 16px;
+  height: 18px;
+  margin-right: 0.9rem;
+}
+@media (max-width: 767px) {
+  .contact__icon {
+    width: 12px;
+    height: 14px;
+    margin-right: 0.5rem;
+  }
+}
+@media (max-width: 320px) {
+  .contact__icon {
+    margin-right: 0.3rem;
+  }
+}
+@media (max-width: 767px) {
+  .social__img {
+    width: 40px;
+    height: 40px;
+  }
+}
 .contact--modal {
   display: flex;
 }
@@ -1399,8 +1692,18 @@ ul.nacc li p {
 }
 .modal--hire {
   display: flex;
-  position: inherit;
-  background: #fff;
+  position: absolute;
+  background: none;
+  width: auto;
+  height: auto;
+  top: 273rem;
+  left: 14rem;
+}
+@media (max-width: 1370px) {
+  .modal--hire {
+    top: 242rem;
+    left: 5rem;
+  }
 }
 .modal__dialog {
   width: 100%;
@@ -1427,8 +1730,13 @@ ul.nacc li p {
   transition: transform 0.2s linear;
 }
 .modal__dialog-hire--sm {
-  max-width: 30rem;
+  max-width: 35rem;
   border-radius: 3%;
+}
+@media (max-width: 1370px) {
+  .modal__dialog-hire--sm {
+    max-width: 30rem;
+  }
 }
 .modal__close {
   width: 34px;
