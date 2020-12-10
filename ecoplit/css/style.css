@@ -163,8 +163,8 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 0.7rem;
   background: none;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Gotham Pro Regular';
+  font-weight: 400;
   font-size: 1.06rem;
   line-height: 1.1;
   color: #2F2F2F;
@@ -242,7 +242,8 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 0.7rem 1.5rem;
 }
 .btn--modal:hover {
-  background-color: #2F2F2F;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
 }
 @media (max-width: 991px) {
   .btn--modal {
@@ -1408,7 +1409,7 @@ ul.nacc li p {
   max-width: 1200px;
   margin: auto;
   position: relative;
-  background-color: #EFEFEF;
+  background-color: #2F2F2F;
   transform: scale(0);
   transition: transform 0.2s linear;
 }
@@ -1424,7 +1425,7 @@ ul.nacc li p {
   max-width: 1200px;
   margin: auto;
   position: relative;
-  background-color: #EFEFEF;
+  background-color: #2F2F2F;
   transition: transform 0.2s linear;
 }
 .modal__dialog-hire--sm {
@@ -1460,12 +1461,18 @@ ul.nacc li p {
   padding: 5rem 1rem;
 }
 .modal__title {
+  font-family: 'Cera Pro Medium';
+  font-weight: 500;
   margin-bottom: 3.6rem;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
-  color: #2F2F2F;
-  font-weight: 700;
+  color: #B9D420;
   text-align: center;
+}
+@media (max-width: 1370px) {
+  .modal__title {
+    font-size: 2.2rem;
+  }
 }
 @media (max-width: 991px) {
   .modal__title {
@@ -1502,13 +1509,17 @@ ul.nacc li p {
   }
 }
 .modal__subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: 'Gotham Pro Regular';
   text-transform: uppercase;
-  font-size: 0.9rem;
-  color: #2F2F2F;
+  font-size: 1.6rem;
+  color: #fff;
   font-weight: 400;
   text-align: center;
+}
+@media (max-width: 1370px) {
+  .modal__subtitle {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 991px) {
   .modal__subtitle {
@@ -1526,7 +1537,7 @@ ul.nacc li p {
   }
 }
 .modal__description {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gotham Pro Regular';
   font-weight: 400;
   font-size: 0.9rem;
   text-align: center;
@@ -1555,7 +1566,7 @@ ul.nacc li p {
   }
 }
 .form__label {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gotham Pro Regular';
   font-weight: 400;
   display: inline-block;
   margin-bottom: 0.6rem;
@@ -1570,27 +1581,38 @@ ul.nacc li p {
 .form__input,
 .form__textarea {
   display: block;
+  font-family: 'Gotham Pro Regular';
+  font-weight: 400;
   width: 100%;
   padding: 0.8rem 1rem;
-  border: 1px solid #fff;
-  border-radius: 7px;
+  border-bottom: 1px solid #fff;
+  background: rgba(255, 255, 255, 0);
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
   font-family: inherit;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   line-height: 1.2;
   font-weight: 300;
-  color: #2F2F2F;
+  color: #949494;
   transition: border-color 0.2s linear;
 }
 .form__input:focus,
 .form__textarea:focus {
   outline: none;
-  border-color: #FFD954;
+  border-color: #B9D420;
 }
 .form__input::placeholder,
 .form__textarea::placeholder {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gotham Pro Regular';
   font-weight: 400;
-  color: #949494;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 1370px) {
+  .form__input,
+  .form__textarea {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 991px) {
   .form__input,
