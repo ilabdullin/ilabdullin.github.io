@@ -13,6 +13,10 @@
     display: flex;
     flex-wrap: wrap;
     width: 115%;
+
+    @media @tablet {
+        width: 101%;
+    }
 }
 
 .features-our__img {
@@ -69,11 +73,12 @@
     margin-bottom: 2.7rem;
 
     @media @large-pc {
-        padding: 0 35px 40px 150px;
+        padding: 0 35px 20px 150px;
     }
 
     @media @tablet {
         width: 50%;
+        padding: 0 35px 40px 115px;
     }
 
     @media @mobile {
@@ -95,6 +100,11 @@
 
     @media @large-pc {
         left: 2rem;
+    }
+
+    @media @tablet {
+        top: 0.5rem;
+        width: 14%;
     }
 
     @media @mobile {
