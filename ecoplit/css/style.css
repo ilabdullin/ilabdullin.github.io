@@ -938,9 +938,14 @@ ul.nacc li p {
   display: flex;
   align-items: center;
   width: 50%;
-  padding: 0 35px 40px 105px;
+  padding: 0 35px 40px 130px;
   position: relative;
   margin-bottom: 2.7rem;
+}
+@media (max-width: 1370px) {
+  .features-our__item {
+    padding: 0 35px 40px 115px;
+  }
 }
 @media (max-width: 991px) {
   .features-our__item {
