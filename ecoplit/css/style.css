@@ -228,7 +228,7 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .btn--intro {
     margin-top: 4.7rem;
   }
@@ -753,7 +753,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 @media (max-width: 767px) {
   .features-material__left {
-    top: 32rem;
+    top: 34rem;
   }
 }
 .featuers-material__right {
@@ -1296,7 +1296,7 @@ ul.nacc li p {
 }
 @media (max-width: 767px) {
   .section--about {
-    padding-bottom: 65rem;
+    padding-bottom: 62rem;
   }
 }
 @media (max-width: 412px) {
@@ -1306,7 +1306,7 @@ ul.nacc li p {
 }
 @media (max-width: 320px) {
   .section--about {
-    padding-bottom: 70rem;
+    padding-bottom: 67rem;
   }
 }
 .about {
@@ -1431,6 +1431,11 @@ ul.nacc li p {
     width: 100%;
     position: absolute;
     top: 35rem;
+  }
+}
+@media (max-width: 767px) {
+  .about__text {
+    top: 27rem;
   }
 }
 @media (max-width: 412px) {
@@ -1990,19 +1995,19 @@ ul.nacc li p {
 }
 @media (max-width: 767px) {
   .modal--hire {
-    top: 311rem;
+    top: 314rem;
     left: 2rem;
   }
 }
 @media (max-width: 412px) {
   .modal--hire {
-    top: 323rem;
+    top: 325rem;
     left: 1rem;
   }
 }
 @media (max-width: 320px) {
   .modal--hire {
-    top: 301rem;
+    top: 300rem;
     left: 0.5rem;
   }
 }
