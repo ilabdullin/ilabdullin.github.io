@@ -1240,6 +1240,11 @@ ul.nacc li p {
     height: 670px;
   }
 }
+@media (max-width: 991px) {
+  .map {
+    height: 590px;
+  }
+}
 .hire {
   display: flex;
   flex-wrap: wrap;
@@ -1343,11 +1348,11 @@ ul.nacc li p {
   width: 17%;
   font-family: 'Gotham Pro Regular';
   font-weight: 400;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 @media (max-width: 1370px) {
   .nav-footer {
-    padding-top: 3rem;
+    padding-top: 1rem;
     width: 19%;
   }
 }
@@ -1749,8 +1754,8 @@ ul.nacc li p {
 }
 @media (max-width: 991px) {
   .modal--hire {
-    top: 324rem;
-    left: 5rem;
+    top: 313rem;
+    left: 4rem;
   }
 }
 .modal__dialog {
@@ -1766,8 +1771,13 @@ ul.nacc li p {
   transform: none;
 }
 .modal__dialog--sm {
-  max-width: 30rem;
+  max-width: 35rem;
   border-radius: 3%;
+}
+@media (max-width: 1370px) {
+  .modal__dialog--sm {
+    max-width: 30rem;
+  }
 }
 .modal__dialog-hire {
   width: 100%;
@@ -1788,19 +1798,19 @@ ul.nacc li p {
 }
 @media (max-width: 991px) {
   .modal__dialog-hire--sm {
-    max-width: 24rem;
+    max-width: 21rem;
   }
 }
 .modal__close {
-  width: 34px;
-  height: 39px;
+  width: 30px;
+  height: 34px;
   padding: 0;
   background: none;
   border: 0;
   cursor: pointer;
   position: absolute;
   top: 0.9rem;
-  right: 1rem;
+  right: 1.7rem;
   z-index: 1;
   transition: transform 0.2s linear;
 }
@@ -2034,11 +2044,18 @@ ul.nacc li p {
     width: 13%;
   }
 }
+@media (max-width: 991px) {
+  .footer__contact {
+    width: 20%;
+  }
+}
 .footer-contact__title {
   font-family: 'Gotham Pro Regular';
   font-weight: 400;
-  font-size: 2rem;
-  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 3rem;
+  padding-top: 2.5rem;
 }
 @media (max-width: 991px) {
   .footer-contact__title {
@@ -2065,6 +2082,9 @@ ul.nacc li p {
   font-family: 'Gotham Pro Regular';
   font-weight: 400;
   color: #fff;
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+  line-height: 0;
 }
 .footer__adress-content {
   font-family: 'Gotham Pro Regular';
