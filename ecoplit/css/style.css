@@ -1430,7 +1430,7 @@ ul.nacc li p {
   .about__text {
     width: 100%;
     position: absolute;
-    top: 27rem;
+    top: 35rem;
   }
 }
 @media (max-width: 412px) {
@@ -1984,7 +1984,7 @@ ul.nacc li p {
 }
 @media (max-width: 991px) {
   .modal--hire {
-    top: 282rem;
+    top: 272rem;
     left: 4rem;
   }
 }
