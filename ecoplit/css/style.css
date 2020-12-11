@@ -259,7 +259,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 991px) {
   .btn--modal {
     font-size: 1rem;
-    padding: 1em 1.5em;
+    padding: 0.5rem 1rem;
     min-width: 140px;
   }
 }
@@ -297,9 +297,6 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 991px) {
   .header {
     height: 115px;
-    background-color: #2F2F2F;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -308,9 +305,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 @media (max-width: 767px) {
   .header {
-    background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -322,10 +316,12 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: space-between;
   align-items: center;
 }
-.header.fixed {
-  height: auto;
-  position: fixed;
-  background-color: #fff;
+@media (max-width: 991px) {
+  .header.fixed {
+    height: auto;
+    position: fixed;
+    background-color: #2F2F2F;
+  }
 }
 .header.fixed .header__inner {
   padding-bottom: 0;
@@ -478,11 +474,6 @@ body::-webkit-scrollbar-thumb:hover {
   background: #2F2F2F url("../images/intro/intro-bg.png") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-}
-@media (max-width: 767px) {
-  .intro {
-    margin-top: 95px;
-  }
 }
 .intro__inner {
   display: flex;
@@ -1820,7 +1811,7 @@ ul.nacc li p {
 }
 @media (max-width: 991px) {
   .modal--hire {
-    top: 288rem;
+    top: 282rem;
     left: 4rem;
   }
 }
