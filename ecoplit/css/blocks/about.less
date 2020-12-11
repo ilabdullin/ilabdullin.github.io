@@ -10,6 +10,10 @@
         padding: 3rem 0;
         padding-bottom: 19rem;
     }
+
+    @media @mobile {
+        padding-bottom: 65rem;
+    }
 }
 
 .about {
@@ -92,10 +96,13 @@
     }
 
     @media @mobile {
-        display: flex;
+        display: block;
         position: absolute;
         top: -1rem;
         font-size: 2.3rem;
+
+        padding-left: 0;
+        padding-bottom: 0;
     }
 
     @media @mobile-sm {
@@ -122,7 +129,7 @@
     @media @tablet {
         width: 100%;
         position: absolute;
-        top: 35rem;
+        top: 27rem;
     }
 }
 
@@ -137,6 +144,6 @@
     }
 
     @media @mobile {
-        width: 80%;
+        width: 90%;
     }
 }
