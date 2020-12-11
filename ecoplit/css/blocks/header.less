@@ -9,8 +9,9 @@
     left: 0;
     z-index: 1000;
 
-    @media @mobile {
-        background-color: @white;
+    @media @tablet {
+        height: 115px;
+        background-color: @background;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 
         position: fixed;
@@ -20,8 +21,8 @@
         z-index: 1000;
     }
 
-    @media @tablet {
-        background-color: #fff;
+    @media @mobile {
+        background-color: @white;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 
         position: fixed;
@@ -54,7 +55,9 @@
     border-bottom: 0;
 }
 
-
+.logo__img {
+    width: 70%;
+}
 
 
 

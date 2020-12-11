@@ -5,6 +5,12 @@
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
+    padding: 80px 0;
+
+    @media @tablet {
+        padding: 3rem 0;
+        padding-bottom: 30rem;
+    }
 }
 
 .features-material {
@@ -16,6 +22,10 @@
 
     @media @large-pc {
         width: 90%;
+    }
+
+    @media @tablet {
+        width: 55%;
     }
 }
 
@@ -44,6 +54,10 @@
     width: 50%;
 
     @media @tablet {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 44rem;
         width: 100%;
     }
 }
@@ -57,7 +71,10 @@
     }
 
     @media @tablet {
-        width: 85%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0;
     }
 }
 
@@ -74,6 +91,8 @@
 
     @media @tablet {
         width: 50%;
+        margin-left: 0;
+        padding: 0 25px 30px 65px;
     }
 
     @media @mobile {
@@ -96,6 +115,10 @@
         width: 13%;
         top: 5px;
         left: -2rem;
+    }
+
+    @media @tablet {
+        left: 0;
     }
 
     @media @mobile {
@@ -142,6 +165,10 @@
 
     @media @large-pc {
         font-size: 1.3rem;
+    }
+
+    @media @tablet {
+        width: 101%;
     }
 
     @media @mobile-very-sm {

@@ -64,7 +64,11 @@
 
 .nav.active {
         display: flex;
-        background-color: @background;
+        background-color: rgba(47, 47, 47, 0.7);
+
+    @media @tablet {
+        padding-top: 1rem;
+    }
 
     @media @mobile {
         text-align: center;
@@ -155,6 +159,10 @@
 
     @media @large-pc {
         padding-left: 17rem;
+    }
+
+    @media @tablet {
+        padding-left: 1rem;
     }
 }
 
