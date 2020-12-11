@@ -7,6 +7,10 @@
     position: relative;
     padding: 80px 0;
     padding-top: 0;
+
+    @media @mobile-very-sm {
+        padding-bottom: 25px;
+    }
 }
 
 .features-our {
@@ -60,13 +64,16 @@
     }
 
     @media @mobile {
+        font-size: 1.8rem;
+
         padding-top: 3rem;
         padding-left: 0;
-        font-size: 1.8rem;
     }
 
     @media @mobile-very-sm {
-        font-size: 1.5rem;
+        font-size: 24px;
+
+        padding-right: 5rem;
     }
 }
 
@@ -98,7 +105,7 @@
     }
 
     @media @mobile-very-sm {
-        padding: 0 35px 15px 50px;
+        padding: 0 45px 15px 60px;
     }
 }
 
@@ -128,8 +135,8 @@
     }
 
     @media @mobile-very-sm {
-        left: 10px;
-        width: 11%;
+        top: 2px;
+        width: 14%;
     }
 }
 

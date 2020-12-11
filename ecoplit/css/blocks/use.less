@@ -18,12 +18,14 @@
     font-weight: 500;
     font-size: 2.6rem;
     color: @white;
+
     padding-bottom: 3.3rem;
     padding-left: 2rem;
 
     @media @large-pc {
-        padding-left: 2rem;
         font-size: 2.3rem;
+
+        padding-left: 2rem;
     }
 
     @media @tablet {
@@ -31,12 +33,18 @@
     }
 
     @media @mobile {
-        padding-left: 0;
         padding-bottom: 2rem;
+        padding-left: 0;
     }
 
     @media @mobile-sm {
         font-size: 2rem;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 1.6rem;
+
+        padding-bottom: 1rem;
     }
 }
 
@@ -121,6 +129,10 @@
     @media @tablet {
         font-size: 1.4rem;
     }
+
+    @media @mobile-very-sm {
+        font-size: 20px;
+    }
 }
 
 .use .menu div:hover {
@@ -151,6 +163,10 @@
 .use .menu div.active {
     color: @green;
     padding: 15px 20px 15px 20px;
+
+    @media @mobile-very-sm {
+        padding: 15px 15px 15px 15px;
+    }
 }
 
 ul.nacc {
@@ -171,6 +187,10 @@ ul.nacc {
 
     @media @mobile-sm {
         height: 382.8px;
+    }
+
+    @media @mobile-very-sm {
+        height: 322.9px;
     }
 }
 
