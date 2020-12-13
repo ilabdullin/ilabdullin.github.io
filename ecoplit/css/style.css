@@ -1309,6 +1309,11 @@ ul.nacc li p {
     padding-bottom: 67rem;
   }
 }
+@media (max-width: 275px) {
+  .section--about {
+    padding-bottom: 77rem;
+  }
+}
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -2009,6 +2014,11 @@ ul.nacc li p {
   .modal--hire {
     top: 300rem;
     left: 0.5rem;
+  }
+}
+@media (max-width: 275px) {
+  .modal--hire {
+    top: 318rem;
   }
 }
 .modal__dialog {
