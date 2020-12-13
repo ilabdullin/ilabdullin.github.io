@@ -442,6 +442,7 @@ body::-webkit-scrollbar-thumb:hover {
   flex-wrap: wrap;
   align-items: center;
   height: 100%;
+  float: right;
 }
 @media (max-width: 991px) {
   .nav {
