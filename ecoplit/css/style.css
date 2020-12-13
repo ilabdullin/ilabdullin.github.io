@@ -1304,6 +1304,16 @@ ul.nacc li p {
     padding-bottom: 63rem;
   }
 }
+@media (max-width: 371px) {
+  .section--about {
+    padding-bottom: 67rem;
+  }
+}
+@media (max-width: 351px) {
+  .section--about {
+    padding-bottom: 67rem;
+  }
+}
 @media (max-width: 320px) {
   .section--about {
     padding-bottom: 67rem;
@@ -2010,6 +2020,17 @@ ul.nacc li p {
     left: 1rem;
   }
 }
+@media (max-width: 371px) {
+  .modal--hire {
+    top: 332.5rem;
+    left: 0.5rem;
+  }
+}
+@media (max-width: 351px) {
+  .modal--hire {
+    top: 331rem;
+  }
+}
 @media (max-width: 320px) {
   .modal--hire {
     top: 300rem;
@@ -2359,7 +2380,7 @@ ul.nacc li p {
 }
 @media (max-width: 767px) {
   .footer__adress {
-    width: 38%;
+    width: 39%;
   }
 }
 @media (max-width: 412px) {
