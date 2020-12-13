@@ -1309,7 +1309,7 @@ ul.nacc li p {
     padding-bottom: 67rem;
   }
 }
-@media (max-width: 275px) {
+@media (max-width: 280px) {
   .section--about {
     padding-bottom: 77rem;
   }
@@ -2016,7 +2016,7 @@ ul.nacc li p {
     left: 0.5rem;
   }
 }
-@media (max-width: 275px) {
+@media (max-width: 280px) {
   .modal--hire {
     top: 318rem;
   }
