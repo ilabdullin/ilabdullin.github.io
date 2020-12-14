@@ -2288,6 +2288,11 @@ ul.nacc li p {
     max-width: 30rem;
   }
 }
+@media (max-width: 767px) {
+  .modal__dialog--sm {
+    max-width: 20rem;
+  }
+}
 .modal__dialog-hire {
   width: 100%;
   max-width: 1200px;
@@ -2335,8 +2340,8 @@ ul.nacc li p {
 }
 @media (max-width: 767px) {
   .modal__close {
-    width: 25px;
-    height: 26px;
+    width: 16px;
+    height: 18px;
   }
 }
 .modal__close:hover {
