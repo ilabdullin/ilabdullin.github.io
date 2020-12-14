@@ -1511,22 +1511,22 @@ ul.nacc li p {
 }
 @media (max-width: 412px) {
   .section--about {
-    padding-bottom: 63rem;
+    padding-bottom: 67rem;
   }
 }
 @media (max-width: 371px) {
   .section--about {
-    padding-bottom: 67rem;
+    padding-bottom: 68rem;
   }
 }
 @media (max-width: 351px) {
   .section--about {
-    padding-bottom: 67rem;
+    padding-bottom: 68rem;
   }
 }
 @media (max-width: 320px) {
   .section--about {
-    padding-bottom: 67rem;
+    padding-bottom: 71rem;
   }
 }
 @media (max-width: 280px) {
@@ -1660,11 +1660,17 @@ ul.nacc li p {
 @media (max-width: 767px) {
   .about__text {
     top: 27rem;
+    width: 90%;
   }
 }
 @media (max-width: 412px) {
   .about__text {
     top: 24rem;
+  }
+}
+@media (max-width: 320px) {
+  .about__text {
+    max-width: 92%;
   }
 }
 .about__img {
@@ -2241,13 +2247,13 @@ ul.nacc li p {
 }
 @media (max-width: 412px) {
   .modal--hire {
-    top: 323rem;
+    top: 327rem;
     left: 1.5rem;
   }
 }
 @media (max-width: 371px) {
   .modal--hire {
-    top: 330.5rem;
+    top: 331.5rem;
     left: 1rem;
   }
 }
@@ -2258,7 +2264,7 @@ ul.nacc li p {
 }
 @media (max-width: 320px) {
   .modal--hire {
-    top: 297rem;
+    top: 301rem;
     left: 0.5rem;
   }
 }
@@ -2340,8 +2346,8 @@ ul.nacc li p {
 }
 @media (max-width: 767px) {
   .modal__close {
-    width: 16px;
-    height: 18px;
+    width: 12px;
+    height: 15px;
   }
 }
 .modal__close:hover {
