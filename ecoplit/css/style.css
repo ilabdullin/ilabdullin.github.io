@@ -134,7 +134,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .burger:before,
 .burger:after {
-  border-radius: 50%;
+  border-radius: 25px 25px 25px 25px;
   content: "";
   height: 100%;
   left: 0;
@@ -182,7 +182,7 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   right: auto;
   top: 50%;
-  width: 18px;
+  width: 21px;
   z-index: 10;
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
@@ -473,7 +473,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 991px) {
   .nav {
     position: fixed;
-    background-color: #000;
+    background-color: #2F2F2F;
     width: 100%;
     height: 100%;
     top: 0;
@@ -500,9 +500,19 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 991px) {
   .nav a {
     display: block;
-    font-size: 25px;
+    font-size: 40px;
     margin: 0;
     text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .nav a {
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .nav a {
+    font-size: 17px;
   }
 }
 .nav.active {
@@ -526,8 +536,8 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 991px) {
   .nav .primary-nav {
     position: relative;
-    top: 45%;
-    left: 32%;
+    top: 34%;
+    left: 16%;
     -moz-transform: translateY(-45%);
     -ms-transform: translateY(-45%);
     -webkit-transform: translateY(-45%);
@@ -536,8 +546,20 @@ body::-webkit-scrollbar-thumb:hover {
 }
 @media (max-width: 767px) {
   .nav .primary-nav {
-    top: 45%;
-    left: 11%;
+    top: 35%;
+    left: 6%;
+  }
+}
+@media (max-width: 412px) {
+  .nav .primary-nav {
+    top: 41%;
+    left: 1%;
+  }
+}
+@media (max-width: 320px) {
+  .nav .primary-nav {
+    top: 42%;
+    left: 5%;
   }
 }
 .nav__link {
@@ -785,6 +807,28 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 767px) {
   .intro__img {
     max-width: 85%;
+  }
+}
+.scroll__down {
+  position: absolute;
+  top: 60rem;
+  left: 63.5rem;
+}
+@media (max-width: 1370px) {
+  .scroll__down {
+    top: 45rem;
+    left: 43.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .scroll__down {
+    top: 43rem;
+    left: 25rem;
+  }
+}
+@media (max-width: 767px) {
+  .scroll__down {
+    display: none;
   }
 }
 .section--features-material {

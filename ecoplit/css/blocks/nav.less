@@ -9,7 +9,7 @@
 
     @media @tablet {
         position: fixed;
-        background-color: #000;
+        background-color: @background;
         width: 100%;
         height: 100%;
         top: 0;
@@ -39,9 +39,17 @@
 
     @media @tablet {
         display: block;
-        font-size: 25px;
+        font-size: 40px;
         margin: 0;
         text-align: center;
+    }
+
+    @media @mobile {
+        font-size: 25px;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 17px;
     }
 }
 
@@ -66,8 +74,8 @@
 
     @media @tablet {
         position: relative;
-        top: 45%;
-        left: 32%;
+        top: 34%;
+        left: 16%;
         -moz-transform: translateY(-45%);
         -ms-transform: translateY(-45%);
         -webkit-transform: translateY(-45%);
@@ -75,8 +83,18 @@
     }
 
     @media @mobile {
-        top: 45%;
-        left: 11%;
+        top: 35%;
+        left: 6%;
+    }
+
+    @media @mobile-sm {
+        top: 41%;
+        left: 1%;
+    }
+
+    @media @mobile-very-sm {
+        top: 42%;
+        left: 5%;
     }
 }
 
