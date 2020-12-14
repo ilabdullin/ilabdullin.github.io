@@ -430,7 +430,12 @@ body::-webkit-scrollbar-thumb:hover {
   border-bottom: 0;
 }
 .logo__img {
-  width: 70%;
+  width: 100%;
+}
+@media (max-width: 1370px) {
+  .logo__img {
+    width: 90%;
+  }
 }
 @media (max-width: 767px) {
   .logo__img {
@@ -593,15 +598,15 @@ body::-webkit-scrollbar-thumb:hover {
 .intro__inner {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 23.6rem;
-  padding-bottom: 15rem;
+  padding-top: 21rem;
+  padding-bottom: 18rem;
   position: relative;
   align-items: center;
 }
 @media (max-width: 1370px) {
   .intro__inner {
-    padding-top: 18.6rem;
-    padding-bottom: 8rem;
+    padding-top: 18rem;
+    padding-bottom: 12rem;
   }
 }
 @media (max-width: 767px) {
@@ -673,6 +678,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-family: 'Cera Pro Bold';
   font-weight: 700;
   line-height: 4.2rem;
+  margin-bottom: 1rem;
   font-size: 3.3rem;
   color: #fff;
 }
@@ -712,7 +718,7 @@ body::-webkit-scrollbar-thumb:hover {
 .intro__subtitle {
   font-family: 'Gotham Pro Regular';
   font-weight: 400;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   font-size: 1.6rem;
   line-height: 2.5rem;
   color: #fff;
@@ -899,13 +905,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .features-material__icon {
   position: absolute;
-  top: 0;
-  left: -3rem;
+  top: 5px;
+  left: -2rem;
+  width: 13%;
 }
 @media (max-width: 1370px) {
   .features-material__icon {
-    width: 13%;
-    top: 5px;
+    width: 12%;
+    top: 6px;
     left: -2rem;
   }
 }
@@ -2085,54 +2092,54 @@ ul.nacc li p {
   background: none;
   width: auto;
   height: auto;
-  top: 273rem;
-  left: 14rem;
+  top: 276rem;
+  left: 10rem;
   z-index: 0;
 }
 @media (max-width: 1370px) {
   .modal--hire {
-    top: 236rem;
+    top: 244rem;
     left: 5rem;
   }
 }
 @media (max-width: 991px) {
   .modal--hire {
-    top: 272rem;
+    top: 279rem;
     left: 4rem;
   }
 }
 @media (max-width: 767px) {
   .modal--hire {
-    top: 314rem;
+    top: 318rem;
     left: 2rem;
   }
 }
 @media (max-width: 412px) {
   .modal--hire {
-    top: 325rem;
+    top: 331rem;
     left: 1rem;
   }
 }
 @media (max-width: 371px) {
   .modal--hire {
-    top: 332.5rem;
+    top: 338.5rem;
     left: 0.5rem;
   }
 }
 @media (max-width: 351px) {
   .modal--hire {
-    top: 331rem;
+    top: 338rem;
   }
 }
 @media (max-width: 320px) {
   .modal--hire {
-    top: 300rem;
+    top: 309rem;
     left: 0.5rem;
   }
 }
 @media (max-width: 280px) {
   .modal--hire {
-    top: 318rem;
+    top: 327rem;
   }
 }
 .modal__dialog {
@@ -2140,7 +2147,7 @@ ul.nacc li p {
   max-width: 1200px;
   margin: auto;
   position: relative;
-  background-color: #2F2F2F;
+  background-color: #575A6C;
   transform: scale(0);
   transition: transform 0.2s linear;
 }
@@ -2161,7 +2168,7 @@ ul.nacc li p {
   max-width: 1200px;
   margin: auto;
   position: relative;
-  background-color: #2F2F2F;
+  background-color: #575A6C;
   transition: transform 0.2s linear;
 }
 .modal__dialog-hire--sm {
