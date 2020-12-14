@@ -12,6 +12,30 @@ Gotham Pro font-weight:
     font-style: normal;
 }
 
+2. 500 (medium)
+
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('fonts/GothamPro/medium/GothamPro-Medium.eot');
+    src: url('fonts/GothamPro/medium/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamPro/medium/GothamPro-Medium.woff') format('woff'),
+    url('fonts/GothamPro/medium/GothamPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+3. 700 (bold)
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url('fonts/GothamPro/bold/GothamPro-Bold.eot');
+    src: url('fonts/GothamPro/bold/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamPro/bold/GothamPro-Bold.woff') format('woff'),
+    url('fonts/GothamPro/bold/GothamPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 Cera Pro font-weight:
 1. 700 (bold)
