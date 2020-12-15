@@ -2285,13 +2285,13 @@ ul.nacc li p {
 }
 @media (max-width: 371px) {
   .modal--hire {
-    top: 331.5rem;
+    top: 337.5rem;
     left: 1rem;
   }
 }
 @media (max-width: 351px) {
   .modal--hire {
-    top: 331rem;
+    top: 337rem;
   }
 }
 @media (max-width: 320px) {
