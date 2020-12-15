@@ -343,9 +343,25 @@ body::-webkit-scrollbar-thumb:hover {
     margin-left: 7.5rem;
   }
 }
+@media (max-width: 991px) {
+  .btn--feature-material {
+    margin-left: 12.5rem;
+  }
+}
 @media (max-width: 767px) {
   .btn--feature-material {
-    margin-top: 1.7rem;
+    font-size: 1rem;
+    margin-left: 4.5rem;
+  }
+}
+@media (max-width: 412px) {
+  .btn--feature-material {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 320px) {
+  .btn--feature-material {
+    margin-left: 3.5rem;
   }
 }
 .btn--features-our {
@@ -849,12 +865,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 @media (max-width: 991px) {
   .scroll__down {
-    top: 43rem;
-    left: 25rem;
-  }
-}
-@media (max-width: 767px) {
-  .scroll__down {
     display: none;
   }
 }
@@ -868,22 +878,22 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 991px) {
   .section--features-material {
     padding: 3rem 0;
-    padding-bottom: 30rem;
+    padding-bottom: 35rem;
   }
 }
 @media (max-width: 767px) {
   .section--features-material {
-    padding-bottom: 47rem;
+    padding-bottom: 54rem;
   }
 }
 @media (max-width: 412px) {
   .section--features-material {
-    padding-bottom: 52rem;
+    padding-bottom: 59rem;
   }
 }
 @media (max-width: 320px) {
   .section--features-material {
-    padding-bottom: 45rem;
+    padding-bottom: 50rem;
   }
 }
 .features-material {
@@ -1122,6 +1132,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 @media (max-width: 991px) {
   .use__title {
+    padding-top: 2rem;
     padding-bottom: 3rem;
   }
 }
@@ -1521,7 +1532,7 @@ ul.nacc li p {
 }
 @media (max-width: 991px) {
   .section--about {
-    padding: 3rem 0;
+    padding-top: 0;
     padding-bottom: 19rem;
   }
 }
@@ -2244,31 +2255,31 @@ ul.nacc li p {
   background: none;
   width: auto;
   height: auto;
-  top: 274rem;
+  top: 277rem;
   left: 10rem;
   z-index: 0;
 }
 @media (max-width: 1370px) {
   .modal--hire {
-    top: 241rem;
+    top: 244rem;
     left: 5rem;
   }
 }
 @media (max-width: 991px) {
   .modal--hire {
-    top: 277rem;
+    top: 281rem;
     left: 4rem;
   }
 }
 @media (max-width: 767px) {
   .modal--hire {
-    top: 309rem;
+    top: 316rem;
     left: 2.5rem;
   }
 }
 @media (max-width: 412px) {
   .modal--hire {
-    top: 327rem;
+    top: 333rem;
     left: 1.5rem;
   }
 }
@@ -2285,7 +2296,7 @@ ul.nacc li p {
 }
 @media (max-width: 320px) {
   .modal--hire {
-    top: 301rem;
+    top: 306rem;
     left: 0.5rem;
   }
 }
