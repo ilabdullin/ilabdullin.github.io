@@ -87,19 +87,31 @@
 
     &--sm {
         max-width: 35rem;
+        max-height: 635px;
         border-radius: 3%;
 
         @media @large-pc {
             max-width: 30rem;
+            max-height: 555px;
+        }
+
+        @media @tablet {
+            max-height: 500px;
         }
 
         @media @mobile {
             max-width: 20rem;
+            max-height: 410px;
+        }
+
+        @media @mobile-very-sm {
+            max-height: 400px;
         }
     }
 
     &--more {
         background-color: @background;
+        border-radius: 10px;
 
         @media @large-pc {
             max-width: 1200px;

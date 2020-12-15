@@ -264,7 +264,7 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
   font-family: 'Gotham Pro Medium';
   font-weight: 500;
-  font-size: 1.06rem;
+  font-size: 1.3rem;
   line-height: 1.1;
   color: #2F2F2F;
   text-decoration: none;
@@ -281,6 +281,11 @@ body::-webkit-scrollbar-thumb:hover {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
   color: #2F2F2F;
   border-color: #B9D420;
+}
+@media (max-width: 1370px) {
+  .btn {
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 991px) {
   .btn {
@@ -2321,20 +2326,34 @@ ul.nacc li p {
 }
 .modal__dialog--sm {
   max-width: 35rem;
+  max-height: 635px;
   border-radius: 3%;
 }
 @media (max-width: 1370px) {
   .modal__dialog--sm {
     max-width: 30rem;
+    max-height: 555px;
+  }
+}
+@media (max-width: 991px) {
+  .modal__dialog--sm {
+    max-height: 500px;
   }
 }
 @media (max-width: 767px) {
   .modal__dialog--sm {
     max-width: 20rem;
+    max-height: 410px;
+  }
+}
+@media (max-width: 320px) {
+  .modal__dialog--sm {
+    max-height: 400px;
   }
 }
 .modal__dialog--more {
   background-color: #2F2F2F;
+  border-radius: 10px;
 }
 @media (max-width: 1370px) {
   .modal__dialog--more {
