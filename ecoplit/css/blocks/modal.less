@@ -18,15 +18,15 @@
         display: flex;
     }
 
-    &--hire {
-        display: flex;
-        position: absolute;
-        background: none;
-        width: auto;
-        height: auto;
-        top: 274rem;
-        left: 10rem;
-        z-index: 0;
+&--hire {
+    display: flex;
+    position: absolute;
+    background: none;
+    width: auto;
+    height: auto;
+    top: 274rem;
+    left: 10rem;
+    z-index: 0;
 
         @media @large-pc {
             top: 241rem;
@@ -70,7 +70,9 @@
 
 .modal__dialog {
     width: 100%;
-    max-width: 1200px;
+    height: 100%;
+    max-width: 1507px;
+    max-height: 757px;
     margin: auto;
     position: relative;
 
@@ -93,6 +95,15 @@
 
         @media @mobile {
             max-width: 20rem;
+        }
+    }
+
+    &--more {
+        background-color: @background;
+
+        @media @large-pc {
+            max-width: 1200px;
+            max-height: 525px;
         }
     }
 }
