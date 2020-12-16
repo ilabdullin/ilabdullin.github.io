@@ -584,14 +584,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 @media (max-width: 371px) {
   .nav .primary-nav {
-    top: 28%;
-    left: 12%;
+    top: 25%;
+    left: 13%;
   }
 }
 @media (max-width: 351px) {
   .nav .primary-nav {
-    top: 28%;
-    left: 12%;
+    top: 25%;
+    left: 13%;
   }
 }
 @media (max-width: 320px) {
@@ -1566,12 +1566,12 @@ ul.nacc li p {
 }
 @media (max-width: 371px) {
   .section--about {
-    padding-bottom: 65rem;
+    padding-bottom: 62rem;
   }
 }
 @media (max-width: 351px) {
   .section--about {
-    padding-bottom: 65rem;
+    padding-bottom: 62rem;
   }
 }
 @media (max-width: 320px) {
