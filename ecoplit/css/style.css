@@ -2273,19 +2273,19 @@ ul.nacc li p {
   background: none;
   width: auto;
   height: auto;
-  top: 277rem;
+  top: 281rem;
   left: 10rem;
   z-index: 0;
 }
 @media (max-width: 1370px) {
   .modal--hire {
-    top: 244rem;
+    top: 249rem;
     left: 5rem;
   }
 }
 @media (max-width: 991px) {
   .modal--hire {
-    top: 281rem;
+    top: 285rem;
     left: 4rem;
   }
 }
@@ -2339,18 +2339,18 @@ ul.nacc li p {
 }
 .modal__dialog--sm {
   max-width: 35rem;
-  max-height: 635px;
+  max-height: 555px;
   border-radius: 3%;
 }
 @media (max-width: 1370px) {
   .modal__dialog--sm {
     max-width: 30rem;
-    max-height: 555px;
+    max-height: 475px;
   }
 }
 @media (max-width: 991px) {
   .modal__dialog--sm {
-    max-height: 500px;
+    max-height: 410px;
   }
 }
 @media (max-width: 767px) {
