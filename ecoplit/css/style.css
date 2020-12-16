@@ -1556,32 +1556,32 @@ ul.nacc li p {
 }
 @media (max-width: 767px) {
   .section--about {
-    padding-bottom: 62rem;
+    padding-bottom: 57rem;
   }
 }
 @media (max-width: 412px) {
   .section--about {
-    padding-bottom: 67rem;
+    padding-bottom: 62rem;
   }
 }
 @media (max-width: 371px) {
   .section--about {
-    padding-bottom: 68rem;
+    padding-bottom: 65rem;
   }
 }
 @media (max-width: 351px) {
   .section--about {
-    padding-bottom: 68rem;
+    padding-bottom: 65rem;
   }
 }
 @media (max-width: 320px) {
   .section--about {
-    padding-bottom: 71rem;
+    padding-bottom: 65rem;
   }
 }
 @media (max-width: 280px) {
   .section--about {
-    padding-bottom: 77rem;
+    padding-bottom: 72rem;
   }
 }
 .about {
@@ -2356,12 +2356,12 @@ ul.nacc li p {
 @media (max-width: 767px) {
   .modal__dialog--sm {
     max-width: 20rem;
-    max-height: 410px;
+    max-height: 325px;
   }
 }
 @media (max-width: 320px) {
   .modal__dialog--sm {
-    max-height: 400px;
+    max-height: 310px;
   }
 }
 .modal__dialog--more {
@@ -2913,7 +2913,7 @@ ul.nacc li p {
   font-size: 1.2rem;
   line-height: 1.2;
   font-weight: 300;
-  color: #949494;
+  color: rgba(255, 255, 255, 0.5);
   transition: border-color 0.2s linear;
 }
 .form__input:focus,
