@@ -49,6 +49,13 @@
     }
 }
 
+.use__photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
 .use__img {
 
     @media @large-pc {
@@ -60,7 +67,7 @@
     }
 
     @media @mobile {
-        width: 100%;
+        width: 85%;
     }
 }
 
@@ -116,7 +123,6 @@
     padding: 15px 0 15px 40px;
     margin-bottom: 10px;
     color: @white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     position: relative;
     vertical-align: middle;
@@ -164,6 +170,7 @@
 .use .menu div.active {
     color: @green;
     padding: 15px 20px 15px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
     @media @mobile-very-sm {
         padding: 15px 15px 15px 15px;
@@ -183,15 +190,15 @@ ul.nacc {
     }
 
     @media @mobile {
-        height: 425.3px;
+        height: 355.6px;
     }
 
     @media @mobile-sm {
-        height: 382.8px;
+        height: 319.5px;
     }
 
     @media @mobile-very-sm {
-        height: 322.9px;
+        height: 268.6px;
     }
 }
 

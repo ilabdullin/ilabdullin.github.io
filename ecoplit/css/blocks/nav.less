@@ -30,26 +30,9 @@
     display: inline-block;
 
     @media @tablet {
-        display: block;
+        display: flex;
+        justify-content: center;
         margin-bottom: 20px;
-    }
-}
-
-.nav a {
-
-    @media @tablet {
-        display: block;
-        font-size: 40px;
-        margin: 0;
-        text-align: center;
-    }
-
-    @media @mobile {
-        font-size: 25px;
-    }
-
-    @media @mobile-very-sm {
-        font-size: 17px;
     }
 }
 
@@ -61,10 +44,6 @@
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
 
-    @media @tablet {
-        padding-top: 1rem;
-    }
-
     @media @mobile {
         text-align: center;
     }
@@ -74,8 +53,8 @@
 
     @media @tablet {
         position: relative;
-        top: 34%;
-        left: 16%;
+        top: 26%;
+        left: 27%;
         -moz-transform: translateY(-45%);
         -ms-transform: translateY(-45%);
         -webkit-transform: translateY(-45%);
@@ -83,18 +62,18 @@
     }
 
     @media @mobile {
-        top: 35%;
-        left: 6%;
+        top: 25%;
+        left: 19%;
     }
 
     @media @mobile-sm {
-        top: 41%;
-        left: 1%;
+        top: 30%;
+        left: 16%;
     }
 
     @media @mobile-very-sm {
-        top: 42%;
-        left: 5%;
+        top: 27%;
+        left: 18%;
     }
 }
 
@@ -112,6 +91,25 @@
 
     &:hover {
         color: @green;
+    }
+
+    @media @large-pc {
+        font-size: 1rem;
+    }
+
+   @media @tablet {
+        display: block;
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+    }
+
+    @media @mobile {
+        font-size: 25px;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 17px;
     }
 
 
@@ -159,21 +157,10 @@
             margin-left: 3rem;
         }
 
-    }
+        @media @tablet {
+            display: none;
+        }
 
-    @media @large-pc {
-        font-size: 1rem;
-    }
-
-    @media @mobile {
-        width: 100%;
-        margin-left: 0;
-        padding: 0.5rem 1rem;
-    }
-
-    @media @tablet {
-        padding: 9px 15px;
-        justify-content: center;
     }
 
 }
@@ -186,7 +173,8 @@
     }
 
     @media @tablet {
-        padding-left: 1rem;
+        padding-left: 0;
+        padding-right: 2rem;
     }
 }
 

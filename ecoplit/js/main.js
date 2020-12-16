@@ -10,24 +10,16 @@ $(function() {
 
 
 
-    checkScroll(scrollPos, introH);
+    // Header Scroll
+    $(window).on('scroll', function() {
+        var scroll = $(window).scrollTop();
 
-
-    $(window).on("scroll resize", function() {
-        introH = intro.innerHeight();
-        scrollPos = $(this).scrollTop();
-
-        checkScroll(scrollPos, introH);
-    });
-
-
-    function checkScroll(scrollPos, introH) {
-        if( scrollPos > introH ) {
-            header.addClass("fixed");
-        }    else {
-            header.removeClass("fixed");
+        if (scroll >= 50) {
+            $('#header').addClass('fixed');
+        } else {
+            $('#header').removeClass('fixed');
         }
-    }
+    });
 
 
 
