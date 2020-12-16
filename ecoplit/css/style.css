@@ -582,6 +582,18 @@ body::-webkit-scrollbar-thumb:hover {
     left: 16%;
   }
 }
+@media (max-width: 371px) {
+  .nav .primary-nav {
+    top: 28%;
+    left: 12%;
+  }
+}
+@media (max-width: 351px) {
+  .nav .primary-nav {
+    top: 28%;
+    left: 12%;
+  }
+}
 @media (max-width: 320px) {
   .nav .primary-nav {
     top: 27%;
