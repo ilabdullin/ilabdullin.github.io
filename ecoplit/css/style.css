@@ -1566,12 +1566,12 @@ ul.nacc li p {
 }
 @media (max-width: 371px) {
   .section--about {
-    padding-bottom: 62rem;
+    padding-bottom: 63rem;
   }
 }
 @media (max-width: 351px) {
   .section--about {
-    padding-bottom: 62rem;
+    padding-bottom: 63rem;
   }
 }
 @media (max-width: 320px) {
@@ -2303,13 +2303,13 @@ ul.nacc li p {
 }
 @media (max-width: 371px) {
   .modal--hire {
-    top: 330.5rem;
+    top: 328.5rem;
     left: 1rem;
   }
 }
 @media (max-width: 351px) {
   .modal--hire {
-    top: 330rem;
+    top: 328rem;
   }
 }
 @media (max-width: 320px) {
