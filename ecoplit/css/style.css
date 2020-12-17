@@ -1693,6 +1693,7 @@ ul.nacc li p {
   font-family: 'Gotham Pro Regular';
   font-weight: 400;
   font-size: 1.6rem;
+  line-height: 2rem;
   color: #fff;
 }
 @media (max-width: 1370px) {
