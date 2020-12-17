@@ -3038,8 +3038,14 @@ ul.nacc li p {
   font-weight: 400;
   font-size: 1rem;
   color: #fff;
+  text-decoration: none;
 }
 .footer__number-title {
+  font-family: 'Gotham Pro Regular';
+  font-weight: 400;
+  color: #fff;
+}
+.footer__email-title {
   font-family: 'Gotham Pro Regular';
   font-weight: 400;
   color: #fff;
@@ -3093,6 +3099,7 @@ ul.nacc li p {
   font-weight: 400;
   font-size: 1rem;
   color: #fff;
+  text-decoration: none;
 }
 .footer__credits {
   display: flex;
