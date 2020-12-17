@@ -2274,13 +2274,13 @@ ul.nacc li p {
   background: none;
   width: auto;
   height: auto;
-  top: 281rem;
+  top: 280rem;
   left: 10rem;
   z-index: 0;
 }
 @media (max-width: 1370px) {
   .modal--hire {
-    top: 249rem;
+    top: 248rem;
     left: 5rem;
   }
 }
