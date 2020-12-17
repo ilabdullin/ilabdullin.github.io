@@ -1,9 +1,9 @@
 // вешаем маску на телефон
-    $('.phone-field').inputmask("+8 (99) 999-99-99");
+    $('.phone-field').inputmask("+999 (99) 999-99-99");
 
     // добавляем правило для валидации телефона
     jQuery.validator.addMethod("checkMaskPhone", function(value, element) {
-        return /\+\d{1}\(\d{2}\)\d{3}-\d{2}-\d{2}/g.test(value);
+        return /\+\d{3}\(\d{2}\)\d{3}-\d{2}-\d{2}/g.test(value);
     });
 
     // получаем нашу форму по class
