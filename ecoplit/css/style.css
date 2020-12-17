@@ -861,8 +861,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .scroll__down {
   position: absolute;
-  top: 58rem;
-  left: 61.5rem;
+  top: 56rem;
+  left: 60.5rem;
 }
 @media (max-width: 1370px) {
   .scroll__down {
