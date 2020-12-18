@@ -1181,6 +1181,9 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: center;
   width: 100%;
 }
+.use__img {
+  border-radius: 10px;
+}
 @media (max-width: 1370px) {
   .use__img {
     width: 95%;
