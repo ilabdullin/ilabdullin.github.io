@@ -1,0 +1,194 @@
+// main: ../style.less
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -15px;
+    background: @background url("../images/intro/intro-bg.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 21rem;
+    padding-bottom: 15rem;
+    position: relative;
+    align-items: center;
+
+    @media @large-pc {
+        padding-top: 18rem;
+        padding-bottom: 12rem;
+    }
+
+    @media @mobile {
+        padding-top: 5rem;
+        padding-bottom: 8rem;
+    }
+
+    @media @mobile-very-sm {
+        padding-top: 3rem;
+    }
+}
+
+.intro__item {
+    width: 50%;
+
+    @media @large-pc {
+        padding: 0 1.5rem;
+    }
+
+    @media @mobile {
+        padding-top: 12rem;
+
+        width: 100%;
+    }
+}
+
+.intro__item--photo {
+    width: 50%;
+
+    @media @large-pc {
+        width: 49%;
+    }
+
+    @media @tablet {
+        width: 100%;
+    }
+
+    @media @mobile {
+        display: flex;
+        position: absolute;
+        top: -1rem;
+        right: 4rem;
+        width: 100%;
+    }
+}
+
+.intro__item--content {
+    width: 56%;
+
+    @media @large-pc {
+        width: 47%;
+    }
+
+    @media @tablet {
+        width: 100%;
+        text-align: center;
+    }
+
+    @media @mobile {
+        text-align: left;
+    }
+}
+
+.intro__title {
+    font-family: 'Cera Pro Bold';
+    font-weight: 700;
+    line-height: 4.2rem;
+    margin-bottom: 1rem;
+
+    font-size: 3.3rem;
+    color: @white;
+
+
+    @media @large-pc {
+        line-height: 3.1rem;
+        font-size: 2.2rem;
+    }
+
+    @media @notebook {
+        font-size: 2.7rem;
+    }
+
+     @media @tablet {
+        font-size: 2rem;
+    }
+
+    @media @mobile {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    @media @mobile-sm {
+        font-size: 1.6rem;
+    }
+
+    @media @mobile-very-sm {
+        line-height: 2rem;
+        font-size: 1.6rem;
+    }
+}
+
+.intro__subtitle {
+    font-family: 'Gotham Pro Regular';
+    font-weight: 400;
+    margin-bottom: 50px;
+
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: @white;
+    width: 80%;
+
+    @media @large-pc {
+        line-height: 1.9rem;
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    @media @tablet {
+        width: 100%;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 1.1rem;
+    }
+}
+
+.intro__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 4rem;
+
+    @media @large-pc {
+        margin-left: 0;
+    }
+
+    @media @tablet {
+        position: absolute;
+        max-width: 75%;
+        top: 2rem;
+        left: 5rem;
+    }
+
+    @media @mobile {
+        max-width: 85%;
+    }
+}
+
+.scroll__down {
+    position: absolute;
+    top: 56rem;
+    left: 60.5rem;
+
+    @media @large-pc {
+        top: 45rem;
+        left: 43.5rem;
+    }
+
+    @media @tablet {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+

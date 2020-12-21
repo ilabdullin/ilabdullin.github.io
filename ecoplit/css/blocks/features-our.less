@@ -1,0 +1,196 @@
+// main: ../style.less
+
+.section--features-our {
+    background: @background center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0;
+    padding-top: 0;
+
+    @media @mobile-very-sm {
+        padding-bottom: 25px;
+    }
+}
+
+.features-our {
+    display: flex;
+    flex-wrap: wrap;
+    width: 115%;
+
+    @media @tablet {
+        width: 101%;
+    }
+}
+
+.features-our__img {
+    display: flex;
+    position: absolute;
+    right: 3rem;
+    top: 15rem;
+    width: 12%;
+
+    @media @large-pc {
+        right: 0;
+        top: 19rem;
+        width: 13%;
+    }
+
+    @media @mobile {
+        display: none;
+    }
+
+    @media @tablet {
+        right: 14rem;
+        top: 13rem;
+        width: 40%;
+    }
+}
+
+.features-our__title {
+    font-family: 'Cera Pro Regular';
+    font-weight: 500;
+    font-size: 2.6rem;
+    padding-bottom: 5rem;
+    color: @white;
+    padding-left: 2rem;
+
+    @media @large-pc {
+        font-size: 2.3rem;
+    }
+
+    @media @tablet {
+        padding-bottom: 3rem;
+    }
+
+    @media @mobile {
+        font-size: 1.8rem;
+
+        padding-top: 3rem;
+        padding-left: 0;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 24px;
+
+        padding-right: 5rem;
+    }
+}
+
+.features-our__item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0 35px 40px 170px;
+    position: relative;
+    margin-bottom: 2.7rem;
+
+    @media @large-pc {
+        padding: 0 35px 20px 150px;
+    }
+
+    @media @tablet {
+        width: 50%;
+        padding: 0 35px 40px 115px;
+    }
+
+    @media @mobile {
+        width: 100%;
+        margin-bottom: 0.7rem;
+        padding: 0 35px 30px 70px;
+    }
+
+    @media @mobile-sm {
+        padding: 0 35px 40px 80px;
+    }
+
+    @media @mobile-very-sm {
+        padding: 0 45px 15px 60px;
+    }
+}
+
+.features-our__icon {
+    position: absolute;
+    top: -1.5rem;
+    left: 2rem;
+    width: 12%;
+
+    @media @large-pc {
+        left: 2rem;
+    }
+
+    @media @tablet {
+        top: 0.5rem;
+        width: 14%;
+    }
+
+    @media @mobile {
+        top: -3px;
+        left: -3px;
+        width: 12%;
+    }
+
+    @media @mobile-sm {
+        width: 15%;
+    }
+
+    @media @mobile-very-sm {
+        top: 2px;
+        width: 14%;
+    }
+}
+
+
+.features-our__item--title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    color: @white;
+
+    @media @mobile {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+}
+
+
+.features-our__text {
+    font-family: 'Cera Pro Regular';
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: @white;
+    line-height: 1.5rem;
+
+    @media @large-pc {
+        font-size: 1.3rem;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 16px;
+    }
+}
+
+.feature-our__house {
+    position: absolute;
+    top: -11rem;
+    right: -3rem;
+    z-index: 0;
+
+    @media @large-pc {
+        top: -11rem;
+        right: -12rem;
+    }
+
+    @media @tablet {
+        display: none;
+    }
+}
+
+
+

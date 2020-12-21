@@ -1,0 +1,91 @@
+// main: ../style.less
+
+.form__group {
+    margin-bottom: 1.2rem;
+
+    @media @mobile {
+        margin-bottom: 1rem;
+    }
+}
+
+.form__label {
+    font-family: 'Gotham Pro Regular';
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+
+    font-size: 1.1rem;
+    color: #949494;
+
+    @media @mobile {
+        font-size: 0.7rem;
+    }
+}
+
+.form__input,
+.form__textarea {
+    display: block;
+    font-family: 'Gotham Pro Regular';
+    font-weight: 400;
+    width: 100%;
+    padding: 0.8rem 0;
+
+    border-bottom: 1px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: @white;
+
+    transition: border-color 0.2s linear;
+
+    &:focus {
+        outline: none;
+        border-color: @green;
+    }
+
+    &::placeholder {
+        font-family: 'Gotham Pro Regular';
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    @media @large-pc {
+        font-size: 1rem;
+    }
+
+    @media @tablet {
+        width: 100%;
+        padding: 0.8rem 0;
+    }
+
+    @media @mobile {
+        width: 100%;
+        padding: 0.7rem 0;
+    }
+}
+
+.form__textarea {
+    height: 85px;
+    resize: none;
+
+    @media @mobile {
+        height: 85px;
+    }
+
+    @media @mobile-very-sm {
+        height: 75px;
+    }
+}
+
+.error {
+    color: #F45656;
+}
+
+
+

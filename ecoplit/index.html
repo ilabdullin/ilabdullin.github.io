@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <!--  Meta  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Мы – это одно из ведущих предприятий по производству строительных материалов в Республике Узбекистан, специализирующееся на производстве фиброцементных плит">
+    <meta name="keywords" content="строительство, цемент, цемент в ташкенте, цемент недорого, ремонт">
+    <meta name="robots" content="index">
+
+    <!--  Stylesheets  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--  FAVICON ICON  -->
+    <link rel="shortcut icon" type="image/ico" href="images/ecoplit-logo.png">
+
+    <!--  Script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.5/jquery.inputmask.min.js"></script>
+
+    <title>Ecoplit - одно из ведущих предприятий по производству строительных материалов в Узбекистане</title>
+</head>
+<body>
+
+<div class="page">
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="#">
+                    <img class="logo__img" src="images/header/header-logo.svg" alt="Ecoplit">
+                </a>
+            </div>
+
+
+            <nav class="nav" id="nav">
+                <ul class="primary-nav">
+                    <li><a class="nav__link" href="#" data-scroll="#use">Применение</a></li>
+                    <li><a class="nav__link" href="#" data-scroll="#features-material">Преимущества</a></li>
+                    <li><a class="nav__link" href="#" data-scroll="#footer">Контакты</a></li>
+                    <li><a class="nav__link" href="#" data-scroll="#about">О компании</a></li>
+                    <li><a class="nav__link nav__link--lang active" href="#">Ru</a>
+                    <a class="nav__link" href="#">Uz</a>
+                    </li>
+                    <li><a class="nav__link nav__link--btn" href="#" data-modal="#modal_callback">Заказать звонок</a></li>
+                </ul>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item">Menu</span>
+            </button>
+        </div><!-- /.heaeder__inner -->
+    </div><!-- /.container -->
+</header><!-- /.header -->
+
+
+
+
+<main class="main">
+
+
+<!-- Intro -->
+<section class="intro" id="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+            <div class="intro__item intro__item--content">
+
+                <h1 class="intro__title">Ecoplit - мы не просто украсим фасад или интерьер, но и утеплим-защитим </h1>
+
+                <h2 class="intro__subtitle">
+                    Мы занимаемся облицовкой фасадов и интерьеров вашего офиса склада
+                </h2>
+
+                <a class="btn btn--intro" href="#" data-modal="#modal_callback">Связаться</a>
+            </div>
+
+
+
+            <div class="intro__item intro__item--photo"></div>
+
+        </div><!-- /.intro__inner -->
+
+        <img class="scroll__down" src="images/intro/scroll-down.svg" alt="Скролл">
+    </div><!-- /.container -->
+</section><!-- /.intro -->
+
+
+<!-- Features-material -->
+<section class="section--features-material" id="features-material">
+    <div class="container">
+
+       <h2 class="features-material__title">Преимущества <span class="green">материала</span></h2>
+
+        <div class="features-material">
+            <div class="features-material__left">
+                <div class="features-material__item">
+                    <img class="features-material__icon" src="images/features-material/1.svg" alt="1">
+                    <h3 class="features-material__item--title">Высокая прочность</h3>
+                    <div class="features-material__text">Прочность на изгиб не менее 23 мПа (показатель предела прочности)</div>
+                </div>
+
+                <div class="features-material__item">
+                    <img class="features-material__icon" src="images/features-material/2.svg" alt="2">
+                    <h3 class="features-material__item--title">Огнестойкость</h3>
+                    <div class="features-material__text">Не воспламеняются и не распространяют огонь</div>
+                </div>
+
+                <div class="features-material__item">
+                    <img class="features-material__icon" src="images/features-material/3.svg" alt="3">
+                    <h3 class="features-material__item--title">Влагостойкость</h3>
+                    <div class="features-material__text">Плиты не разбухают от влаги, не подвержены гниению и поражению плесени</div>
+                </div>
+
+                <div class="features-material__item">
+                    <img class="features-material__icon" src="images/features-material/4.svg" alt="4">
+                    <h3 class="features-material__item--title">Морозостойкость</h3>
+                    <div class="features-material__text">Не менее 50 циклов замораживания и оттаивания. Температурный перепад от +50⁰С до -40⁰С</div>
+                </div>
+
+                <a class="btn btn--feature-material" href="#" data-modal="#modal_more">Все характеристики</a>
+            </div>
+
+            <div class="featuers-material__right">
+                <img class="features-material__img" src="images/features-material/features-right.png" alt="Преимущества материала">
+            </div>
+        </div><!-- /.features-material -->
+
+        <img class="feature-materials__house" src="images/features-material/material-house.png" alt="">
+    </div><!-- /.container -->
+</section><!-- /.section-features-material -->
+
+
+<!-- Use -->
+<section class="section--use" id="use">
+    <div class="container">
+
+       <h2 class="use__title">Области <span class="green">применения</span></h2>
+
+        <div class="use">
+            <div class="grid">
+
+                <div class="gc gc--2-of-3">
+                    <ul class="nacc">
+
+                        <li class="active">
+                            <div class="use__photo">
+                                <img class="use__img" src="images/use/factory.png" alt="">
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="use__photo">
+                                 <img class="use__img" src="images/use/house.png" alt="">
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="use__photo">
+                                 <img class="use__img" src="images/use/goverment.png" alt="">
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="use__photo">
+                                 <img class="use__img" src="images/use/school.png" alt="">
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="use__photo">
+                                 <img class="use__img" src="images/use/office.png" alt="">
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="use__photo">
+                                 <img class="use__img" src="images/use/mall.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="gc gc--1-of-3">
+                    <div class="menu">
+                        <div class="active"><span class="light"></span><span>Промышленные объекты</span></div>
+                        <div><span class="light"></span><span>Фасады жилых домов</span></div>
+                        <div><span class="light"></span><span>Государственные учреждения</span></div>
+                        <div><span class="light"></span><span>Образовательные учреждения</span></div>
+                        <div><span class="light"></span><span>Офисы и прочее</span></div>
+                        <div><span class="light"></span><span>Торговые центры</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- /.use -->
+    </div><!-- /.container -->
+</section><!-- /.section-use -->
+
+
+<!-- Features-our -->
+<section class="section--features-our" id="features-our">
+    <div class="container">
+
+       <h2 class="features-our__title"><span class="green">Наши</span> премущества</h2>
+
+        <div class="features-our">
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/1.svg" alt="Наши преимущества">
+                <div class="features-our__text">Работаем по всей Республике Узбекистан и странам СНГ</div>
+            </div>
+
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/2.svg" alt="Наши преимущества">
+                <div class="features-our__text">Гибкая ценовая политика</div>
+            </div>
+
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/3.svg" alt="Наши преимущества">
+                <div class="features-our__text">Многолетний опыт в производстве строительных материалов</div>
+            </div>
+
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/4.svg" alt="Наши преимущества">
+                <div class="features-our__text">Комплектация обьектов под ключ</div>
+            </div>
+
+
+
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/5.svg" alt="Наши преимущества">
+                <div class="features-our__text">3 производственные линии и новейшее оборудование</div>
+            </div>
+
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/6.svg" alt="Наши преимущества">
+                <div class="features-our__text">4 офиса продаж</div>
+            </div>
+
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/7.svg" alt="Наши преимущества">
+                <div class="features-our__text">Производственная мощь 9000м2 / день</div>
+            </div>
+
+            <div class="features-our__item">
+                <img class="features-our__icon" src="images/features-our/8.svg" alt="Наши преимущества">
+                <div class="features-our__text">График работы 24/7</div>
+            </div>
+
+        </div><!-- /.features-our -->
+
+        <a class="btn btn--features-our" href="#" data-modal="#modal_callback">Связаться</a>
+
+        <img class="feature-our__house" src="images/features-our/feature-our-house.png" alt="">
+    </div><!-- /.container -->
+</section><!-- /.section-features-our -->
+
+
+<!-- About -->
+<section class="section--about" id="about">
+    <div class="container">
+        <div class="about">
+
+            <div class="about__item about__item--content">
+                <h2 class="about__title">Немного <span class="green">о нас</span></h2>
+                <div class="about__text">
+                    <p><span class="green">Мы</span> – это одно из ведущих предприятий по производству строительных материалов в Республике Узбекистан, специализирующееся на производстве фиброцементных плит.
+                    </p>
+
+                    <p>«Ecoplit» – это фиброцементные плиты безупречного качества, экологически чистые и универсальные в применении. В состав фиброцементных плит входят материалы, безопасные для здоровья человека: цемент, армирующие волокна целлюзы, минеральные наполнители.
+                    </p>
+                </div>
+            </div><!-- /.about__item -->
+
+
+            <div class="about__item about__item--photo">
+                <img class="about__img" src="images/about/about.png" alt="О нас">
+            </div>
+        </div><!-- /.about -->
+
+        <img class="about__pattern" src="images/about/about-left.png" alt="">
+    </div><!-- /.container -->
+</section><!-- /.about -->
+
+
+<!-- Map -->
+<iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aac45ac360b560126387eb191b43baa1ff9e549069198c6cae4079332ec5b9a4d&amp;source=constructor" frameborder="0"></iframe>
+
+
+<!-- Hire -->
+<div class="hire">
+
+    <div class="hire__item hire__item--text">
+        <div class="modal modal--hire">
+            <div class="modal__dialog-hire  modal__dialog-hire--sm">
+
+                <div class="contact--modal">
+
+                    <div class="contact__left">
+                        <h3 class="modal__title modal__title--hire mb-0">Форма</h3>
+                        <h4 class="modal__subtitle modal__subtitle--hire">Отправьте нам заявку и наши специалисты в скором времени свяжутся с вами</h4>
+
+
+                    <form class="form" action="/" method="post">
+                        <div class="form__group">
+                            <input class="form__input" name="name" type="text" id="input-name__hire" placeholder="Ваше имя" data-rule-required="true" data-msg="Введите имя">
+                        </div>
+
+                        <div class="form__group">
+                            <input class="form__input phone-field" name="phone" type="tel" id="input-phone__hire" placeholder="Номер телефона" data-rule-required="true" data-rule-minlength="12" data-msg="Введите номер телефона">
+                        </div>
+
+
+                        <div class="form__group">
+                            <textarea class="form__textarea" name="input-text" id="input-text__hire" placeholder="Ваш комментарий..."></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn--modal" type="submit">Отправить заявку</button>
+                        </div>
+                    </form>
+                    </div><!-- /.contact__left -->
+                </div><!-- /.contact -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </div><!-- /.hire__item-text -->
+</div><!-- /.hire -->
+
+
+</main><!-- /.main -->
+
+
+<!-- Footer -->
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__inner">
+
+            <a class="footer__logo-container" href="#">
+                <img class="footer__logo" src="images/footer/footer-logo.svg" alt="GetSmart">
+            </a>
+
+            <nav class="nav-footer">
+               <div class="nav-footer__title">Навигация по блокам</div>
+                <a class="nav__link-footer" href="#" data-scroll="#intro">Главная</a>
+                <a class="nav__link-footer" href="#" data-scroll="#about">О нас</a>
+                <a class="nav__link-footer" href="#" data-scroll="#features-material">Преимущества</a>
+                <a class="nav__link-footer" href="#" data-scroll="#use">Применение</a>
+            </nav>
+
+            <div class="footer__contact">
+                <div class="footer-contact__title">Контакты</div>
+
+                <div class="footer__contact-content">
+                    <div class="footer__number-title">Телефон:</div>
+                    <a href="tel:+998978880999" class="footer__number"><span class="green">+998 97 888 09 99</span></a>
+
+                    <div class="footer__email-title">Email:</div>
+                    <a href="mailto:ecoplit@info.com" class="footer__email"><span class="green">ecoplit@info.com</span></a>
+                </div>
+            </div>
+
+            <div class="footer__adress">
+                    <div class="footer__adress-title">Адрес</div>
+                    <div class="footer__adress-content">Юнусабад р-н, 6 квартал, ул. Мойкурган, дом 11а</div>
+                </div>
+        </div><!-- /.footer__inner -->
+
+        <div class="footer__credits">
+            <div class="footer__copyright">
+               &copy; Ecoplit 2020 | Все права защищены
+
+               <div class="footer__getsmart">Сайт создан в компании <a class="getsmart" href="#">GetSmart</a></div>
+            </div>
+        </div>
+
+    </div><!-- /.container -->
+</footer><!-- /.footer -->
+
+
+</div><!-- /.page -->
+
+
+<!-- Modals -->
+<div class="modal" id="modal_callback">
+    <div class="modal__dialog  modal__dialog--sm">
+
+        <button class="modal__close" type="button"  data-close>
+            <img src="images/modal/modal-close.svg" alt="Close">
+        </button>
+
+
+        <div class="contact--modal">
+
+            <div class="contact__left">
+                <h3 class="modal__title mb-0">Форма</h3>
+                <h4 class="modal__subtitle">Отправьте нам заявку и наши специалисты в скором времени свяжутся с вами</h4>
+
+
+                <form class="form" action="/" method="post">
+                    <div class="form__group">
+                        <input class="form__input" name="name" type="text" id="input-name" placeholder="Ваше имя" data-rule-required="true" data-msg="Введите имя">
+                    </div>
+
+                    <div class="form__group">
+                        <input class="form__input phone-field" name="phone" type="text" id="input-phone" placeholder="Номер телефона" data-rule-required="true" data-rule-minlength="12" data-msg="Введите номер телефона">
+                    </div>
+
+
+                    <div class="form__group">
+                        <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Ваш комментарий..."></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn--modal" type="submit">Отправить заявку</button>
+                    </div>
+                </form>
+            </div><!-- /.contact__left -->
+        </div><!-- /.contact -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_more">
+    <div class="modal__dialog modal__dialog--more">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-more">
+
+           <div class="modal-more__content">
+               <div class="modal-more__header">
+
+                    <h3 class="modal-more__title">Технические <span class="green">характеристики</span></h3>
+
+                    <div class="modal-more__info">
+                        <div class="modal__thickness">
+                            <img class="modal__thickness-icon" src="images/modal-more/thickness.svg" alt="Толщина"> Толщина - 6 мм, 8 мм, 10 мм
+                        </div>
+
+                        <div class="modal__weight">
+                            <img class="modal__weight-icon" src="images/modal-more/weight.svg" alt="Вес"> Вес - 29 кг, 39 кг, 48 кг
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-more__properties">
+                    <div class="modal-more__properties-title">Физические свойства</div>
+                </div>
+
+                <div class="modal-more__list">
+                    <div class="modal-more__text modal-more__text--left">
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Морозостойкость - не менее 150 циклов</span>
+                        </div>
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Предел прочности при изгибе - не менее 19,9 мПа</span>
+                        </div>
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Прочность на растяжении - не менее 1,65 мПа</span>
+                        </div>
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Плотность - 1520 кг/м³</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-more__text modal-more__text--right">
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Водопоглащение - не более 21% по массе</span>
+                        </div>
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Разбухание по толщине - не более 0,08</span>
+                        </div>
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Теплопроводность - не более 0,25 Вт / (м•К)</span>
+                        </div>
+
+                        <div class="modal-more__text-item">
+                            <span class="point"></span><span>Ударная вязкость - 2 кДж/м²</span>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-more__content -->
+
+            <div class="modal-more__preview">
+                <img class="modal-more__img" src="images/modal-more/modal-more.svg" alt="Технические характеристика">
+            </div>
+
+        </div><!-- /.modal-more -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/tabs.js"></script>
+<script src="js/validate-form.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,254 @@
+// main: ../style.less
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    float: right;
+
+    @media @tablet {
+        position: fixed;
+        background-color: @background;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+        transition: opacity 0.5s, visibility 0s 0.5s;
+
+        &.show {
+            display: flex;
+        }
+    }
+}
+
+.nav li {
+    display: inline-block;
+
+    @media @tablet {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+.nav.active {
+    opacity: 0.9;
+    visibility: visible;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+
+    @media @mobile {
+        text-align: center;
+    }
+}
+
+.nav .primary-nav {
+
+    @media @tablet {
+        position: relative;
+        top: 26%;
+        left: 27%;
+        -moz-transform: translateY(-45%);
+        -ms-transform: translateY(-45%);
+        -webkit-transform: translateY(-45%);
+        transform: translateY(-45%);
+    }
+
+    @media @mobile {
+        top: 25%;
+        left: 19%;
+    }
+
+    @media @mobile-sm {
+        top: 30%;
+        left: 16%;
+    }
+
+    @media @mobile-redmi-7 {
+        top: 25%;
+        left: 13%;
+    }
+
+    @media @mobile-redmi-7-2 {
+        top: 25%;
+        left: 13%;
+    }
+
+    @media @mobile-very-sm {
+        top: 27%;
+        left: 18%;
+    }
+}
+
+.nav__link {
+    margin-left: 2rem;
+    position: relative;
+
+    font-size: 1.2rem;
+    color: @white;
+    font-family: 'Cera Pro Regular';
+    font-weight: 400;
+    text-decoration: none;
+
+    transition: color 0.2s linear;
+
+    &:hover {
+        color: @green;
+    }
+
+    @media @large-pc {
+        font-size: 1rem;
+    }
+
+   @media @tablet {
+        display: block;
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+    }
+
+    @media @mobile {
+        font-size: 25px;
+    }
+
+    @media @mobile-very-sm {
+        font-size: 17px;
+    }
+
+
+//    &:after {
+//        content: "";
+//        width: 0;
+//        height: 2px;
+//        background-color: @black;
+//
+//        position: absolute;
+//        bottom: -5px;
+//        left: 0;
+//        z-index: 1000;
+//
+//        transition: width  0.2s linear;
+//    }
+//
+//
+//    &:hover:not(.nav__link--btn) {
+//
+//        &:after {
+//            width: 100%;
+//        }
+//    }
+
+    /* Modificators */
+    &--btn {
+        padding: 0.5rem 2rem;
+        margin-left: 3rem;
+
+        border: 2px solid @green;
+        border-radius: 0.7rem;;
+        font-family: 'Gotham Pro Regular';
+        font-weight: 400;
+        text-transform: uppercase;
+
+        transition: background 0.2s linear, color 0.2s linear;
+
+        &:hover {
+            background-color: @green;
+            color: @black;
+        }
+
+        @media @large-pc {
+            margin-left: 3rem;
+        }
+
+        @media @tablet {
+            display: none;
+        }
+
+    }
+
+}
+
+.nav__link--lang {
+    padding-left: 15rem;
+
+    @media @large-pc {
+        padding-left: 12rem;
+    }
+
+    @media @tablet {
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+}
+
+.active-lang {
+    color: @green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
