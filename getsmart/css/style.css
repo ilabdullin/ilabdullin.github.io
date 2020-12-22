@@ -29,7 +29,6 @@ h6 {
 .header,
 .footer {
   padding: 20px;
-  background-color: rgba(229, 229, 229, 0.1);
 }
 /* Blocks */
 body::-webkit-scrollbar {
@@ -263,30 +262,21 @@ body::-webkit-scrollbar-thumb:hover {
 .header {
   width: 100%;
   padding: 1rem 0;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 1000;
-  background: rgba(229, 229, 229, 0.1) url("../img/bg.png") center no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .header {
-    background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .header {
-    background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -298,10 +288,12 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: space-between;
   align-items: center;
 }
-.header.fixed {
-  height: auto;
-  position: fixed;
-  background-color: #fff;
+@media (max-width: 991px) {
+  .header.fixed {
+    height: auto;
+    position: fixed;
+    background-color: #fff;
+  }
 }
 .header.fixed .header__inner {
   padding-bottom: 0;
@@ -448,7 +440,7 @@ body::-webkit-scrollbar-thumb:hover {
 .intro__inner {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 6.6rem;
+  padding-top: 10.6rem;
   padding-bottom: 8rem;
   position: relative;
   align-items: center;
@@ -530,6 +522,7 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 3.1rem;
   font-size: 2.6rem;
   color: #0F0F0F;
+  padding-bottom: 2rem;
 }
 @media (max-width: 1370px) {
   .intro__title {

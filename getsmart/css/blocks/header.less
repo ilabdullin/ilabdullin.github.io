@@ -3,30 +3,19 @@
 .header {
     width: 100%;
     padding: 1rem 0;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
-    background: @gray url("../img/bg.png") center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
 
-    @media @mobile {
-        background-color: #fff;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-
-        position: fixed;
+    @media @tablet {
         top: 0;
         left: 0;
         right: 0;
         z-index: 1000;
     }
 
-    @media @tablet {
-        background-color: #fff;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-
-        position: fixed;
+    @media @mobile {
         top: 0;
         left: 0;
         right: 0;
@@ -41,11 +30,14 @@
     }
 
 .header.fixed {
-    height: auto;
 
-    position: fixed;
+    @media @tablet {
+        height: auto;
 
-    background-color: #fff;
+        position: fixed;
+
+        background-color: @white;
+    }
 }
 
 
