@@ -10,7 +10,8 @@ $(function() {
 
 
 
-    // Header Scroll
+    /* Header Scroll
+    ====================*/
     $(window).on('scroll', function() {
         var scroll = $(window).scrollTop();
 
