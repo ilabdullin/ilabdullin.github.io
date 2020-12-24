@@ -2942,12 +2942,12 @@ ul.nacc li p {
 }
 @media (max-width: 767px) {
   .form__textarea {
-    height: 85px;
+    height: 70px;
   }
 }
 @media (max-width: 320px) {
   .form__textarea {
-    height: 75px;
+    height: 70px;
   }
 }
 .error {
