@@ -1,3 +1,0 @@
-1. <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aac45ac360b560126387eb191b43baa1ff9e549069198c6cae4079332ec5b9a4d&amp;width=100%25&amp;height=670&amp;lang=ru_RU&amp;scroll=true"></script>
-
-2. <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aac45ac360b560126387eb191b43baa1ff9e549069198c6cae4079332ec5b9a4d&amp;source=constructor" width="100%" height="670" frameborder="0"></iframe>
