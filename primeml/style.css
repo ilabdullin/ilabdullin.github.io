@@ -307,7 +307,7 @@ h6 {
   padding: 21px 25px !important;
   background-color: rgba(255, 255, 255, 0.2) !important;
   border: 2px solid #219ef1 !important;
-  color: #1C1C1C !important;
+  color: #121934 !important;
   transition: all 0.2s linear !important;
 }
 @media (max-width: 1500px) {
@@ -333,7 +333,7 @@ h6 {
   }
 }
 .btn--tracking-back:hover {
-  border-color: #2493FF !important;
+  border-color: #219ef1 !important;
   background-color: #219ef1 !important;
   color: #fff !important;
 }
@@ -345,6 +345,7 @@ h6 {
   font-size: 1.67rem !important;
   font-weight: 700 !important;
   text-decoration: none !important;
+  color: #fff !important;
   background-color: #219ef1 !important;
   border: 2px solid #219ef1 !important;
   transition: all 0.2s linear !important;
@@ -372,7 +373,8 @@ h6 {
   }
 }
 .btn--tracking-check:hover {
-  border-color: #2493FF !important;
+  color: #fff !important;
+  border-color: #219ef1 !important;
   background-color: rgba(255, 255, 255, 0.2) !important;
 }
 .btn--tracking-check:focus {
