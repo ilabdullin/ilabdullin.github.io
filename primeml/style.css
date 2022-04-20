@@ -213,7 +213,7 @@ h6 {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear, border-color 0.2s linear;
+  transition: all 0.2s linear;
   /* Modificators */
 }
 .btn:focus {
@@ -305,10 +305,10 @@ h6 {
   font-weight: 700 !important;
   text-decoration: none !important;
   padding: 21px 25px !important;
-  background-color: transparent !important;
-  border: 2px solid #2493FF !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 2px solid #219ef1 !important;
   color: #1C1C1C !important;
-  transition: transform 0.3s linear, background-color 0.2s linear !important;
+  transition: all 0.2s linear !important;
 }
 @media (max-width: 1500px) {
   .btn--tracking-back {
@@ -333,11 +333,8 @@ h6 {
   }
 }
 .btn--tracking-back:hover {
-  transform: scale(0.9, 0.9) !important;
-  -webkit-transform: scale(0.9, 0.9) !important;
-  -moz-transform: scale(0.9, 0.9) !important;
   border-color: #2493FF !important;
-  background-color: #2493FF !important;
+  background-color: #219ef1 !important;
   color: #fff !important;
 }
 .btn--tracking-back:focus {
@@ -348,9 +345,9 @@ h6 {
   font-size: 1.67rem !important;
   font-weight: 700 !important;
   text-decoration: none !important;
-  background-color: #2493FF !important;
-  border: 2px solid #2493FF !important;
-  transition: transform 0.3s linear, background-color 0.2s linear !important;
+  background-color: #219ef1 !important;
+  border: 2px solid #219ef1 !important;
+  transition: all 0.2s linear !important;
 }
 @media (max-width: 1500px) {
   .btn--tracking-check {
@@ -375,11 +372,8 @@ h6 {
   }
 }
 .btn--tracking-check:hover {
-  transform: scale(0.9, 0.9) !important;
-  -webkit-transform: scale(0.9, 0.9) !important;
-  -moz-transform: scale(0.9, 0.9) !important;
   border-color: #2493FF !important;
-  background-color: transparent !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
 }
 .btn--tracking-check:focus {
   outline: 0 !important;
