@@ -2143,7 +2143,7 @@ h6 {
   }
 }
 .tracking__page {
-  background: rgba(138, 198, 237, 0.5) url("../images/tracking/tracking-bg.png") center no-repeat;
+  background: rgba(138, 198, 237, 0.5) url("https://ilabdullin.github.io/primeml/tracking-bg.png") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
