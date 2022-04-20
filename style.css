@@ -300,89 +300,89 @@ h6 {
   }
 }
 .btn--tracking-back {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.67rem;
-  font-weight: 700;
-  text-decoration: none;
-  padding: 21px 25px;
-  background-color: transparent;
-  border: 2px solid #2493FF;
-  color: #1C1C1C;
-  transition: transform 0.3s linear, background-color 0.2s linear;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1.67rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  padding: 21px 25px !important;
+  background-color: transparent !important;
+  border: 2px solid #2493FF !important;
+  color: #1C1C1C !important;
+  transition: transform 0.3s linear, background-color 0.2s linear !important;
 }
 @media (max-width: 1500px) {
   .btn--tracking-back {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
 }
 @media (max-width: 991px) {
   .btn--tracking-back {
-    font-size: 1.2rem;
-    width: 32rem;
+    font-size: 1.2rem !important;
+    width: 32rem !important;
   }
 }
 @media (max-width: 767px) {
   .btn--tracking-back {
-    padding: 18px 30px;
-    width: 80%;
+    padding: 18px 30px !important;
+    width: 80% !important;
   }
 }
 @media (max-width: 565px) {
   .btn--tracking-back {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .btn--tracking-back:hover {
-  transform: scale(0.9, 0.9);
-  -webkit-transform: scale(0.9, 0.9);
-  -moz-transform: scale(0.9, 0.9);
-  border-color: #2493FF;
-  background-color: #2493FF;
-  color: #fff;
+  transform: scale(0.9, 0.9) !important;
+  -webkit-transform: scale(0.9, 0.9) !important;
+  -moz-transform: scale(0.9, 0.9) !important;
+  border-color: #2493FF !important;
+  background-color: #2493FF !important;
+  color: #fff !important;
 }
 .btn--tracking-back:focus {
-  outline: 0;
+  outline: 0 !important;
 }
 .btn--tracking-check {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.67rem;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: #2493FF;
-  border: 2px solid #2493FF;
-  transition: transform 0.3s linear, background-color 0.2s linear;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1.67rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  background-color: #2493FF !important;
+  border: 2px solid #2493FF !important;
+  transition: transform 0.3s linear, background-color 0.2s linear !important;
 }
 @media (max-width: 1500px) {
   .btn--tracking-check {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
 }
 @media (max-width: 991px) {
   .btn--tracking-check {
-    font-size: 1.2rem;
-    width: 32rem;
+    font-size: 1.2rem !important;
+    width: 32rem !important;
   }
 }
 @media (max-width: 767px) {
   .btn--tracking-check {
-    padding: 18px 30px;
-    width: 80%;
+    padding: 18px 30px !important;
+    width: 80% !important;
   }
 }
 @media (max-width: 565px) {
   .btn--tracking-check {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .btn--tracking-check:hover {
-  transform: scale(0.9, 0.9);
-  -webkit-transform: scale(0.9, 0.9);
-  -moz-transform: scale(0.9, 0.9);
-  border-color: #2493FF;
-  background-color: transparent;
+  transform: scale(0.9, 0.9) !important;
+  -webkit-transform: scale(0.9, 0.9) !important;
+  -moz-transform: scale(0.9, 0.9) !important;
+  border-color: #2493FF !important;
+  background-color: transparent !important;
 }
 .btn--tracking-check:focus {
-  outline: 0;
+  outline: 0 !important;
 }
 .header {
   width: 100%;
