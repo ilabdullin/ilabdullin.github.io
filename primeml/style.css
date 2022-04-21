@@ -337,6 +337,10 @@ h6 {
   background-color: #219ef1 !important;
   color: #fff !important;
 }
+.btn--tracking-back:active {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #121934 !important;
+}
 .btn--tracking-back:focus {
   outline: 0 !important;
 }
@@ -376,6 +380,11 @@ h6 {
   color: #121934 !important;
   border-color: #219ef1 !important;
   background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.btn--tracking-check:active {
+  color: #fff !important;
+  border-color: #219ef1 !important;
+  background-color: #219ef1 !important;
 }
 .btn--tracking-check:focus {
   outline: 0 !important;
@@ -1870,7 +1879,7 @@ h6 {
 .form__input--tracking,
 .form__textarea--tracking {
   width: 25rem;
-  padding: 21px 35px;
+  padding: 21px 24px;
   border-radius: 10px;
   border: 1px solid #2493FF;
 }
